@@ -2,12 +2,13 @@
 
 Repositorio para crear un framework para Diseño de Interfaces Web (DIW) de 2º de DAW.
 
-## Colaboradores:
+### Colaboradores:
 David Peñalver <br>
 Vanessa Esteve <br>
 Alex Almohano <br>
 Javier Fernández <br> <br>
 
+### Estructura:
 
 ```plaintext
 01 utilities/
