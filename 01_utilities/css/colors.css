@@ -1,17 +1,8641 @@
-/* Error: Undefined operation "hsl(13, 95%, 5%) + 1".
- *     ,
- * 185 |         .color-#{$colorName}-#{$index + 1} {
- *     |                                ^^^^^^^^^^
- *     '
- *   _colors.scss 185:32  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: Undefined operation "hsl(13, 95%, 5%) + 1".\a     \2577 \a 185 \2502          .color-#{$colorName}-#{$index + 1} {\d\a     \2502                                 ^^^^^^^^^^\a     \2575 \a   _colors.scss 185:32  root stylesheet';
+.color-main-1 {
+  color: hsl(13, 95%, 5%);
 }
+
+.background-color-main-1 {
+  background-color: hsl(13, 95%, 5%);
+}
+
+.border-color-main-1 {
+  border-color: hsl(13, 95%, 5%);
+}
+
+.outline-color-main-1 {
+  outline-color: hsl(13, 95%, 5%);
+}
+
+.text-decoration-color-main-1 {
+  text-decoration-color: hsl(13, 95%, 5%);
+}
+
+.box-shadow-main-1 {
+  box-shadow: 0 0 0 0.25rem hsl(13, 95%, 5%);
+}
+
+.text-shadow-main-1 {
+  text-shadow: 0 0 0.25rem hsl(13, 95%, 5%);
+}
+
+.border-top-color-main-1 {
+  border-top-color: hsl(13, 95%, 5%);
+}
+
+.border-right-color-main-1 {
+  border-right-color: hsl(13, 95%, 5%);
+}
+
+.border-bottom-color-main-1 {
+  border-bottom-color: hsl(13, 95%, 5%);
+}
+
+.border-left-color-main-1 {
+  border-left-color: hsl(13, 95%, 5%);
+}
+
+.column-rule-color-main-1 {
+  column-rule-color: hsl(13, 95%, 5%);
+}
+
+.caret-color-main-1 {
+  caret-color: hsl(13, 95%, 5%);
+}
+
+.fill-main-1 {
+  fill: hsl(13, 95%, 5%);
+}
+
+.stroke-main-1 {
+  stroke: hsl(13, 95%, 5%);
+}
+
+.stop-color-main-1 {
+  stop-color: hsl(13, 95%, 5%);
+}
+
+.color-main-2 {
+  color: hsl(16, 97%, 16%);
+}
+
+.background-color-main-2 {
+  background-color: hsl(16, 97%, 16%);
+}
+
+.border-color-main-2 {
+  border-color: hsl(16, 97%, 16%);
+}
+
+.outline-color-main-2 {
+  outline-color: hsl(16, 97%, 16%);
+}
+
+.text-decoration-color-main-2 {
+  text-decoration-color: hsl(16, 97%, 16%);
+}
+
+.box-shadow-main-2 {
+  box-shadow: 0 0 0 0.25rem hsl(16, 97%, 16%);
+}
+
+.text-shadow-main-2 {
+  text-shadow: 0 0 0.25rem hsl(16, 97%, 16%);
+}
+
+.border-top-color-main-2 {
+  border-top-color: hsl(16, 97%, 16%);
+}
+
+.border-right-color-main-2 {
+  border-right-color: hsl(16, 97%, 16%);
+}
+
+.border-bottom-color-main-2 {
+  border-bottom-color: hsl(16, 97%, 16%);
+}
+
+.border-left-color-main-2 {
+  border-left-color: hsl(16, 97%, 16%);
+}
+
+.column-rule-color-main-2 {
+  column-rule-color: hsl(16, 97%, 16%);
+}
+
+.caret-color-main-2 {
+  caret-color: hsl(16, 97%, 16%);
+}
+
+.fill-main-2 {
+  fill: hsl(16, 97%, 16%);
+}
+
+.stroke-main-2 {
+  stroke: hsl(16, 97%, 16%);
+}
+
+.stop-color-main-2 {
+  stop-color: hsl(16, 97%, 16%);
+}
+
+.color-main-3 {
+  color: hsl(18, 99%, 28%);
+}
+
+.background-color-main-3 {
+  background-color: hsl(18, 99%, 28%);
+}
+
+.border-color-main-3 {
+  border-color: hsl(18, 99%, 28%);
+}
+
+.outline-color-main-3 {
+  outline-color: hsl(18, 99%, 28%);
+}
+
+.text-decoration-color-main-3 {
+  text-decoration-color: hsl(18, 99%, 28%);
+}
+
+.box-shadow-main-3 {
+  box-shadow: 0 0 0 0.25rem hsl(18, 99%, 28%);
+}
+
+.text-shadow-main-3 {
+  text-shadow: 0 0 0.25rem hsl(18, 99%, 28%);
+}
+
+.border-top-color-main-3 {
+  border-top-color: hsl(18, 99%, 28%);
+}
+
+.border-right-color-main-3 {
+  border-right-color: hsl(18, 99%, 28%);
+}
+
+.border-bottom-color-main-3 {
+  border-bottom-color: hsl(18, 99%, 28%);
+}
+
+.border-left-color-main-3 {
+  border-left-color: hsl(18, 99%, 28%);
+}
+
+.column-rule-color-main-3 {
+  column-rule-color: hsl(18, 99%, 28%);
+}
+
+.caret-color-main-3 {
+  caret-color: hsl(18, 99%, 28%);
+}
+
+.fill-main-3 {
+  fill: hsl(18, 99%, 28%);
+}
+
+.stroke-main-3 {
+  stroke: hsl(18, 99%, 28%);
+}
+
+.stop-color-main-3 {
+  stop-color: hsl(18, 99%, 28%);
+}
+
+.color-main-4 {
+  color: hsl(21, 100%, 39%);
+}
+
+.background-color-main-4 {
+  background-color: hsl(21, 100%, 39%);
+}
+
+.border-color-main-4 {
+  border-color: hsl(21, 100%, 39%);
+}
+
+.outline-color-main-4 {
+  outline-color: hsl(21, 100%, 39%);
+}
+
+.text-decoration-color-main-4 {
+  text-decoration-color: hsl(21, 100%, 39%);
+}
+
+.box-shadow-main-4 {
+  box-shadow: 0 0 0 0.25rem hsl(21, 100%, 39%);
+}
+
+.text-shadow-main-4 {
+  text-shadow: 0 0 0.25rem hsl(21, 100%, 39%);
+}
+
+.border-top-color-main-4 {
+  border-top-color: hsl(21, 100%, 39%);
+}
+
+.border-right-color-main-4 {
+  border-right-color: hsl(21, 100%, 39%);
+}
+
+.border-bottom-color-main-4 {
+  border-bottom-color: hsl(21, 100%, 39%);
+}
+
+.border-left-color-main-4 {
+  border-left-color: hsl(21, 100%, 39%);
+}
+
+.column-rule-color-main-4 {
+  column-rule-color: hsl(21, 100%, 39%);
+}
+
+.caret-color-main-4 {
+  caret-color: hsl(21, 100%, 39%);
+}
+
+.fill-main-4 {
+  fill: hsl(21, 100%, 39%);
+}
+
+.stroke-main-4 {
+  stroke: hsl(21, 100%, 39%);
+}
+
+.stop-color-main-4 {
+  stop-color: hsl(21, 100%, 39%);
+}
+
+.color-main-5 {
+  color: hsl(23, 100%, 50%);
+}
+
+.background-color-main-5 {
+  background-color: hsl(23, 100%, 50%);
+}
+
+.border-color-main-5 {
+  border-color: hsl(23, 100%, 50%);
+}
+
+.outline-color-main-5 {
+  outline-color: hsl(23, 100%, 50%);
+}
+
+.text-decoration-color-main-5 {
+  text-decoration-color: hsl(23, 100%, 50%);
+}
+
+.box-shadow-main-5 {
+  box-shadow: 0 0 0 0.25rem hsl(23, 100%, 50%);
+}
+
+.text-shadow-main-5 {
+  text-shadow: 0 0 0.25rem hsl(23, 100%, 50%);
+}
+
+.border-top-color-main-5 {
+  border-top-color: hsl(23, 100%, 50%);
+}
+
+.border-right-color-main-5 {
+  border-right-color: hsl(23, 100%, 50%);
+}
+
+.border-bottom-color-main-5 {
+  border-bottom-color: hsl(23, 100%, 50%);
+}
+
+.border-left-color-main-5 {
+  border-left-color: hsl(23, 100%, 50%);
+}
+
+.column-rule-color-main-5 {
+  column-rule-color: hsl(23, 100%, 50%);
+}
+
+.caret-color-main-5 {
+  caret-color: hsl(23, 100%, 50%);
+}
+
+.fill-main-5 {
+  fill: hsl(23, 100%, 50%);
+}
+
+.stroke-main-5 {
+  stroke: hsl(23, 100%, 50%);
+}
+
+.stop-color-main-5 {
+  stop-color: hsl(23, 100%, 50%);
+}
+
+.color-main-6 {
+  color: hsl(26, 100%, 61%);
+}
+
+.background-color-main-6 {
+  background-color: hsl(26, 100%, 61%);
+}
+
+.border-color-main-6 {
+  border-color: hsl(26, 100%, 61%);
+}
+
+.outline-color-main-6 {
+  outline-color: hsl(26, 100%, 61%);
+}
+
+.text-decoration-color-main-6 {
+  text-decoration-color: hsl(26, 100%, 61%);
+}
+
+.box-shadow-main-6 {
+  box-shadow: 0 0 0 0.25rem hsl(26, 100%, 61%);
+}
+
+.text-shadow-main-6 {
+  text-shadow: 0 0 0.25rem hsl(26, 100%, 61%);
+}
+
+.border-top-color-main-6 {
+  border-top-color: hsl(26, 100%, 61%);
+}
+
+.border-right-color-main-6 {
+  border-right-color: hsl(26, 100%, 61%);
+}
+
+.border-bottom-color-main-6 {
+  border-bottom-color: hsl(26, 100%, 61%);
+}
+
+.border-left-color-main-6 {
+  border-left-color: hsl(26, 100%, 61%);
+}
+
+.column-rule-color-main-6 {
+  column-rule-color: hsl(26, 100%, 61%);
+}
+
+.caret-color-main-6 {
+  caret-color: hsl(26, 100%, 61%);
+}
+
+.fill-main-6 {
+  fill: hsl(26, 100%, 61%);
+}
+
+.stroke-main-6 {
+  stroke: hsl(26, 100%, 61%);
+}
+
+.stop-color-main-6 {
+  stop-color: hsl(26, 100%, 61%);
+}
+
+.color-main-7 {
+  color: hsl(28, 99%, 73%);
+}
+
+.background-color-main-7 {
+  background-color: hsl(28, 99%, 73%);
+}
+
+.border-color-main-7 {
+  border-color: hsl(28, 99%, 73%);
+}
+
+.outline-color-main-7 {
+  outline-color: hsl(28, 99%, 73%);
+}
+
+.text-decoration-color-main-7 {
+  text-decoration-color: hsl(28, 99%, 73%);
+}
+
+.box-shadow-main-7 {
+  box-shadow: 0 0 0 0.25rem hsl(28, 99%, 73%);
+}
+
+.text-shadow-main-7 {
+  text-shadow: 0 0 0.25rem hsl(28, 99%, 73%);
+}
+
+.border-top-color-main-7 {
+  border-top-color: hsl(28, 99%, 73%);
+}
+
+.border-right-color-main-7 {
+  border-right-color: hsl(28, 99%, 73%);
+}
+
+.border-bottom-color-main-7 {
+  border-bottom-color: hsl(28, 99%, 73%);
+}
+
+.border-left-color-main-7 {
+  border-left-color: hsl(28, 99%, 73%);
+}
+
+.column-rule-color-main-7 {
+  column-rule-color: hsl(28, 99%, 73%);
+}
+
+.caret-color-main-7 {
+  caret-color: hsl(28, 99%, 73%);
+}
+
+.fill-main-7 {
+  fill: hsl(28, 99%, 73%);
+}
+
+.stroke-main-7 {
+  stroke: hsl(28, 99%, 73%);
+}
+
+.stop-color-main-7 {
+  stop-color: hsl(28, 99%, 73%);
+}
+
+.color-main-8 {
+  color: hsl(31, 97%, 84%);
+}
+
+.background-color-main-8 {
+  background-color: hsl(31, 97%, 84%);
+}
+
+.border-color-main-8 {
+  border-color: hsl(31, 97%, 84%);
+}
+
+.outline-color-main-8 {
+  outline-color: hsl(31, 97%, 84%);
+}
+
+.text-decoration-color-main-8 {
+  text-decoration-color: hsl(31, 97%, 84%);
+}
+
+.box-shadow-main-8 {
+  box-shadow: 0 0 0 0.25rem hsl(31, 97%, 84%);
+}
+
+.text-shadow-main-8 {
+  text-shadow: 0 0 0.25rem hsl(31, 97%, 84%);
+}
+
+.border-top-color-main-8 {
+  border-top-color: hsl(31, 97%, 84%);
+}
+
+.border-right-color-main-8 {
+  border-right-color: hsl(31, 97%, 84%);
+}
+
+.border-bottom-color-main-8 {
+  border-bottom-color: hsl(31, 97%, 84%);
+}
+
+.border-left-color-main-8 {
+  border-left-color: hsl(31, 97%, 84%);
+}
+
+.column-rule-color-main-8 {
+  column-rule-color: hsl(31, 97%, 84%);
+}
+
+.caret-color-main-8 {
+  caret-color: hsl(31, 97%, 84%);
+}
+
+.fill-main-8 {
+  fill: hsl(31, 97%, 84%);
+}
+
+.stroke-main-8 {
+  stroke: hsl(31, 97%, 84%);
+}
+
+.stop-color-main-8 {
+  stop-color: hsl(31, 97%, 84%);
+}
+
+.color-main-9 {
+  color: hsl(33, 95%, 95%);
+}
+
+.background-color-main-9 {
+  background-color: hsl(33, 95%, 95%);
+}
+
+.border-color-main-9 {
+  border-color: hsl(33, 95%, 95%);
+}
+
+.outline-color-main-9 {
+  outline-color: hsl(33, 95%, 95%);
+}
+
+.text-decoration-color-main-9 {
+  text-decoration-color: hsl(33, 95%, 95%);
+}
+
+.box-shadow-main-9 {
+  box-shadow: 0 0 0 0.25rem hsl(33, 95%, 95%);
+}
+
+.text-shadow-main-9 {
+  text-shadow: 0 0 0.25rem hsl(33, 95%, 95%);
+}
+
+.border-top-color-main-9 {
+  border-top-color: hsl(33, 95%, 95%);
+}
+
+.border-right-color-main-9 {
+  border-right-color: hsl(33, 95%, 95%);
+}
+
+.border-bottom-color-main-9 {
+  border-bottom-color: hsl(33, 95%, 95%);
+}
+
+.border-left-color-main-9 {
+  border-left-color: hsl(33, 95%, 95%);
+}
+
+.column-rule-color-main-9 {
+  column-rule-color: hsl(33, 95%, 95%);
+}
+
+.caret-color-main-9 {
+  caret-color: hsl(33, 95%, 95%);
+}
+
+.fill-main-9 {
+  fill: hsl(33, 95%, 95%);
+}
+
+.stroke-main-9 {
+  stroke: hsl(33, 95%, 95%);
+}
+
+.stop-color-main-9 {
+  stop-color: hsl(33, 95%, 95%);
+}
+
+.color-alternative-1 {
+  color: hsl(244, 95%, 5%);
+}
+
+.background-color-alternative-1 {
+  background-color: hsl(244, 95%, 5%);
+}
+
+.border-color-alternative-1 {
+  border-color: hsl(244, 95%, 5%);
+}
+
+.outline-color-alternative-1 {
+  outline-color: hsl(244, 95%, 5%);
+}
+
+.text-decoration-color-alternative-1 {
+  text-decoration-color: hsl(244, 95%, 5%);
+}
+
+.box-shadow-alternative-1 {
+  box-shadow: 0 0 0 0.25rem hsl(244, 95%, 5%);
+}
+
+.text-shadow-alternative-1 {
+  text-shadow: 0 0 0.25rem hsl(244, 95%, 5%);
+}
+
+.border-top-color-alternative-1 {
+  border-top-color: hsl(244, 95%, 5%);
+}
+
+.border-right-color-alternative-1 {
+  border-right-color: hsl(244, 95%, 5%);
+}
+
+.border-bottom-color-alternative-1 {
+  border-bottom-color: hsl(244, 95%, 5%);
+}
+
+.border-left-color-alternative-1 {
+  border-left-color: hsl(244, 95%, 5%);
+}
+
+.column-rule-color-alternative-1 {
+  column-rule-color: hsl(244, 95%, 5%);
+}
+
+.caret-color-alternative-1 {
+  caret-color: hsl(244, 95%, 5%);
+}
+
+.fill-alternative-1 {
+  fill: hsl(244, 95%, 5%);
+}
+
+.stroke-alternative-1 {
+  stroke: hsl(244, 95%, 5%);
+}
+
+.stop-color-alternative-1 {
+  stop-color: hsl(244, 95%, 5%);
+}
+
+.color-alternative-2 {
+  color: hsl(247, 93%, 8%);
+}
+
+.background-color-alternative-2 {
+  background-color: hsl(247, 93%, 8%);
+}
+
+.border-color-alternative-2 {
+  border-color: hsl(247, 93%, 8%);
+}
+
+.outline-color-alternative-2 {
+  outline-color: hsl(247, 93%, 8%);
+}
+
+.text-decoration-color-alternative-2 {
+  text-decoration-color: hsl(247, 93%, 8%);
+}
+
+.box-shadow-alternative-2 {
+  box-shadow: 0 0 0 0.25rem hsl(247, 93%, 8%);
+}
+
+.text-shadow-alternative-2 {
+  text-shadow: 0 0 0.25rem hsl(247, 93%, 8%);
+}
+
+.border-top-color-alternative-2 {
+  border-top-color: hsl(247, 93%, 8%);
+}
+
+.border-right-color-alternative-2 {
+  border-right-color: hsl(247, 93%, 8%);
+}
+
+.border-bottom-color-alternative-2 {
+  border-bottom-color: hsl(247, 93%, 8%);
+}
+
+.border-left-color-alternative-2 {
+  border-left-color: hsl(247, 93%, 8%);
+}
+
+.column-rule-color-alternative-2 {
+  column-rule-color: hsl(247, 93%, 8%);
+}
+
+.caret-color-alternative-2 {
+  caret-color: hsl(247, 93%, 8%);
+}
+
+.fill-alternative-2 {
+  fill: hsl(247, 93%, 8%);
+}
+
+.stroke-alternative-2 {
+  stroke: hsl(247, 93%, 8%);
+}
+
+.stop-color-alternative-2 {
+  stop-color: hsl(247, 93%, 8%);
+}
+
+.color-alternative-3 {
+  color: hsl(249, 92%, 11%);
+}
+
+.background-color-alternative-3 {
+  background-color: hsl(249, 92%, 11%);
+}
+
+.border-color-alternative-3 {
+  border-color: hsl(249, 92%, 11%);
+}
+
+.outline-color-alternative-3 {
+  outline-color: hsl(249, 92%, 11%);
+}
+
+.text-decoration-color-alternative-3 {
+  text-decoration-color: hsl(249, 92%, 11%);
+}
+
+.box-shadow-alternative-3 {
+  box-shadow: 0 0 0 0.25rem hsl(249, 92%, 11%);
+}
+
+.text-shadow-alternative-3 {
+  text-shadow: 0 0 0.25rem hsl(249, 92%, 11%);
+}
+
+.border-top-color-alternative-3 {
+  border-top-color: hsl(249, 92%, 11%);
+}
+
+.border-right-color-alternative-3 {
+  border-right-color: hsl(249, 92%, 11%);
+}
+
+.border-bottom-color-alternative-3 {
+  border-bottom-color: hsl(249, 92%, 11%);
+}
+
+.border-left-color-alternative-3 {
+  border-left-color: hsl(249, 92%, 11%);
+}
+
+.column-rule-color-alternative-3 {
+  column-rule-color: hsl(249, 92%, 11%);
+}
+
+.caret-color-alternative-3 {
+  caret-color: hsl(249, 92%, 11%);
+}
+
+.fill-alternative-3 {
+  fill: hsl(249, 92%, 11%);
+}
+
+.stroke-alternative-3 {
+  stroke: hsl(249, 92%, 11%);
+}
+
+.stop-color-alternative-3 {
+  stop-color: hsl(249, 92%, 11%);
+}
+
+.color-alternative-4 {
+  color: hsl(252, 91%, 14%);
+}
+
+.background-color-alternative-4 {
+  background-color: hsl(252, 91%, 14%);
+}
+
+.border-color-alternative-4 {
+  border-color: hsl(252, 91%, 14%);
+}
+
+.outline-color-alternative-4 {
+  outline-color: hsl(252, 91%, 14%);
+}
+
+.text-decoration-color-alternative-4 {
+  text-decoration-color: hsl(252, 91%, 14%);
+}
+
+.box-shadow-alternative-4 {
+  box-shadow: 0 0 0 0.25rem hsl(252, 91%, 14%);
+}
+
+.text-shadow-alternative-4 {
+  text-shadow: 0 0 0.25rem hsl(252, 91%, 14%);
+}
+
+.border-top-color-alternative-4 {
+  border-top-color: hsl(252, 91%, 14%);
+}
+
+.border-right-color-alternative-4 {
+  border-right-color: hsl(252, 91%, 14%);
+}
+
+.border-bottom-color-alternative-4 {
+  border-bottom-color: hsl(252, 91%, 14%);
+}
+
+.border-left-color-alternative-4 {
+  border-left-color: hsl(252, 91%, 14%);
+}
+
+.column-rule-color-alternative-4 {
+  column-rule-color: hsl(252, 91%, 14%);
+}
+
+.caret-color-alternative-4 {
+  caret-color: hsl(252, 91%, 14%);
+}
+
+.fill-alternative-4 {
+  fill: hsl(252, 91%, 14%);
+}
+
+.stroke-alternative-4 {
+  stroke: hsl(252, 91%, 14%);
+}
+
+.stop-color-alternative-4 {
+  stop-color: hsl(252, 91%, 14%);
+}
+
+.color-alternative-5 {
+  color: hsl(254, 91%, 17%);
+}
+
+.background-color-alternative-5 {
+  background-color: hsl(254, 91%, 17%);
+}
+
+.border-color-alternative-5 {
+  border-color: hsl(254, 91%, 17%);
+}
+
+.outline-color-alternative-5 {
+  outline-color: hsl(254, 91%, 17%);
+}
+
+.text-decoration-color-alternative-5 {
+  text-decoration-color: hsl(254, 91%, 17%);
+}
+
+.box-shadow-alternative-5 {
+  box-shadow: 0 0 0 0.25rem hsl(254, 91%, 17%);
+}
+
+.text-shadow-alternative-5 {
+  text-shadow: 0 0 0.25rem hsl(254, 91%, 17%);
+}
+
+.border-top-color-alternative-5 {
+  border-top-color: hsl(254, 91%, 17%);
+}
+
+.border-right-color-alternative-5 {
+  border-right-color: hsl(254, 91%, 17%);
+}
+
+.border-bottom-color-alternative-5 {
+  border-bottom-color: hsl(254, 91%, 17%);
+}
+
+.border-left-color-alternative-5 {
+  border-left-color: hsl(254, 91%, 17%);
+}
+
+.column-rule-color-alternative-5 {
+  column-rule-color: hsl(254, 91%, 17%);
+}
+
+.caret-color-alternative-5 {
+  caret-color: hsl(254, 91%, 17%);
+}
+
+.fill-alternative-5 {
+  fill: hsl(254, 91%, 17%);
+}
+
+.stroke-alternative-5 {
+  stroke: hsl(254, 91%, 17%);
+}
+
+.stop-color-alternative-5 {
+  stop-color: hsl(254, 91%, 17%);
+}
+
+.color-alternative-6 {
+  color: hsl(257, 91%, 20%);
+}
+
+.background-color-alternative-6 {
+  background-color: hsl(257, 91%, 20%);
+}
+
+.border-color-alternative-6 {
+  border-color: hsl(257, 91%, 20%);
+}
+
+.outline-color-alternative-6 {
+  outline-color: hsl(257, 91%, 20%);
+}
+
+.text-decoration-color-alternative-6 {
+  text-decoration-color: hsl(257, 91%, 20%);
+}
+
+.box-shadow-alternative-6 {
+  box-shadow: 0 0 0 0.25rem hsl(257, 91%, 20%);
+}
+
+.text-shadow-alternative-6 {
+  text-shadow: 0 0 0.25rem hsl(257, 91%, 20%);
+}
+
+.border-top-color-alternative-6 {
+  border-top-color: hsl(257, 91%, 20%);
+}
+
+.border-right-color-alternative-6 {
+  border-right-color: hsl(257, 91%, 20%);
+}
+
+.border-bottom-color-alternative-6 {
+  border-bottom-color: hsl(257, 91%, 20%);
+}
+
+.border-left-color-alternative-6 {
+  border-left-color: hsl(257, 91%, 20%);
+}
+
+.column-rule-color-alternative-6 {
+  column-rule-color: hsl(257, 91%, 20%);
+}
+
+.caret-color-alternative-6 {
+  caret-color: hsl(257, 91%, 20%);
+}
+
+.fill-alternative-6 {
+  fill: hsl(257, 91%, 20%);
+}
+
+.stroke-alternative-6 {
+  stroke: hsl(257, 91%, 20%);
+}
+
+.stop-color-alternative-6 {
+  stop-color: hsl(257, 91%, 20%);
+}
+
+.color-alternative-7 {
+  color: hsl(259, 92%, 23%);
+}
+
+.background-color-alternative-7 {
+  background-color: hsl(259, 92%, 23%);
+}
+
+.border-color-alternative-7 {
+  border-color: hsl(259, 92%, 23%);
+}
+
+.outline-color-alternative-7 {
+  outline-color: hsl(259, 92%, 23%);
+}
+
+.text-decoration-color-alternative-7 {
+  text-decoration-color: hsl(259, 92%, 23%);
+}
+
+.box-shadow-alternative-7 {
+  box-shadow: 0 0 0 0.25rem hsl(259, 92%, 23%);
+}
+
+.text-shadow-alternative-7 {
+  text-shadow: 0 0 0.25rem hsl(259, 92%, 23%);
+}
+
+.border-top-color-alternative-7 {
+  border-top-color: hsl(259, 92%, 23%);
+}
+
+.border-right-color-alternative-7 {
+  border-right-color: hsl(259, 92%, 23%);
+}
+
+.border-bottom-color-alternative-7 {
+  border-bottom-color: hsl(259, 92%, 23%);
+}
+
+.border-left-color-alternative-7 {
+  border-left-color: hsl(259, 92%, 23%);
+}
+
+.column-rule-color-alternative-7 {
+  column-rule-color: hsl(259, 92%, 23%);
+}
+
+.caret-color-alternative-7 {
+  caret-color: hsl(259, 92%, 23%);
+}
+
+.fill-alternative-7 {
+  fill: hsl(259, 92%, 23%);
+}
+
+.stroke-alternative-7 {
+  stroke: hsl(259, 92%, 23%);
+}
+
+.stop-color-alternative-7 {
+  stop-color: hsl(259, 92%, 23%);
+}
+
+.color-alternative-8 {
+  color: hsl(262, 93%, 26%);
+}
+
+.background-color-alternative-8 {
+  background-color: hsl(262, 93%, 26%);
+}
+
+.border-color-alternative-8 {
+  border-color: hsl(262, 93%, 26%);
+}
+
+.outline-color-alternative-8 {
+  outline-color: hsl(262, 93%, 26%);
+}
+
+.text-decoration-color-alternative-8 {
+  text-decoration-color: hsl(262, 93%, 26%);
+}
+
+.box-shadow-alternative-8 {
+  box-shadow: 0 0 0 0.25rem hsl(262, 93%, 26%);
+}
+
+.text-shadow-alternative-8 {
+  text-shadow: 0 0 0.25rem hsl(262, 93%, 26%);
+}
+
+.border-top-color-alternative-8 {
+  border-top-color: hsl(262, 93%, 26%);
+}
+
+.border-right-color-alternative-8 {
+  border-right-color: hsl(262, 93%, 26%);
+}
+
+.border-bottom-color-alternative-8 {
+  border-bottom-color: hsl(262, 93%, 26%);
+}
+
+.border-left-color-alternative-8 {
+  border-left-color: hsl(262, 93%, 26%);
+}
+
+.column-rule-color-alternative-8 {
+  column-rule-color: hsl(262, 93%, 26%);
+}
+
+.caret-color-alternative-8 {
+  caret-color: hsl(262, 93%, 26%);
+}
+
+.fill-alternative-8 {
+  fill: hsl(262, 93%, 26%);
+}
+
+.stroke-alternative-8 {
+  stroke: hsl(262, 93%, 26%);
+}
+
+.stop-color-alternative-8 {
+  stop-color: hsl(262, 93%, 26%);
+}
+
+.color-alternative-9 {
+  color: hsl(264, 95%, 29%);
+}
+
+.background-color-alternative-9 {
+  background-color: hsl(264, 95%, 29%);
+}
+
+.border-color-alternative-9 {
+  border-color: hsl(264, 95%, 29%);
+}
+
+.outline-color-alternative-9 {
+  outline-color: hsl(264, 95%, 29%);
+}
+
+.text-decoration-color-alternative-9 {
+  text-decoration-color: hsl(264, 95%, 29%);
+}
+
+.box-shadow-alternative-9 {
+  box-shadow: 0 0 0 0.25rem hsl(264, 95%, 29%);
+}
+
+.text-shadow-alternative-9 {
+  text-shadow: 0 0 0.25rem hsl(264, 95%, 29%);
+}
+
+.border-top-color-alternative-9 {
+  border-top-color: hsl(264, 95%, 29%);
+}
+
+.border-right-color-alternative-9 {
+  border-right-color: hsl(264, 95%, 29%);
+}
+
+.border-bottom-color-alternative-9 {
+  border-bottom-color: hsl(264, 95%, 29%);
+}
+
+.border-left-color-alternative-9 {
+  border-left-color: hsl(264, 95%, 29%);
+}
+
+.column-rule-color-alternative-9 {
+  column-rule-color: hsl(264, 95%, 29%);
+}
+
+.caret-color-alternative-9 {
+  caret-color: hsl(264, 95%, 29%);
+}
+
+.fill-alternative-9 {
+  fill: hsl(264, 95%, 29%);
+}
+
+.stroke-alternative-9 {
+  stroke: hsl(264, 95%, 29%);
+}
+
+.stop-color-alternative-9 {
+  stop-color: hsl(264, 95%, 29%);
+}
+
+.color-red-1 {
+  color: hsl(0, 95%, 5%);
+}
+
+.background-color-red-1 {
+  background-color: hsl(0, 95%, 5%);
+}
+
+.border-color-red-1 {
+  border-color: hsl(0, 95%, 5%);
+}
+
+.outline-color-red-1 {
+  outline-color: hsl(0, 95%, 5%);
+}
+
+.text-decoration-color-red-1 {
+  text-decoration-color: hsl(0, 95%, 5%);
+}
+
+.box-shadow-red-1 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 95%, 5%);
+}
+
+.text-shadow-red-1 {
+  text-shadow: 0 0 0.25rem hsl(0, 95%, 5%);
+}
+
+.border-top-color-red-1 {
+  border-top-color: hsl(0, 95%, 5%);
+}
+
+.border-right-color-red-1 {
+  border-right-color: hsl(0, 95%, 5%);
+}
+
+.border-bottom-color-red-1 {
+  border-bottom-color: hsl(0, 95%, 5%);
+}
+
+.border-left-color-red-1 {
+  border-left-color: hsl(0, 95%, 5%);
+}
+
+.column-rule-color-red-1 {
+  column-rule-color: hsl(0, 95%, 5%);
+}
+
+.caret-color-red-1 {
+  caret-color: hsl(0, 95%, 5%);
+}
+
+.fill-red-1 {
+  fill: hsl(0, 95%, 5%);
+}
+
+.stroke-red-1 {
+  stroke: hsl(0, 95%, 5%);
+}
+
+.stop-color-red-1 {
+  stop-color: hsl(0, 95%, 5%);
+}
+
+.color-red-2 {
+  color: hsl(0, 97%, 16%);
+}
+
+.background-color-red-2 {
+  background-color: hsl(0, 97%, 16%);
+}
+
+.border-color-red-2 {
+  border-color: hsl(0, 97%, 16%);
+}
+
+.outline-color-red-2 {
+  outline-color: hsl(0, 97%, 16%);
+}
+
+.text-decoration-color-red-2 {
+  text-decoration-color: hsl(0, 97%, 16%);
+}
+
+.box-shadow-red-2 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 97%, 16%);
+}
+
+.text-shadow-red-2 {
+  text-shadow: 0 0 0.25rem hsl(0, 97%, 16%);
+}
+
+.border-top-color-red-2 {
+  border-top-color: hsl(0, 97%, 16%);
+}
+
+.border-right-color-red-2 {
+  border-right-color: hsl(0, 97%, 16%);
+}
+
+.border-bottom-color-red-2 {
+  border-bottom-color: hsl(0, 97%, 16%);
+}
+
+.border-left-color-red-2 {
+  border-left-color: hsl(0, 97%, 16%);
+}
+
+.column-rule-color-red-2 {
+  column-rule-color: hsl(0, 97%, 16%);
+}
+
+.caret-color-red-2 {
+  caret-color: hsl(0, 97%, 16%);
+}
+
+.fill-red-2 {
+  fill: hsl(0, 97%, 16%);
+}
+
+.stroke-red-2 {
+  stroke: hsl(0, 97%, 16%);
+}
+
+.stop-color-red-2 {
+  stop-color: hsl(0, 97%, 16%);
+}
+
+.color-red-3 {
+  color: hsl(0, 99%, 28%);
+}
+
+.background-color-red-3 {
+  background-color: hsl(0, 99%, 28%);
+}
+
+.border-color-red-3 {
+  border-color: hsl(0, 99%, 28%);
+}
+
+.outline-color-red-3 {
+  outline-color: hsl(0, 99%, 28%);
+}
+
+.text-decoration-color-red-3 {
+  text-decoration-color: hsl(0, 99%, 28%);
+}
+
+.box-shadow-red-3 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 99%, 28%);
+}
+
+.text-shadow-red-3 {
+  text-shadow: 0 0 0.25rem hsl(0, 99%, 28%);
+}
+
+.border-top-color-red-3 {
+  border-top-color: hsl(0, 99%, 28%);
+}
+
+.border-right-color-red-3 {
+  border-right-color: hsl(0, 99%, 28%);
+}
+
+.border-bottom-color-red-3 {
+  border-bottom-color: hsl(0, 99%, 28%);
+}
+
+.border-left-color-red-3 {
+  border-left-color: hsl(0, 99%, 28%);
+}
+
+.column-rule-color-red-3 {
+  column-rule-color: hsl(0, 99%, 28%);
+}
+
+.caret-color-red-3 {
+  caret-color: hsl(0, 99%, 28%);
+}
+
+.fill-red-3 {
+  fill: hsl(0, 99%, 28%);
+}
+
+.stroke-red-3 {
+  stroke: hsl(0, 99%, 28%);
+}
+
+.stop-color-red-3 {
+  stop-color: hsl(0, 99%, 28%);
+}
+
+.color-red-4 {
+  color: hsl(0, 100%, 39%);
+}
+
+.background-color-red-4 {
+  background-color: hsl(0, 100%, 39%);
+}
+
+.border-color-red-4 {
+  border-color: hsl(0, 100%, 39%);
+}
+
+.outline-color-red-4 {
+  outline-color: hsl(0, 100%, 39%);
+}
+
+.text-decoration-color-red-4 {
+  text-decoration-color: hsl(0, 100%, 39%);
+}
+
+.box-shadow-red-4 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 100%, 39%);
+}
+
+.text-shadow-red-4 {
+  text-shadow: 0 0 0.25rem hsl(0, 100%, 39%);
+}
+
+.border-top-color-red-4 {
+  border-top-color: hsl(0, 100%, 39%);
+}
+
+.border-right-color-red-4 {
+  border-right-color: hsl(0, 100%, 39%);
+}
+
+.border-bottom-color-red-4 {
+  border-bottom-color: hsl(0, 100%, 39%);
+}
+
+.border-left-color-red-4 {
+  border-left-color: hsl(0, 100%, 39%);
+}
+
+.column-rule-color-red-4 {
+  column-rule-color: hsl(0, 100%, 39%);
+}
+
+.caret-color-red-4 {
+  caret-color: hsl(0, 100%, 39%);
+}
+
+.fill-red-4 {
+  fill: hsl(0, 100%, 39%);
+}
+
+.stroke-red-4 {
+  stroke: hsl(0, 100%, 39%);
+}
+
+.stop-color-red-4 {
+  stop-color: hsl(0, 100%, 39%);
+}
+
+.color-red-5 {
+  color: hsl(0, 100%, 50%);
+}
+
+.background-color-red-5 {
+  background-color: hsl(0, 100%, 50%);
+}
+
+.border-color-red-5 {
+  border-color: hsl(0, 100%, 50%);
+}
+
+.outline-color-red-5 {
+  outline-color: hsl(0, 100%, 50%);
+}
+
+.text-decoration-color-red-5 {
+  text-decoration-color: hsl(0, 100%, 50%);
+}
+
+.box-shadow-red-5 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 100%, 50%);
+}
+
+.text-shadow-red-5 {
+  text-shadow: 0 0 0.25rem hsl(0, 100%, 50%);
+}
+
+.border-top-color-red-5 {
+  border-top-color: hsl(0, 100%, 50%);
+}
+
+.border-right-color-red-5 {
+  border-right-color: hsl(0, 100%, 50%);
+}
+
+.border-bottom-color-red-5 {
+  border-bottom-color: hsl(0, 100%, 50%);
+}
+
+.border-left-color-red-5 {
+  border-left-color: hsl(0, 100%, 50%);
+}
+
+.column-rule-color-red-5 {
+  column-rule-color: hsl(0, 100%, 50%);
+}
+
+.caret-color-red-5 {
+  caret-color: hsl(0, 100%, 50%);
+}
+
+.fill-red-5 {
+  fill: hsl(0, 100%, 50%);
+}
+
+.stroke-red-5 {
+  stroke: hsl(0, 100%, 50%);
+}
+
+.stop-color-red-5 {
+  stop-color: hsl(0, 100%, 50%);
+}
+
+.color-red-6 {
+  color: hsl(3, 100%, 61%);
+}
+
+.background-color-red-6 {
+  background-color: hsl(3, 100%, 61%);
+}
+
+.border-color-red-6 {
+  border-color: hsl(3, 100%, 61%);
+}
+
+.outline-color-red-6 {
+  outline-color: hsl(3, 100%, 61%);
+}
+
+.text-decoration-color-red-6 {
+  text-decoration-color: hsl(3, 100%, 61%);
+}
+
+.box-shadow-red-6 {
+  box-shadow: 0 0 0 0.25rem hsl(3, 100%, 61%);
+}
+
+.text-shadow-red-6 {
+  text-shadow: 0 0 0.25rem hsl(3, 100%, 61%);
+}
+
+.border-top-color-red-6 {
+  border-top-color: hsl(3, 100%, 61%);
+}
+
+.border-right-color-red-6 {
+  border-right-color: hsl(3, 100%, 61%);
+}
+
+.border-bottom-color-red-6 {
+  border-bottom-color: hsl(3, 100%, 61%);
+}
+
+.border-left-color-red-6 {
+  border-left-color: hsl(3, 100%, 61%);
+}
+
+.column-rule-color-red-6 {
+  column-rule-color: hsl(3, 100%, 61%);
+}
+
+.caret-color-red-6 {
+  caret-color: hsl(3, 100%, 61%);
+}
+
+.fill-red-6 {
+  fill: hsl(3, 100%, 61%);
+}
+
+.stroke-red-6 {
+  stroke: hsl(3, 100%, 61%);
+}
+
+.stop-color-red-6 {
+  stop-color: hsl(3, 100%, 61%);
+}
+
+.color-red-7 {
+  color: hsl(5, 99%, 73%);
+}
+
+.background-color-red-7 {
+  background-color: hsl(5, 99%, 73%);
+}
+
+.border-color-red-7 {
+  border-color: hsl(5, 99%, 73%);
+}
+
+.outline-color-red-7 {
+  outline-color: hsl(5, 99%, 73%);
+}
+
+.text-decoration-color-red-7 {
+  text-decoration-color: hsl(5, 99%, 73%);
+}
+
+.box-shadow-red-7 {
+  box-shadow: 0 0 0 0.25rem hsl(5, 99%, 73%);
+}
+
+.text-shadow-red-7 {
+  text-shadow: 0 0 0.25rem hsl(5, 99%, 73%);
+}
+
+.border-top-color-red-7 {
+  border-top-color: hsl(5, 99%, 73%);
+}
+
+.border-right-color-red-7 {
+  border-right-color: hsl(5, 99%, 73%);
+}
+
+.border-bottom-color-red-7 {
+  border-bottom-color: hsl(5, 99%, 73%);
+}
+
+.border-left-color-red-7 {
+  border-left-color: hsl(5, 99%, 73%);
+}
+
+.column-rule-color-red-7 {
+  column-rule-color: hsl(5, 99%, 73%);
+}
+
+.caret-color-red-7 {
+  caret-color: hsl(5, 99%, 73%);
+}
+
+.fill-red-7 {
+  fill: hsl(5, 99%, 73%);
+}
+
+.stroke-red-7 {
+  stroke: hsl(5, 99%, 73%);
+}
+
+.stop-color-red-7 {
+  stop-color: hsl(5, 99%, 73%);
+}
+
+.color-red-8 {
+  color: hsl(8, 97%, 84%);
+}
+
+.background-color-red-8 {
+  background-color: hsl(8, 97%, 84%);
+}
+
+.border-color-red-8 {
+  border-color: hsl(8, 97%, 84%);
+}
+
+.outline-color-red-8 {
+  outline-color: hsl(8, 97%, 84%);
+}
+
+.text-decoration-color-red-8 {
+  text-decoration-color: hsl(8, 97%, 84%);
+}
+
+.box-shadow-red-8 {
+  box-shadow: 0 0 0 0.25rem hsl(8, 97%, 84%);
+}
+
+.text-shadow-red-8 {
+  text-shadow: 0 0 0.25rem hsl(8, 97%, 84%);
+}
+
+.border-top-color-red-8 {
+  border-top-color: hsl(8, 97%, 84%);
+}
+
+.border-right-color-red-8 {
+  border-right-color: hsl(8, 97%, 84%);
+}
+
+.border-bottom-color-red-8 {
+  border-bottom-color: hsl(8, 97%, 84%);
+}
+
+.border-left-color-red-8 {
+  border-left-color: hsl(8, 97%, 84%);
+}
+
+.column-rule-color-red-8 {
+  column-rule-color: hsl(8, 97%, 84%);
+}
+
+.caret-color-red-8 {
+  caret-color: hsl(8, 97%, 84%);
+}
+
+.fill-red-8 {
+  fill: hsl(8, 97%, 84%);
+}
+
+.stroke-red-8 {
+  stroke: hsl(8, 97%, 84%);
+}
+
+.stop-color-red-8 {
+  stop-color: hsl(8, 97%, 84%);
+}
+
+.color-red-9 {
+  color: hsl(10, 95%, 95%);
+}
+
+.background-color-red-9 {
+  background-color: hsl(10, 95%, 95%);
+}
+
+.border-color-red-9 {
+  border-color: hsl(10, 95%, 95%);
+}
+
+.outline-color-red-9 {
+  outline-color: hsl(10, 95%, 95%);
+}
+
+.text-decoration-color-red-9 {
+  text-decoration-color: hsl(10, 95%, 95%);
+}
+
+.box-shadow-red-9 {
+  box-shadow: 0 0 0 0.25rem hsl(10, 95%, 95%);
+}
+
+.text-shadow-red-9 {
+  text-shadow: 0 0 0.25rem hsl(10, 95%, 95%);
+}
+
+.border-top-color-red-9 {
+  border-top-color: hsl(10, 95%, 95%);
+}
+
+.border-right-color-red-9 {
+  border-right-color: hsl(10, 95%, 95%);
+}
+
+.border-bottom-color-red-9 {
+  border-bottom-color: hsl(10, 95%, 95%);
+}
+
+.border-left-color-red-9 {
+  border-left-color: hsl(10, 95%, 95%);
+}
+
+.column-rule-color-red-9 {
+  column-rule-color: hsl(10, 95%, 95%);
+}
+
+.caret-color-red-9 {
+  caret-color: hsl(10, 95%, 95%);
+}
+
+.fill-red-9 {
+  fill: hsl(10, 95%, 95%);
+}
+
+.stroke-red-9 {
+  stroke: hsl(10, 95%, 95%);
+}
+
+.stop-color-red-9 {
+  stop-color: hsl(10, 95%, 95%);
+}
+
+.color-orange-1 {
+  color: hsl(29, 95%, 5%);
+}
+
+.background-color-orange-1 {
+  background-color: hsl(29, 95%, 5%);
+}
+
+.border-color-orange-1 {
+  border-color: hsl(29, 95%, 5%);
+}
+
+.outline-color-orange-1 {
+  outline-color: hsl(29, 95%, 5%);
+}
+
+.text-decoration-color-orange-1 {
+  text-decoration-color: hsl(29, 95%, 5%);
+}
+
+.box-shadow-orange-1 {
+  box-shadow: 0 0 0 0.25rem hsl(29, 95%, 5%);
+}
+
+.text-shadow-orange-1 {
+  text-shadow: 0 0 0.25rem hsl(29, 95%, 5%);
+}
+
+.border-top-color-orange-1 {
+  border-top-color: hsl(29, 95%, 5%);
+}
+
+.border-right-color-orange-1 {
+  border-right-color: hsl(29, 95%, 5%);
+}
+
+.border-bottom-color-orange-1 {
+  border-bottom-color: hsl(29, 95%, 5%);
+}
+
+.border-left-color-orange-1 {
+  border-left-color: hsl(29, 95%, 5%);
+}
+
+.column-rule-color-orange-1 {
+  column-rule-color: hsl(29, 95%, 5%);
+}
+
+.caret-color-orange-1 {
+  caret-color: hsl(29, 95%, 5%);
+}
+
+.fill-orange-1 {
+  fill: hsl(29, 95%, 5%);
+}
+
+.stroke-orange-1 {
+  stroke: hsl(29, 95%, 5%);
+}
+
+.stop-color-orange-1 {
+  stop-color: hsl(29, 95%, 5%);
+}
+
+.color-orange-2 {
+  color: hsl(32, 97%, 16%);
+}
+
+.background-color-orange-2 {
+  background-color: hsl(32, 97%, 16%);
+}
+
+.border-color-orange-2 {
+  border-color: hsl(32, 97%, 16%);
+}
+
+.outline-color-orange-2 {
+  outline-color: hsl(32, 97%, 16%);
+}
+
+.text-decoration-color-orange-2 {
+  text-decoration-color: hsl(32, 97%, 16%);
+}
+
+.box-shadow-orange-2 {
+  box-shadow: 0 0 0 0.25rem hsl(32, 97%, 16%);
+}
+
+.text-shadow-orange-2 {
+  text-shadow: 0 0 0.25rem hsl(32, 97%, 16%);
+}
+
+.border-top-color-orange-2 {
+  border-top-color: hsl(32, 97%, 16%);
+}
+
+.border-right-color-orange-2 {
+  border-right-color: hsl(32, 97%, 16%);
+}
+
+.border-bottom-color-orange-2 {
+  border-bottom-color: hsl(32, 97%, 16%);
+}
+
+.border-left-color-orange-2 {
+  border-left-color: hsl(32, 97%, 16%);
+}
+
+.column-rule-color-orange-2 {
+  column-rule-color: hsl(32, 97%, 16%);
+}
+
+.caret-color-orange-2 {
+  caret-color: hsl(32, 97%, 16%);
+}
+
+.fill-orange-2 {
+  fill: hsl(32, 97%, 16%);
+}
+
+.stroke-orange-2 {
+  stroke: hsl(32, 97%, 16%);
+}
+
+.stop-color-orange-2 {
+  stop-color: hsl(32, 97%, 16%);
+}
+
+.color-orange-3 {
+  color: hsl(34, 99%, 28%);
+}
+
+.background-color-orange-3 {
+  background-color: hsl(34, 99%, 28%);
+}
+
+.border-color-orange-3 {
+  border-color: hsl(34, 99%, 28%);
+}
+
+.outline-color-orange-3 {
+  outline-color: hsl(34, 99%, 28%);
+}
+
+.text-decoration-color-orange-3 {
+  text-decoration-color: hsl(34, 99%, 28%);
+}
+
+.box-shadow-orange-3 {
+  box-shadow: 0 0 0 0.25rem hsl(34, 99%, 28%);
+}
+
+.text-shadow-orange-3 {
+  text-shadow: 0 0 0.25rem hsl(34, 99%, 28%);
+}
+
+.border-top-color-orange-3 {
+  border-top-color: hsl(34, 99%, 28%);
+}
+
+.border-right-color-orange-3 {
+  border-right-color: hsl(34, 99%, 28%);
+}
+
+.border-bottom-color-orange-3 {
+  border-bottom-color: hsl(34, 99%, 28%);
+}
+
+.border-left-color-orange-3 {
+  border-left-color: hsl(34, 99%, 28%);
+}
+
+.column-rule-color-orange-3 {
+  column-rule-color: hsl(34, 99%, 28%);
+}
+
+.caret-color-orange-3 {
+  caret-color: hsl(34, 99%, 28%);
+}
+
+.fill-orange-3 {
+  fill: hsl(34, 99%, 28%);
+}
+
+.stroke-orange-3 {
+  stroke: hsl(34, 99%, 28%);
+}
+
+.stop-color-orange-3 {
+  stop-color: hsl(34, 99%, 28%);
+}
+
+.color-orange-4 {
+  color: hsl(37, 100%, 39%);
+}
+
+.background-color-orange-4 {
+  background-color: hsl(37, 100%, 39%);
+}
+
+.border-color-orange-4 {
+  border-color: hsl(37, 100%, 39%);
+}
+
+.outline-color-orange-4 {
+  outline-color: hsl(37, 100%, 39%);
+}
+
+.text-decoration-color-orange-4 {
+  text-decoration-color: hsl(37, 100%, 39%);
+}
+
+.box-shadow-orange-4 {
+  box-shadow: 0 0 0 0.25rem hsl(37, 100%, 39%);
+}
+
+.text-shadow-orange-4 {
+  text-shadow: 0 0 0.25rem hsl(37, 100%, 39%);
+}
+
+.border-top-color-orange-4 {
+  border-top-color: hsl(37, 100%, 39%);
+}
+
+.border-right-color-orange-4 {
+  border-right-color: hsl(37, 100%, 39%);
+}
+
+.border-bottom-color-orange-4 {
+  border-bottom-color: hsl(37, 100%, 39%);
+}
+
+.border-left-color-orange-4 {
+  border-left-color: hsl(37, 100%, 39%);
+}
+
+.column-rule-color-orange-4 {
+  column-rule-color: hsl(37, 100%, 39%);
+}
+
+.caret-color-orange-4 {
+  caret-color: hsl(37, 100%, 39%);
+}
+
+.fill-orange-4 {
+  fill: hsl(37, 100%, 39%);
+}
+
+.stroke-orange-4 {
+  stroke: hsl(37, 100%, 39%);
+}
+
+.stop-color-orange-4 {
+  stop-color: hsl(37, 100%, 39%);
+}
+
+.color-orange-5 {
+  color: hsl(39, 100%, 50%);
+}
+
+.background-color-orange-5 {
+  background-color: hsl(39, 100%, 50%);
+}
+
+.border-color-orange-5 {
+  border-color: hsl(39, 100%, 50%);
+}
+
+.outline-color-orange-5 {
+  outline-color: hsl(39, 100%, 50%);
+}
+
+.text-decoration-color-orange-5 {
+  text-decoration-color: hsl(39, 100%, 50%);
+}
+
+.box-shadow-orange-5 {
+  box-shadow: 0 0 0 0.25rem hsl(39, 100%, 50%);
+}
+
+.text-shadow-orange-5 {
+  text-shadow: 0 0 0.25rem hsl(39, 100%, 50%);
+}
+
+.border-top-color-orange-5 {
+  border-top-color: hsl(39, 100%, 50%);
+}
+
+.border-right-color-orange-5 {
+  border-right-color: hsl(39, 100%, 50%);
+}
+
+.border-bottom-color-orange-5 {
+  border-bottom-color: hsl(39, 100%, 50%);
+}
+
+.border-left-color-orange-5 {
+  border-left-color: hsl(39, 100%, 50%);
+}
+
+.column-rule-color-orange-5 {
+  column-rule-color: hsl(39, 100%, 50%);
+}
+
+.caret-color-orange-5 {
+  caret-color: hsl(39, 100%, 50%);
+}
+
+.fill-orange-5 {
+  fill: hsl(39, 100%, 50%);
+}
+
+.stroke-orange-5 {
+  stroke: hsl(39, 100%, 50%);
+}
+
+.stop-color-orange-5 {
+  stop-color: hsl(39, 100%, 50%);
+}
+
+.color-orange-6 {
+  color: hsl(42, 100%, 61%);
+}
+
+.background-color-orange-6 {
+  background-color: hsl(42, 100%, 61%);
+}
+
+.border-color-orange-6 {
+  border-color: hsl(42, 100%, 61%);
+}
+
+.outline-color-orange-6 {
+  outline-color: hsl(42, 100%, 61%);
+}
+
+.text-decoration-color-orange-6 {
+  text-decoration-color: hsl(42, 100%, 61%);
+}
+
+.box-shadow-orange-6 {
+  box-shadow: 0 0 0 0.25rem hsl(42, 100%, 61%);
+}
+
+.text-shadow-orange-6 {
+  text-shadow: 0 0 0.25rem hsl(42, 100%, 61%);
+}
+
+.border-top-color-orange-6 {
+  border-top-color: hsl(42, 100%, 61%);
+}
+
+.border-right-color-orange-6 {
+  border-right-color: hsl(42, 100%, 61%);
+}
+
+.border-bottom-color-orange-6 {
+  border-bottom-color: hsl(42, 100%, 61%);
+}
+
+.border-left-color-orange-6 {
+  border-left-color: hsl(42, 100%, 61%);
+}
+
+.column-rule-color-orange-6 {
+  column-rule-color: hsl(42, 100%, 61%);
+}
+
+.caret-color-orange-6 {
+  caret-color: hsl(42, 100%, 61%);
+}
+
+.fill-orange-6 {
+  fill: hsl(42, 100%, 61%);
+}
+
+.stroke-orange-6 {
+  stroke: hsl(42, 100%, 61%);
+}
+
+.stop-color-orange-6 {
+  stop-color: hsl(42, 100%, 61%);
+}
+
+.color-orange-7 {
+  color: hsl(44, 99%, 73%);
+}
+
+.background-color-orange-7 {
+  background-color: hsl(44, 99%, 73%);
+}
+
+.border-color-orange-7 {
+  border-color: hsl(44, 99%, 73%);
+}
+
+.outline-color-orange-7 {
+  outline-color: hsl(44, 99%, 73%);
+}
+
+.text-decoration-color-orange-7 {
+  text-decoration-color: hsl(44, 99%, 73%);
+}
+
+.box-shadow-orange-7 {
+  box-shadow: 0 0 0 0.25rem hsl(44, 99%, 73%);
+}
+
+.text-shadow-orange-7 {
+  text-shadow: 0 0 0.25rem hsl(44, 99%, 73%);
+}
+
+.border-top-color-orange-7 {
+  border-top-color: hsl(44, 99%, 73%);
+}
+
+.border-right-color-orange-7 {
+  border-right-color: hsl(44, 99%, 73%);
+}
+
+.border-bottom-color-orange-7 {
+  border-bottom-color: hsl(44, 99%, 73%);
+}
+
+.border-left-color-orange-7 {
+  border-left-color: hsl(44, 99%, 73%);
+}
+
+.column-rule-color-orange-7 {
+  column-rule-color: hsl(44, 99%, 73%);
+}
+
+.caret-color-orange-7 {
+  caret-color: hsl(44, 99%, 73%);
+}
+
+.fill-orange-7 {
+  fill: hsl(44, 99%, 73%);
+}
+
+.stroke-orange-7 {
+  stroke: hsl(44, 99%, 73%);
+}
+
+.stop-color-orange-7 {
+  stop-color: hsl(44, 99%, 73%);
+}
+
+.color-orange-8 {
+  color: hsl(47, 97%, 84%);
+}
+
+.background-color-orange-8 {
+  background-color: hsl(47, 97%, 84%);
+}
+
+.border-color-orange-8 {
+  border-color: hsl(47, 97%, 84%);
+}
+
+.outline-color-orange-8 {
+  outline-color: hsl(47, 97%, 84%);
+}
+
+.text-decoration-color-orange-8 {
+  text-decoration-color: hsl(47, 97%, 84%);
+}
+
+.box-shadow-orange-8 {
+  box-shadow: 0 0 0 0.25rem hsl(47, 97%, 84%);
+}
+
+.text-shadow-orange-8 {
+  text-shadow: 0 0 0.25rem hsl(47, 97%, 84%);
+}
+
+.border-top-color-orange-8 {
+  border-top-color: hsl(47, 97%, 84%);
+}
+
+.border-right-color-orange-8 {
+  border-right-color: hsl(47, 97%, 84%);
+}
+
+.border-bottom-color-orange-8 {
+  border-bottom-color: hsl(47, 97%, 84%);
+}
+
+.border-left-color-orange-8 {
+  border-left-color: hsl(47, 97%, 84%);
+}
+
+.column-rule-color-orange-8 {
+  column-rule-color: hsl(47, 97%, 84%);
+}
+
+.caret-color-orange-8 {
+  caret-color: hsl(47, 97%, 84%);
+}
+
+.fill-orange-8 {
+  fill: hsl(47, 97%, 84%);
+}
+
+.stroke-orange-8 {
+  stroke: hsl(47, 97%, 84%);
+}
+
+.stop-color-orange-8 {
+  stop-color: hsl(47, 97%, 84%);
+}
+
+.color-orange-9 {
+  color: hsl(49, 95%, 95%);
+}
+
+.background-color-orange-9 {
+  background-color: hsl(49, 95%, 95%);
+}
+
+.border-color-orange-9 {
+  border-color: hsl(49, 95%, 95%);
+}
+
+.outline-color-orange-9 {
+  outline-color: hsl(49, 95%, 95%);
+}
+
+.text-decoration-color-orange-9 {
+  text-decoration-color: hsl(49, 95%, 95%);
+}
+
+.box-shadow-orange-9 {
+  box-shadow: 0 0 0 0.25rem hsl(49, 95%, 95%);
+}
+
+.text-shadow-orange-9 {
+  text-shadow: 0 0 0.25rem hsl(49, 95%, 95%);
+}
+
+.border-top-color-orange-9 {
+  border-top-color: hsl(49, 95%, 95%);
+}
+
+.border-right-color-orange-9 {
+  border-right-color: hsl(49, 95%, 95%);
+}
+
+.border-bottom-color-orange-9 {
+  border-bottom-color: hsl(49, 95%, 95%);
+}
+
+.border-left-color-orange-9 {
+  border-left-color: hsl(49, 95%, 95%);
+}
+
+.column-rule-color-orange-9 {
+  column-rule-color: hsl(49, 95%, 95%);
+}
+
+.caret-color-orange-9 {
+  caret-color: hsl(49, 95%, 95%);
+}
+
+.fill-orange-9 {
+  fill: hsl(49, 95%, 95%);
+}
+
+.stroke-orange-9 {
+  stroke: hsl(49, 95%, 95%);
+}
+
+.stop-color-orange-9 {
+  stop-color: hsl(49, 95%, 95%);
+}
+
+.color-yellow-1 {
+  color: hsl(50, 95%, 5%);
+}
+
+.background-color-yellow-1 {
+  background-color: hsl(50, 95%, 5%);
+}
+
+.border-color-yellow-1 {
+  border-color: hsl(50, 95%, 5%);
+}
+
+.outline-color-yellow-1 {
+  outline-color: hsl(50, 95%, 5%);
+}
+
+.text-decoration-color-yellow-1 {
+  text-decoration-color: hsl(50, 95%, 5%);
+}
+
+.box-shadow-yellow-1 {
+  box-shadow: 0 0 0 0.25rem hsl(50, 95%, 5%);
+}
+
+.text-shadow-yellow-1 {
+  text-shadow: 0 0 0.25rem hsl(50, 95%, 5%);
+}
+
+.border-top-color-yellow-1 {
+  border-top-color: hsl(50, 95%, 5%);
+}
+
+.border-right-color-yellow-1 {
+  border-right-color: hsl(50, 95%, 5%);
+}
+
+.border-bottom-color-yellow-1 {
+  border-bottom-color: hsl(50, 95%, 5%);
+}
+
+.border-left-color-yellow-1 {
+  border-left-color: hsl(50, 95%, 5%);
+}
+
+.column-rule-color-yellow-1 {
+  column-rule-color: hsl(50, 95%, 5%);
+}
+
+.caret-color-yellow-1 {
+  caret-color: hsl(50, 95%, 5%);
+}
+
+.fill-yellow-1 {
+  fill: hsl(50, 95%, 5%);
+}
+
+.stroke-yellow-1 {
+  stroke: hsl(50, 95%, 5%);
+}
+
+.stop-color-yellow-1 {
+  stop-color: hsl(50, 95%, 5%);
+}
+
+.color-yellow-2 {
+  color: hsl(53, 97%, 16%);
+}
+
+.background-color-yellow-2 {
+  background-color: hsl(53, 97%, 16%);
+}
+
+.border-color-yellow-2 {
+  border-color: hsl(53, 97%, 16%);
+}
+
+.outline-color-yellow-2 {
+  outline-color: hsl(53, 97%, 16%);
+}
+
+.text-decoration-color-yellow-2 {
+  text-decoration-color: hsl(53, 97%, 16%);
+}
+
+.box-shadow-yellow-2 {
+  box-shadow: 0 0 0 0.25rem hsl(53, 97%, 16%);
+}
+
+.text-shadow-yellow-2 {
+  text-shadow: 0 0 0.25rem hsl(53, 97%, 16%);
+}
+
+.border-top-color-yellow-2 {
+  border-top-color: hsl(53, 97%, 16%);
+}
+
+.border-right-color-yellow-2 {
+  border-right-color: hsl(53, 97%, 16%);
+}
+
+.border-bottom-color-yellow-2 {
+  border-bottom-color: hsl(53, 97%, 16%);
+}
+
+.border-left-color-yellow-2 {
+  border-left-color: hsl(53, 97%, 16%);
+}
+
+.column-rule-color-yellow-2 {
+  column-rule-color: hsl(53, 97%, 16%);
+}
+
+.caret-color-yellow-2 {
+  caret-color: hsl(53, 97%, 16%);
+}
+
+.fill-yellow-2 {
+  fill: hsl(53, 97%, 16%);
+}
+
+.stroke-yellow-2 {
+  stroke: hsl(53, 97%, 16%);
+}
+
+.stop-color-yellow-2 {
+  stop-color: hsl(53, 97%, 16%);
+}
+
+.color-yellow-3 {
+  color: hsl(55, 99%, 28%);
+}
+
+.background-color-yellow-3 {
+  background-color: hsl(55, 99%, 28%);
+}
+
+.border-color-yellow-3 {
+  border-color: hsl(55, 99%, 28%);
+}
+
+.outline-color-yellow-3 {
+  outline-color: hsl(55, 99%, 28%);
+}
+
+.text-decoration-color-yellow-3 {
+  text-decoration-color: hsl(55, 99%, 28%);
+}
+
+.box-shadow-yellow-3 {
+  box-shadow: 0 0 0 0.25rem hsl(55, 99%, 28%);
+}
+
+.text-shadow-yellow-3 {
+  text-shadow: 0 0 0.25rem hsl(55, 99%, 28%);
+}
+
+.border-top-color-yellow-3 {
+  border-top-color: hsl(55, 99%, 28%);
+}
+
+.border-right-color-yellow-3 {
+  border-right-color: hsl(55, 99%, 28%);
+}
+
+.border-bottom-color-yellow-3 {
+  border-bottom-color: hsl(55, 99%, 28%);
+}
+
+.border-left-color-yellow-3 {
+  border-left-color: hsl(55, 99%, 28%);
+}
+
+.column-rule-color-yellow-3 {
+  column-rule-color: hsl(55, 99%, 28%);
+}
+
+.caret-color-yellow-3 {
+  caret-color: hsl(55, 99%, 28%);
+}
+
+.fill-yellow-3 {
+  fill: hsl(55, 99%, 28%);
+}
+
+.stroke-yellow-3 {
+  stroke: hsl(55, 99%, 28%);
+}
+
+.stop-color-yellow-3 {
+  stop-color: hsl(55, 99%, 28%);
+}
+
+.color-yellow-4 {
+  color: hsl(58, 100%, 39%);
+}
+
+.background-color-yellow-4 {
+  background-color: hsl(58, 100%, 39%);
+}
+
+.border-color-yellow-4 {
+  border-color: hsl(58, 100%, 39%);
+}
+
+.outline-color-yellow-4 {
+  outline-color: hsl(58, 100%, 39%);
+}
+
+.text-decoration-color-yellow-4 {
+  text-decoration-color: hsl(58, 100%, 39%);
+}
+
+.box-shadow-yellow-4 {
+  box-shadow: 0 0 0 0.25rem hsl(58, 100%, 39%);
+}
+
+.text-shadow-yellow-4 {
+  text-shadow: 0 0 0.25rem hsl(58, 100%, 39%);
+}
+
+.border-top-color-yellow-4 {
+  border-top-color: hsl(58, 100%, 39%);
+}
+
+.border-right-color-yellow-4 {
+  border-right-color: hsl(58, 100%, 39%);
+}
+
+.border-bottom-color-yellow-4 {
+  border-bottom-color: hsl(58, 100%, 39%);
+}
+
+.border-left-color-yellow-4 {
+  border-left-color: hsl(58, 100%, 39%);
+}
+
+.column-rule-color-yellow-4 {
+  column-rule-color: hsl(58, 100%, 39%);
+}
+
+.caret-color-yellow-4 {
+  caret-color: hsl(58, 100%, 39%);
+}
+
+.fill-yellow-4 {
+  fill: hsl(58, 100%, 39%);
+}
+
+.stroke-yellow-4 {
+  stroke: hsl(58, 100%, 39%);
+}
+
+.stop-color-yellow-4 {
+  stop-color: hsl(58, 100%, 39%);
+}
+
+.color-yellow-5 {
+  color: hsl(60, 100%, 50%);
+}
+
+.background-color-yellow-5 {
+  background-color: hsl(60, 100%, 50%);
+}
+
+.border-color-yellow-5 {
+  border-color: hsl(60, 100%, 50%);
+}
+
+.outline-color-yellow-5 {
+  outline-color: hsl(60, 100%, 50%);
+}
+
+.text-decoration-color-yellow-5 {
+  text-decoration-color: hsl(60, 100%, 50%);
+}
+
+.box-shadow-yellow-5 {
+  box-shadow: 0 0 0 0.25rem hsl(60, 100%, 50%);
+}
+
+.text-shadow-yellow-5 {
+  text-shadow: 0 0 0.25rem hsl(60, 100%, 50%);
+}
+
+.border-top-color-yellow-5 {
+  border-top-color: hsl(60, 100%, 50%);
+}
+
+.border-right-color-yellow-5 {
+  border-right-color: hsl(60, 100%, 50%);
+}
+
+.border-bottom-color-yellow-5 {
+  border-bottom-color: hsl(60, 100%, 50%);
+}
+
+.border-left-color-yellow-5 {
+  border-left-color: hsl(60, 100%, 50%);
+}
+
+.column-rule-color-yellow-5 {
+  column-rule-color: hsl(60, 100%, 50%);
+}
+
+.caret-color-yellow-5 {
+  caret-color: hsl(60, 100%, 50%);
+}
+
+.fill-yellow-5 {
+  fill: hsl(60, 100%, 50%);
+}
+
+.stroke-yellow-5 {
+  stroke: hsl(60, 100%, 50%);
+}
+
+.stop-color-yellow-5 {
+  stop-color: hsl(60, 100%, 50%);
+}
+
+.color-yellow-6 {
+  color: hsl(63, 100%, 61%);
+}
+
+.background-color-yellow-6 {
+  background-color: hsl(63, 100%, 61%);
+}
+
+.border-color-yellow-6 {
+  border-color: hsl(63, 100%, 61%);
+}
+
+.outline-color-yellow-6 {
+  outline-color: hsl(63, 100%, 61%);
+}
+
+.text-decoration-color-yellow-6 {
+  text-decoration-color: hsl(63, 100%, 61%);
+}
+
+.box-shadow-yellow-6 {
+  box-shadow: 0 0 0 0.25rem hsl(63, 100%, 61%);
+}
+
+.text-shadow-yellow-6 {
+  text-shadow: 0 0 0.25rem hsl(63, 100%, 61%);
+}
+
+.border-top-color-yellow-6 {
+  border-top-color: hsl(63, 100%, 61%);
+}
+
+.border-right-color-yellow-6 {
+  border-right-color: hsl(63, 100%, 61%);
+}
+
+.border-bottom-color-yellow-6 {
+  border-bottom-color: hsl(63, 100%, 61%);
+}
+
+.border-left-color-yellow-6 {
+  border-left-color: hsl(63, 100%, 61%);
+}
+
+.column-rule-color-yellow-6 {
+  column-rule-color: hsl(63, 100%, 61%);
+}
+
+.caret-color-yellow-6 {
+  caret-color: hsl(63, 100%, 61%);
+}
+
+.fill-yellow-6 {
+  fill: hsl(63, 100%, 61%);
+}
+
+.stroke-yellow-6 {
+  stroke: hsl(63, 100%, 61%);
+}
+
+.stop-color-yellow-6 {
+  stop-color: hsl(63, 100%, 61%);
+}
+
+.color-yellow-7 {
+  color: hsl(65, 99%, 73%);
+}
+
+.background-color-yellow-7 {
+  background-color: hsl(65, 99%, 73%);
+}
+
+.border-color-yellow-7 {
+  border-color: hsl(65, 99%, 73%);
+}
+
+.outline-color-yellow-7 {
+  outline-color: hsl(65, 99%, 73%);
+}
+
+.text-decoration-color-yellow-7 {
+  text-decoration-color: hsl(65, 99%, 73%);
+}
+
+.box-shadow-yellow-7 {
+  box-shadow: 0 0 0 0.25rem hsl(65, 99%, 73%);
+}
+
+.text-shadow-yellow-7 {
+  text-shadow: 0 0 0.25rem hsl(65, 99%, 73%);
+}
+
+.border-top-color-yellow-7 {
+  border-top-color: hsl(65, 99%, 73%);
+}
+
+.border-right-color-yellow-7 {
+  border-right-color: hsl(65, 99%, 73%);
+}
+
+.border-bottom-color-yellow-7 {
+  border-bottom-color: hsl(65, 99%, 73%);
+}
+
+.border-left-color-yellow-7 {
+  border-left-color: hsl(65, 99%, 73%);
+}
+
+.column-rule-color-yellow-7 {
+  column-rule-color: hsl(65, 99%, 73%);
+}
+
+.caret-color-yellow-7 {
+  caret-color: hsl(65, 99%, 73%);
+}
+
+.fill-yellow-7 {
+  fill: hsl(65, 99%, 73%);
+}
+
+.stroke-yellow-7 {
+  stroke: hsl(65, 99%, 73%);
+}
+
+.stop-color-yellow-7 {
+  stop-color: hsl(65, 99%, 73%);
+}
+
+.color-yellow-8 {
+  color: hsl(68, 97%, 84%);
+}
+
+.background-color-yellow-8 {
+  background-color: hsl(68, 97%, 84%);
+}
+
+.border-color-yellow-8 {
+  border-color: hsl(68, 97%, 84%);
+}
+
+.outline-color-yellow-8 {
+  outline-color: hsl(68, 97%, 84%);
+}
+
+.text-decoration-color-yellow-8 {
+  text-decoration-color: hsl(68, 97%, 84%);
+}
+
+.box-shadow-yellow-8 {
+  box-shadow: 0 0 0 0.25rem hsl(68, 97%, 84%);
+}
+
+.text-shadow-yellow-8 {
+  text-shadow: 0 0 0.25rem hsl(68, 97%, 84%);
+}
+
+.border-top-color-yellow-8 {
+  border-top-color: hsl(68, 97%, 84%);
+}
+
+.border-right-color-yellow-8 {
+  border-right-color: hsl(68, 97%, 84%);
+}
+
+.border-bottom-color-yellow-8 {
+  border-bottom-color: hsl(68, 97%, 84%);
+}
+
+.border-left-color-yellow-8 {
+  border-left-color: hsl(68, 97%, 84%);
+}
+
+.column-rule-color-yellow-8 {
+  column-rule-color: hsl(68, 97%, 84%);
+}
+
+.caret-color-yellow-8 {
+  caret-color: hsl(68, 97%, 84%);
+}
+
+.fill-yellow-8 {
+  fill: hsl(68, 97%, 84%);
+}
+
+.stroke-yellow-8 {
+  stroke: hsl(68, 97%, 84%);
+}
+
+.stop-color-yellow-8 {
+  stop-color: hsl(68, 97%, 84%);
+}
+
+.color-yellow-9 {
+  color: hsl(70, 95%, 95%);
+}
+
+.background-color-yellow-9 {
+  background-color: hsl(70, 95%, 95%);
+}
+
+.border-color-yellow-9 {
+  border-color: hsl(70, 95%, 95%);
+}
+
+.outline-color-yellow-9 {
+  outline-color: hsl(70, 95%, 95%);
+}
+
+.text-decoration-color-yellow-9 {
+  text-decoration-color: hsl(70, 95%, 95%);
+}
+
+.box-shadow-yellow-9 {
+  box-shadow: 0 0 0 0.25rem hsl(70, 95%, 95%);
+}
+
+.text-shadow-yellow-9 {
+  text-shadow: 0 0 0.25rem hsl(70, 95%, 95%);
+}
+
+.border-top-color-yellow-9 {
+  border-top-color: hsl(70, 95%, 95%);
+}
+
+.border-right-color-yellow-9 {
+  border-right-color: hsl(70, 95%, 95%);
+}
+
+.border-bottom-color-yellow-9 {
+  border-bottom-color: hsl(70, 95%, 95%);
+}
+
+.border-left-color-yellow-9 {
+  border-left-color: hsl(70, 95%, 95%);
+}
+
+.column-rule-color-yellow-9 {
+  column-rule-color: hsl(70, 95%, 95%);
+}
+
+.caret-color-yellow-9 {
+  caret-color: hsl(70, 95%, 95%);
+}
+
+.fill-yellow-9 {
+  fill: hsl(70, 95%, 95%);
+}
+
+.stroke-yellow-9 {
+  stroke: hsl(70, 95%, 95%);
+}
+
+.stop-color-yellow-9 {
+  stop-color: hsl(70, 95%, 95%);
+}
+
+.color-lime-1 {
+  color: hsl(65, 95%, 5%);
+}
+
+.background-color-lime-1 {
+  background-color: hsl(65, 95%, 5%);
+}
+
+.border-color-lime-1 {
+  border-color: hsl(65, 95%, 5%);
+}
+
+.outline-color-lime-1 {
+  outline-color: hsl(65, 95%, 5%);
+}
+
+.text-decoration-color-lime-1 {
+  text-decoration-color: hsl(65, 95%, 5%);
+}
+
+.box-shadow-lime-1 {
+  box-shadow: 0 0 0 0.25rem hsl(65, 95%, 5%);
+}
+
+.text-shadow-lime-1 {
+  text-shadow: 0 0 0.25rem hsl(65, 95%, 5%);
+}
+
+.border-top-color-lime-1 {
+  border-top-color: hsl(65, 95%, 5%);
+}
+
+.border-right-color-lime-1 {
+  border-right-color: hsl(65, 95%, 5%);
+}
+
+.border-bottom-color-lime-1 {
+  border-bottom-color: hsl(65, 95%, 5%);
+}
+
+.border-left-color-lime-1 {
+  border-left-color: hsl(65, 95%, 5%);
+}
+
+.column-rule-color-lime-1 {
+  column-rule-color: hsl(65, 95%, 5%);
+}
+
+.caret-color-lime-1 {
+  caret-color: hsl(65, 95%, 5%);
+}
+
+.fill-lime-1 {
+  fill: hsl(65, 95%, 5%);
+}
+
+.stroke-lime-1 {
+  stroke: hsl(65, 95%, 5%);
+}
+
+.stop-color-lime-1 {
+  stop-color: hsl(65, 95%, 5%);
+}
+
+.color-lime-2 {
+  color: hsl(68, 97%, 16%);
+}
+
+.background-color-lime-2 {
+  background-color: hsl(68, 97%, 16%);
+}
+
+.border-color-lime-2 {
+  border-color: hsl(68, 97%, 16%);
+}
+
+.outline-color-lime-2 {
+  outline-color: hsl(68, 97%, 16%);
+}
+
+.text-decoration-color-lime-2 {
+  text-decoration-color: hsl(68, 97%, 16%);
+}
+
+.box-shadow-lime-2 {
+  box-shadow: 0 0 0 0.25rem hsl(68, 97%, 16%);
+}
+
+.text-shadow-lime-2 {
+  text-shadow: 0 0 0.25rem hsl(68, 97%, 16%);
+}
+
+.border-top-color-lime-2 {
+  border-top-color: hsl(68, 97%, 16%);
+}
+
+.border-right-color-lime-2 {
+  border-right-color: hsl(68, 97%, 16%);
+}
+
+.border-bottom-color-lime-2 {
+  border-bottom-color: hsl(68, 97%, 16%);
+}
+
+.border-left-color-lime-2 {
+  border-left-color: hsl(68, 97%, 16%);
+}
+
+.column-rule-color-lime-2 {
+  column-rule-color: hsl(68, 97%, 16%);
+}
+
+.caret-color-lime-2 {
+  caret-color: hsl(68, 97%, 16%);
+}
+
+.fill-lime-2 {
+  fill: hsl(68, 97%, 16%);
+}
+
+.stroke-lime-2 {
+  stroke: hsl(68, 97%, 16%);
+}
+
+.stop-color-lime-2 {
+  stop-color: hsl(68, 97%, 16%);
+}
+
+.color-lime-3 {
+  color: hsl(70, 99%, 28%);
+}
+
+.background-color-lime-3 {
+  background-color: hsl(70, 99%, 28%);
+}
+
+.border-color-lime-3 {
+  border-color: hsl(70, 99%, 28%);
+}
+
+.outline-color-lime-3 {
+  outline-color: hsl(70, 99%, 28%);
+}
+
+.text-decoration-color-lime-3 {
+  text-decoration-color: hsl(70, 99%, 28%);
+}
+
+.box-shadow-lime-3 {
+  box-shadow: 0 0 0 0.25rem hsl(70, 99%, 28%);
+}
+
+.text-shadow-lime-3 {
+  text-shadow: 0 0 0.25rem hsl(70, 99%, 28%);
+}
+
+.border-top-color-lime-3 {
+  border-top-color: hsl(70, 99%, 28%);
+}
+
+.border-right-color-lime-3 {
+  border-right-color: hsl(70, 99%, 28%);
+}
+
+.border-bottom-color-lime-3 {
+  border-bottom-color: hsl(70, 99%, 28%);
+}
+
+.border-left-color-lime-3 {
+  border-left-color: hsl(70, 99%, 28%);
+}
+
+.column-rule-color-lime-3 {
+  column-rule-color: hsl(70, 99%, 28%);
+}
+
+.caret-color-lime-3 {
+  caret-color: hsl(70, 99%, 28%);
+}
+
+.fill-lime-3 {
+  fill: hsl(70, 99%, 28%);
+}
+
+.stroke-lime-3 {
+  stroke: hsl(70, 99%, 28%);
+}
+
+.stop-color-lime-3 {
+  stop-color: hsl(70, 99%, 28%);
+}
+
+.color-lime-4 {
+  color: hsl(73, 100%, 39%);
+}
+
+.background-color-lime-4 {
+  background-color: hsl(73, 100%, 39%);
+}
+
+.border-color-lime-4 {
+  border-color: hsl(73, 100%, 39%);
+}
+
+.outline-color-lime-4 {
+  outline-color: hsl(73, 100%, 39%);
+}
+
+.text-decoration-color-lime-4 {
+  text-decoration-color: hsl(73, 100%, 39%);
+}
+
+.box-shadow-lime-4 {
+  box-shadow: 0 0 0 0.25rem hsl(73, 100%, 39%);
+}
+
+.text-shadow-lime-4 {
+  text-shadow: 0 0 0.25rem hsl(73, 100%, 39%);
+}
+
+.border-top-color-lime-4 {
+  border-top-color: hsl(73, 100%, 39%);
+}
+
+.border-right-color-lime-4 {
+  border-right-color: hsl(73, 100%, 39%);
+}
+
+.border-bottom-color-lime-4 {
+  border-bottom-color: hsl(73, 100%, 39%);
+}
+
+.border-left-color-lime-4 {
+  border-left-color: hsl(73, 100%, 39%);
+}
+
+.column-rule-color-lime-4 {
+  column-rule-color: hsl(73, 100%, 39%);
+}
+
+.caret-color-lime-4 {
+  caret-color: hsl(73, 100%, 39%);
+}
+
+.fill-lime-4 {
+  fill: hsl(73, 100%, 39%);
+}
+
+.stroke-lime-4 {
+  stroke: hsl(73, 100%, 39%);
+}
+
+.stop-color-lime-4 {
+  stop-color: hsl(73, 100%, 39%);
+}
+
+.color-lime-5 {
+  color: hsl(75, 100%, 50%);
+}
+
+.background-color-lime-5 {
+  background-color: hsl(75, 100%, 50%);
+}
+
+.border-color-lime-5 {
+  border-color: hsl(75, 100%, 50%);
+}
+
+.outline-color-lime-5 {
+  outline-color: hsl(75, 100%, 50%);
+}
+
+.text-decoration-color-lime-5 {
+  text-decoration-color: hsl(75, 100%, 50%);
+}
+
+.box-shadow-lime-5 {
+  box-shadow: 0 0 0 0.25rem hsl(75, 100%, 50%);
+}
+
+.text-shadow-lime-5 {
+  text-shadow: 0 0 0.25rem hsl(75, 100%, 50%);
+}
+
+.border-top-color-lime-5 {
+  border-top-color: hsl(75, 100%, 50%);
+}
+
+.border-right-color-lime-5 {
+  border-right-color: hsl(75, 100%, 50%);
+}
+
+.border-bottom-color-lime-5 {
+  border-bottom-color: hsl(75, 100%, 50%);
+}
+
+.border-left-color-lime-5 {
+  border-left-color: hsl(75, 100%, 50%);
+}
+
+.column-rule-color-lime-5 {
+  column-rule-color: hsl(75, 100%, 50%);
+}
+
+.caret-color-lime-5 {
+  caret-color: hsl(75, 100%, 50%);
+}
+
+.fill-lime-5 {
+  fill: hsl(75, 100%, 50%);
+}
+
+.stroke-lime-5 {
+  stroke: hsl(75, 100%, 50%);
+}
+
+.stop-color-lime-5 {
+  stop-color: hsl(75, 100%, 50%);
+}
+
+.color-lime-6 {
+  color: hsl(78, 100%, 61%);
+}
+
+.background-color-lime-6 {
+  background-color: hsl(78, 100%, 61%);
+}
+
+.border-color-lime-6 {
+  border-color: hsl(78, 100%, 61%);
+}
+
+.outline-color-lime-6 {
+  outline-color: hsl(78, 100%, 61%);
+}
+
+.text-decoration-color-lime-6 {
+  text-decoration-color: hsl(78, 100%, 61%);
+}
+
+.box-shadow-lime-6 {
+  box-shadow: 0 0 0 0.25rem hsl(78, 100%, 61%);
+}
+
+.text-shadow-lime-6 {
+  text-shadow: 0 0 0.25rem hsl(78, 100%, 61%);
+}
+
+.border-top-color-lime-6 {
+  border-top-color: hsl(78, 100%, 61%);
+}
+
+.border-right-color-lime-6 {
+  border-right-color: hsl(78, 100%, 61%);
+}
+
+.border-bottom-color-lime-6 {
+  border-bottom-color: hsl(78, 100%, 61%);
+}
+
+.border-left-color-lime-6 {
+  border-left-color: hsl(78, 100%, 61%);
+}
+
+.column-rule-color-lime-6 {
+  column-rule-color: hsl(78, 100%, 61%);
+}
+
+.caret-color-lime-6 {
+  caret-color: hsl(78, 100%, 61%);
+}
+
+.fill-lime-6 {
+  fill: hsl(78, 100%, 61%);
+}
+
+.stroke-lime-6 {
+  stroke: hsl(78, 100%, 61%);
+}
+
+.stop-color-lime-6 {
+  stop-color: hsl(78, 100%, 61%);
+}
+
+.color-lime-7 {
+  color: hsl(80, 99%, 73%);
+}
+
+.background-color-lime-7 {
+  background-color: hsl(80, 99%, 73%);
+}
+
+.border-color-lime-7 {
+  border-color: hsl(80, 99%, 73%);
+}
+
+.outline-color-lime-7 {
+  outline-color: hsl(80, 99%, 73%);
+}
+
+.text-decoration-color-lime-7 {
+  text-decoration-color: hsl(80, 99%, 73%);
+}
+
+.box-shadow-lime-7 {
+  box-shadow: 0 0 0 0.25rem hsl(80, 99%, 73%);
+}
+
+.text-shadow-lime-7 {
+  text-shadow: 0 0 0.25rem hsl(80, 99%, 73%);
+}
+
+.border-top-color-lime-7 {
+  border-top-color: hsl(80, 99%, 73%);
+}
+
+.border-right-color-lime-7 {
+  border-right-color: hsl(80, 99%, 73%);
+}
+
+.border-bottom-color-lime-7 {
+  border-bottom-color: hsl(80, 99%, 73%);
+}
+
+.border-left-color-lime-7 {
+  border-left-color: hsl(80, 99%, 73%);
+}
+
+.column-rule-color-lime-7 {
+  column-rule-color: hsl(80, 99%, 73%);
+}
+
+.caret-color-lime-7 {
+  caret-color: hsl(80, 99%, 73%);
+}
+
+.fill-lime-7 {
+  fill: hsl(80, 99%, 73%);
+}
+
+.stroke-lime-7 {
+  stroke: hsl(80, 99%, 73%);
+}
+
+.stop-color-lime-7 {
+  stop-color: hsl(80, 99%, 73%);
+}
+
+.color-lime-8 {
+  color: hsl(83, 97%, 84%);
+}
+
+.background-color-lime-8 {
+  background-color: hsl(83, 97%, 84%);
+}
+
+.border-color-lime-8 {
+  border-color: hsl(83, 97%, 84%);
+}
+
+.outline-color-lime-8 {
+  outline-color: hsl(83, 97%, 84%);
+}
+
+.text-decoration-color-lime-8 {
+  text-decoration-color: hsl(83, 97%, 84%);
+}
+
+.box-shadow-lime-8 {
+  box-shadow: 0 0 0 0.25rem hsl(83, 97%, 84%);
+}
+
+.text-shadow-lime-8 {
+  text-shadow: 0 0 0.25rem hsl(83, 97%, 84%);
+}
+
+.border-top-color-lime-8 {
+  border-top-color: hsl(83, 97%, 84%);
+}
+
+.border-right-color-lime-8 {
+  border-right-color: hsl(83, 97%, 84%);
+}
+
+.border-bottom-color-lime-8 {
+  border-bottom-color: hsl(83, 97%, 84%);
+}
+
+.border-left-color-lime-8 {
+  border-left-color: hsl(83, 97%, 84%);
+}
+
+.column-rule-color-lime-8 {
+  column-rule-color: hsl(83, 97%, 84%);
+}
+
+.caret-color-lime-8 {
+  caret-color: hsl(83, 97%, 84%);
+}
+
+.fill-lime-8 {
+  fill: hsl(83, 97%, 84%);
+}
+
+.stroke-lime-8 {
+  stroke: hsl(83, 97%, 84%);
+}
+
+.stop-color-lime-8 {
+  stop-color: hsl(83, 97%, 84%);
+}
+
+.color-lime-9 {
+  color: hsl(85, 95%, 95%);
+}
+
+.background-color-lime-9 {
+  background-color: hsl(85, 95%, 95%);
+}
+
+.border-color-lime-9 {
+  border-color: hsl(85, 95%, 95%);
+}
+
+.outline-color-lime-9 {
+  outline-color: hsl(85, 95%, 95%);
+}
+
+.text-decoration-color-lime-9 {
+  text-decoration-color: hsl(85, 95%, 95%);
+}
+
+.box-shadow-lime-9 {
+  box-shadow: 0 0 0 0.25rem hsl(85, 95%, 95%);
+}
+
+.text-shadow-lime-9 {
+  text-shadow: 0 0 0.25rem hsl(85, 95%, 95%);
+}
+
+.border-top-color-lime-9 {
+  border-top-color: hsl(85, 95%, 95%);
+}
+
+.border-right-color-lime-9 {
+  border-right-color: hsl(85, 95%, 95%);
+}
+
+.border-bottom-color-lime-9 {
+  border-bottom-color: hsl(85, 95%, 95%);
+}
+
+.border-left-color-lime-9 {
+  border-left-color: hsl(85, 95%, 95%);
+}
+
+.column-rule-color-lime-9 {
+  column-rule-color: hsl(85, 95%, 95%);
+}
+
+.caret-color-lime-9 {
+  caret-color: hsl(85, 95%, 95%);
+}
+
+.fill-lime-9 {
+  fill: hsl(85, 95%, 95%);
+}
+
+.stroke-lime-9 {
+  stroke: hsl(85, 95%, 95%);
+}
+
+.stop-color-lime-9 {
+  stop-color: hsl(85, 95%, 95%);
+}
+
+.color-green-1 {
+  color: hsl(110, 95%, 5%);
+}
+
+.background-color-green-1 {
+  background-color: hsl(110, 95%, 5%);
+}
+
+.border-color-green-1 {
+  border-color: hsl(110, 95%, 5%);
+}
+
+.outline-color-green-1 {
+  outline-color: hsl(110, 95%, 5%);
+}
+
+.text-decoration-color-green-1 {
+  text-decoration-color: hsl(110, 95%, 5%);
+}
+
+.box-shadow-green-1 {
+  box-shadow: 0 0 0 0.25rem hsl(110, 95%, 5%);
+}
+
+.text-shadow-green-1 {
+  text-shadow: 0 0 0.25rem hsl(110, 95%, 5%);
+}
+
+.border-top-color-green-1 {
+  border-top-color: hsl(110, 95%, 5%);
+}
+
+.border-right-color-green-1 {
+  border-right-color: hsl(110, 95%, 5%);
+}
+
+.border-bottom-color-green-1 {
+  border-bottom-color: hsl(110, 95%, 5%);
+}
+
+.border-left-color-green-1 {
+  border-left-color: hsl(110, 95%, 5%);
+}
+
+.column-rule-color-green-1 {
+  column-rule-color: hsl(110, 95%, 5%);
+}
+
+.caret-color-green-1 {
+  caret-color: hsl(110, 95%, 5%);
+}
+
+.fill-green-1 {
+  fill: hsl(110, 95%, 5%);
+}
+
+.stroke-green-1 {
+  stroke: hsl(110, 95%, 5%);
+}
+
+.stop-color-green-1 {
+  stop-color: hsl(110, 95%, 5%);
+}
+
+.color-green-2 {
+  color: hsl(113, 97%, 16%);
+}
+
+.background-color-green-2 {
+  background-color: hsl(113, 97%, 16%);
+}
+
+.border-color-green-2 {
+  border-color: hsl(113, 97%, 16%);
+}
+
+.outline-color-green-2 {
+  outline-color: hsl(113, 97%, 16%);
+}
+
+.text-decoration-color-green-2 {
+  text-decoration-color: hsl(113, 97%, 16%);
+}
+
+.box-shadow-green-2 {
+  box-shadow: 0 0 0 0.25rem hsl(113, 97%, 16%);
+}
+
+.text-shadow-green-2 {
+  text-shadow: 0 0 0.25rem hsl(113, 97%, 16%);
+}
+
+.border-top-color-green-2 {
+  border-top-color: hsl(113, 97%, 16%);
+}
+
+.border-right-color-green-2 {
+  border-right-color: hsl(113, 97%, 16%);
+}
+
+.border-bottom-color-green-2 {
+  border-bottom-color: hsl(113, 97%, 16%);
+}
+
+.border-left-color-green-2 {
+  border-left-color: hsl(113, 97%, 16%);
+}
+
+.column-rule-color-green-2 {
+  column-rule-color: hsl(113, 97%, 16%);
+}
+
+.caret-color-green-2 {
+  caret-color: hsl(113, 97%, 16%);
+}
+
+.fill-green-2 {
+  fill: hsl(113, 97%, 16%);
+}
+
+.stroke-green-2 {
+  stroke: hsl(113, 97%, 16%);
+}
+
+.stop-color-green-2 {
+  stop-color: hsl(113, 97%, 16%);
+}
+
+.color-green-3 {
+  color: hsl(115, 99%, 28%);
+}
+
+.background-color-green-3 {
+  background-color: hsl(115, 99%, 28%);
+}
+
+.border-color-green-3 {
+  border-color: hsl(115, 99%, 28%);
+}
+
+.outline-color-green-3 {
+  outline-color: hsl(115, 99%, 28%);
+}
+
+.text-decoration-color-green-3 {
+  text-decoration-color: hsl(115, 99%, 28%);
+}
+
+.box-shadow-green-3 {
+  box-shadow: 0 0 0 0.25rem hsl(115, 99%, 28%);
+}
+
+.text-shadow-green-3 {
+  text-shadow: 0 0 0.25rem hsl(115, 99%, 28%);
+}
+
+.border-top-color-green-3 {
+  border-top-color: hsl(115, 99%, 28%);
+}
+
+.border-right-color-green-3 {
+  border-right-color: hsl(115, 99%, 28%);
+}
+
+.border-bottom-color-green-3 {
+  border-bottom-color: hsl(115, 99%, 28%);
+}
+
+.border-left-color-green-3 {
+  border-left-color: hsl(115, 99%, 28%);
+}
+
+.column-rule-color-green-3 {
+  column-rule-color: hsl(115, 99%, 28%);
+}
+
+.caret-color-green-3 {
+  caret-color: hsl(115, 99%, 28%);
+}
+
+.fill-green-3 {
+  fill: hsl(115, 99%, 28%);
+}
+
+.stroke-green-3 {
+  stroke: hsl(115, 99%, 28%);
+}
+
+.stop-color-green-3 {
+  stop-color: hsl(115, 99%, 28%);
+}
+
+.color-green-4 {
+  color: hsl(118, 100%, 39%);
+}
+
+.background-color-green-4 {
+  background-color: hsl(118, 100%, 39%);
+}
+
+.border-color-green-4 {
+  border-color: hsl(118, 100%, 39%);
+}
+
+.outline-color-green-4 {
+  outline-color: hsl(118, 100%, 39%);
+}
+
+.text-decoration-color-green-4 {
+  text-decoration-color: hsl(118, 100%, 39%);
+}
+
+.box-shadow-green-4 {
+  box-shadow: 0 0 0 0.25rem hsl(118, 100%, 39%);
+}
+
+.text-shadow-green-4 {
+  text-shadow: 0 0 0.25rem hsl(118, 100%, 39%);
+}
+
+.border-top-color-green-4 {
+  border-top-color: hsl(118, 100%, 39%);
+}
+
+.border-right-color-green-4 {
+  border-right-color: hsl(118, 100%, 39%);
+}
+
+.border-bottom-color-green-4 {
+  border-bottom-color: hsl(118, 100%, 39%);
+}
+
+.border-left-color-green-4 {
+  border-left-color: hsl(118, 100%, 39%);
+}
+
+.column-rule-color-green-4 {
+  column-rule-color: hsl(118, 100%, 39%);
+}
+
+.caret-color-green-4 {
+  caret-color: hsl(118, 100%, 39%);
+}
+
+.fill-green-4 {
+  fill: hsl(118, 100%, 39%);
+}
+
+.stroke-green-4 {
+  stroke: hsl(118, 100%, 39%);
+}
+
+.stop-color-green-4 {
+  stop-color: hsl(118, 100%, 39%);
+}
+
+.color-green-5 {
+  color: hsl(120, 100%, 50%);
+}
+
+.background-color-green-5 {
+  background-color: hsl(120, 100%, 50%);
+}
+
+.border-color-green-5 {
+  border-color: hsl(120, 100%, 50%);
+}
+
+.outline-color-green-5 {
+  outline-color: hsl(120, 100%, 50%);
+}
+
+.text-decoration-color-green-5 {
+  text-decoration-color: hsl(120, 100%, 50%);
+}
+
+.box-shadow-green-5 {
+  box-shadow: 0 0 0 0.25rem hsl(120, 100%, 50%);
+}
+
+.text-shadow-green-5 {
+  text-shadow: 0 0 0.25rem hsl(120, 100%, 50%);
+}
+
+.border-top-color-green-5 {
+  border-top-color: hsl(120, 100%, 50%);
+}
+
+.border-right-color-green-5 {
+  border-right-color: hsl(120, 100%, 50%);
+}
+
+.border-bottom-color-green-5 {
+  border-bottom-color: hsl(120, 100%, 50%);
+}
+
+.border-left-color-green-5 {
+  border-left-color: hsl(120, 100%, 50%);
+}
+
+.column-rule-color-green-5 {
+  column-rule-color: hsl(120, 100%, 50%);
+}
+
+.caret-color-green-5 {
+  caret-color: hsl(120, 100%, 50%);
+}
+
+.fill-green-5 {
+  fill: hsl(120, 100%, 50%);
+}
+
+.stroke-green-5 {
+  stroke: hsl(120, 100%, 50%);
+}
+
+.stop-color-green-5 {
+  stop-color: hsl(120, 100%, 50%);
+}
+
+.color-green-6 {
+  color: hsl(123, 100%, 61%);
+}
+
+.background-color-green-6 {
+  background-color: hsl(123, 100%, 61%);
+}
+
+.border-color-green-6 {
+  border-color: hsl(123, 100%, 61%);
+}
+
+.outline-color-green-6 {
+  outline-color: hsl(123, 100%, 61%);
+}
+
+.text-decoration-color-green-6 {
+  text-decoration-color: hsl(123, 100%, 61%);
+}
+
+.box-shadow-green-6 {
+  box-shadow: 0 0 0 0.25rem hsl(123, 100%, 61%);
+}
+
+.text-shadow-green-6 {
+  text-shadow: 0 0 0.25rem hsl(123, 100%, 61%);
+}
+
+.border-top-color-green-6 {
+  border-top-color: hsl(123, 100%, 61%);
+}
+
+.border-right-color-green-6 {
+  border-right-color: hsl(123, 100%, 61%);
+}
+
+.border-bottom-color-green-6 {
+  border-bottom-color: hsl(123, 100%, 61%);
+}
+
+.border-left-color-green-6 {
+  border-left-color: hsl(123, 100%, 61%);
+}
+
+.column-rule-color-green-6 {
+  column-rule-color: hsl(123, 100%, 61%);
+}
+
+.caret-color-green-6 {
+  caret-color: hsl(123, 100%, 61%);
+}
+
+.fill-green-6 {
+  fill: hsl(123, 100%, 61%);
+}
+
+.stroke-green-6 {
+  stroke: hsl(123, 100%, 61%);
+}
+
+.stop-color-green-6 {
+  stop-color: hsl(123, 100%, 61%);
+}
+
+.color-green-7 {
+  color: hsl(125, 99%, 73%);
+}
+
+.background-color-green-7 {
+  background-color: hsl(125, 99%, 73%);
+}
+
+.border-color-green-7 {
+  border-color: hsl(125, 99%, 73%);
+}
+
+.outline-color-green-7 {
+  outline-color: hsl(125, 99%, 73%);
+}
+
+.text-decoration-color-green-7 {
+  text-decoration-color: hsl(125, 99%, 73%);
+}
+
+.box-shadow-green-7 {
+  box-shadow: 0 0 0 0.25rem hsl(125, 99%, 73%);
+}
+
+.text-shadow-green-7 {
+  text-shadow: 0 0 0.25rem hsl(125, 99%, 73%);
+}
+
+.border-top-color-green-7 {
+  border-top-color: hsl(125, 99%, 73%);
+}
+
+.border-right-color-green-7 {
+  border-right-color: hsl(125, 99%, 73%);
+}
+
+.border-bottom-color-green-7 {
+  border-bottom-color: hsl(125, 99%, 73%);
+}
+
+.border-left-color-green-7 {
+  border-left-color: hsl(125, 99%, 73%);
+}
+
+.column-rule-color-green-7 {
+  column-rule-color: hsl(125, 99%, 73%);
+}
+
+.caret-color-green-7 {
+  caret-color: hsl(125, 99%, 73%);
+}
+
+.fill-green-7 {
+  fill: hsl(125, 99%, 73%);
+}
+
+.stroke-green-7 {
+  stroke: hsl(125, 99%, 73%);
+}
+
+.stop-color-green-7 {
+  stop-color: hsl(125, 99%, 73%);
+}
+
+.color-green-8 {
+  color: hsl(128, 97%, 84%);
+}
+
+.background-color-green-8 {
+  background-color: hsl(128, 97%, 84%);
+}
+
+.border-color-green-8 {
+  border-color: hsl(128, 97%, 84%);
+}
+
+.outline-color-green-8 {
+  outline-color: hsl(128, 97%, 84%);
+}
+
+.text-decoration-color-green-8 {
+  text-decoration-color: hsl(128, 97%, 84%);
+}
+
+.box-shadow-green-8 {
+  box-shadow: 0 0 0 0.25rem hsl(128, 97%, 84%);
+}
+
+.text-shadow-green-8 {
+  text-shadow: 0 0 0.25rem hsl(128, 97%, 84%);
+}
+
+.border-top-color-green-8 {
+  border-top-color: hsl(128, 97%, 84%);
+}
+
+.border-right-color-green-8 {
+  border-right-color: hsl(128, 97%, 84%);
+}
+
+.border-bottom-color-green-8 {
+  border-bottom-color: hsl(128, 97%, 84%);
+}
+
+.border-left-color-green-8 {
+  border-left-color: hsl(128, 97%, 84%);
+}
+
+.column-rule-color-green-8 {
+  column-rule-color: hsl(128, 97%, 84%);
+}
+
+.caret-color-green-8 {
+  caret-color: hsl(128, 97%, 84%);
+}
+
+.fill-green-8 {
+  fill: hsl(128, 97%, 84%);
+}
+
+.stroke-green-8 {
+  stroke: hsl(128, 97%, 84%);
+}
+
+.stop-color-green-8 {
+  stop-color: hsl(128, 97%, 84%);
+}
+
+.color-green-9 {
+  color: hsl(130, 95%, 95%);
+}
+
+.background-color-green-9 {
+  background-color: hsl(130, 95%, 95%);
+}
+
+.border-color-green-9 {
+  border-color: hsl(130, 95%, 95%);
+}
+
+.outline-color-green-9 {
+  outline-color: hsl(130, 95%, 95%);
+}
+
+.text-decoration-color-green-9 {
+  text-decoration-color: hsl(130, 95%, 95%);
+}
+
+.box-shadow-green-9 {
+  box-shadow: 0 0 0 0.25rem hsl(130, 95%, 95%);
+}
+
+.text-shadow-green-9 {
+  text-shadow: 0 0 0.25rem hsl(130, 95%, 95%);
+}
+
+.border-top-color-green-9 {
+  border-top-color: hsl(130, 95%, 95%);
+}
+
+.border-right-color-green-9 {
+  border-right-color: hsl(130, 95%, 95%);
+}
+
+.border-bottom-color-green-9 {
+  border-bottom-color: hsl(130, 95%, 95%);
+}
+
+.border-left-color-green-9 {
+  border-left-color: hsl(130, 95%, 95%);
+}
+
+.column-rule-color-green-9 {
+  column-rule-color: hsl(130, 95%, 95%);
+}
+
+.caret-color-green-9 {
+  caret-color: hsl(130, 95%, 95%);
+}
+
+.fill-green-9 {
+  fill: hsl(130, 95%, 95%);
+}
+
+.stroke-green-9 {
+  stroke: hsl(130, 95%, 95%);
+}
+
+.stop-color-green-9 {
+  stop-color: hsl(130, 95%, 95%);
+}
+
+.color-cyan-1 {
+  color: hsl(170, 95%, 5%);
+}
+
+.background-color-cyan-1 {
+  background-color: hsl(170, 95%, 5%);
+}
+
+.border-color-cyan-1 {
+  border-color: hsl(170, 95%, 5%);
+}
+
+.outline-color-cyan-1 {
+  outline-color: hsl(170, 95%, 5%);
+}
+
+.text-decoration-color-cyan-1 {
+  text-decoration-color: hsl(170, 95%, 5%);
+}
+
+.box-shadow-cyan-1 {
+  box-shadow: 0 0 0 0.25rem hsl(170, 95%, 5%);
+}
+
+.text-shadow-cyan-1 {
+  text-shadow: 0 0 0.25rem hsl(170, 95%, 5%);
+}
+
+.border-top-color-cyan-1 {
+  border-top-color: hsl(170, 95%, 5%);
+}
+
+.border-right-color-cyan-1 {
+  border-right-color: hsl(170, 95%, 5%);
+}
+
+.border-bottom-color-cyan-1 {
+  border-bottom-color: hsl(170, 95%, 5%);
+}
+
+.border-left-color-cyan-1 {
+  border-left-color: hsl(170, 95%, 5%);
+}
+
+.column-rule-color-cyan-1 {
+  column-rule-color: hsl(170, 95%, 5%);
+}
+
+.caret-color-cyan-1 {
+  caret-color: hsl(170, 95%, 5%);
+}
+
+.fill-cyan-1 {
+  fill: hsl(170, 95%, 5%);
+}
+
+.stroke-cyan-1 {
+  stroke: hsl(170, 95%, 5%);
+}
+
+.stop-color-cyan-1 {
+  stop-color: hsl(170, 95%, 5%);
+}
+
+.color-cyan-2 {
+  color: hsl(173, 97%, 16%);
+}
+
+.background-color-cyan-2 {
+  background-color: hsl(173, 97%, 16%);
+}
+
+.border-color-cyan-2 {
+  border-color: hsl(173, 97%, 16%);
+}
+
+.outline-color-cyan-2 {
+  outline-color: hsl(173, 97%, 16%);
+}
+
+.text-decoration-color-cyan-2 {
+  text-decoration-color: hsl(173, 97%, 16%);
+}
+
+.box-shadow-cyan-2 {
+  box-shadow: 0 0 0 0.25rem hsl(173, 97%, 16%);
+}
+
+.text-shadow-cyan-2 {
+  text-shadow: 0 0 0.25rem hsl(173, 97%, 16%);
+}
+
+.border-top-color-cyan-2 {
+  border-top-color: hsl(173, 97%, 16%);
+}
+
+.border-right-color-cyan-2 {
+  border-right-color: hsl(173, 97%, 16%);
+}
+
+.border-bottom-color-cyan-2 {
+  border-bottom-color: hsl(173, 97%, 16%);
+}
+
+.border-left-color-cyan-2 {
+  border-left-color: hsl(173, 97%, 16%);
+}
+
+.column-rule-color-cyan-2 {
+  column-rule-color: hsl(173, 97%, 16%);
+}
+
+.caret-color-cyan-2 {
+  caret-color: hsl(173, 97%, 16%);
+}
+
+.fill-cyan-2 {
+  fill: hsl(173, 97%, 16%);
+}
+
+.stroke-cyan-2 {
+  stroke: hsl(173, 97%, 16%);
+}
+
+.stop-color-cyan-2 {
+  stop-color: hsl(173, 97%, 16%);
+}
+
+.color-cyan-3 {
+  color: hsl(175, 99%, 28%);
+}
+
+.background-color-cyan-3 {
+  background-color: hsl(175, 99%, 28%);
+}
+
+.border-color-cyan-3 {
+  border-color: hsl(175, 99%, 28%);
+}
+
+.outline-color-cyan-3 {
+  outline-color: hsl(175, 99%, 28%);
+}
+
+.text-decoration-color-cyan-3 {
+  text-decoration-color: hsl(175, 99%, 28%);
+}
+
+.box-shadow-cyan-3 {
+  box-shadow: 0 0 0 0.25rem hsl(175, 99%, 28%);
+}
+
+.text-shadow-cyan-3 {
+  text-shadow: 0 0 0.25rem hsl(175, 99%, 28%);
+}
+
+.border-top-color-cyan-3 {
+  border-top-color: hsl(175, 99%, 28%);
+}
+
+.border-right-color-cyan-3 {
+  border-right-color: hsl(175, 99%, 28%);
+}
+
+.border-bottom-color-cyan-3 {
+  border-bottom-color: hsl(175, 99%, 28%);
+}
+
+.border-left-color-cyan-3 {
+  border-left-color: hsl(175, 99%, 28%);
+}
+
+.column-rule-color-cyan-3 {
+  column-rule-color: hsl(175, 99%, 28%);
+}
+
+.caret-color-cyan-3 {
+  caret-color: hsl(175, 99%, 28%);
+}
+
+.fill-cyan-3 {
+  fill: hsl(175, 99%, 28%);
+}
+
+.stroke-cyan-3 {
+  stroke: hsl(175, 99%, 28%);
+}
+
+.stop-color-cyan-3 {
+  stop-color: hsl(175, 99%, 28%);
+}
+
+.color-cyan-4 {
+  color: hsl(178, 100%, 39%);
+}
+
+.background-color-cyan-4 {
+  background-color: hsl(178, 100%, 39%);
+}
+
+.border-color-cyan-4 {
+  border-color: hsl(178, 100%, 39%);
+}
+
+.outline-color-cyan-4 {
+  outline-color: hsl(178, 100%, 39%);
+}
+
+.text-decoration-color-cyan-4 {
+  text-decoration-color: hsl(178, 100%, 39%);
+}
+
+.box-shadow-cyan-4 {
+  box-shadow: 0 0 0 0.25rem hsl(178, 100%, 39%);
+}
+
+.text-shadow-cyan-4 {
+  text-shadow: 0 0 0.25rem hsl(178, 100%, 39%);
+}
+
+.border-top-color-cyan-4 {
+  border-top-color: hsl(178, 100%, 39%);
+}
+
+.border-right-color-cyan-4 {
+  border-right-color: hsl(178, 100%, 39%);
+}
+
+.border-bottom-color-cyan-4 {
+  border-bottom-color: hsl(178, 100%, 39%);
+}
+
+.border-left-color-cyan-4 {
+  border-left-color: hsl(178, 100%, 39%);
+}
+
+.column-rule-color-cyan-4 {
+  column-rule-color: hsl(178, 100%, 39%);
+}
+
+.caret-color-cyan-4 {
+  caret-color: hsl(178, 100%, 39%);
+}
+
+.fill-cyan-4 {
+  fill: hsl(178, 100%, 39%);
+}
+
+.stroke-cyan-4 {
+  stroke: hsl(178, 100%, 39%);
+}
+
+.stop-color-cyan-4 {
+  stop-color: hsl(178, 100%, 39%);
+}
+
+.color-cyan-5 {
+  color: hsl(180, 100%, 50%);
+}
+
+.background-color-cyan-5 {
+  background-color: hsl(180, 100%, 50%);
+}
+
+.border-color-cyan-5 {
+  border-color: hsl(180, 100%, 50%);
+}
+
+.outline-color-cyan-5 {
+  outline-color: hsl(180, 100%, 50%);
+}
+
+.text-decoration-color-cyan-5 {
+  text-decoration-color: hsl(180, 100%, 50%);
+}
+
+.box-shadow-cyan-5 {
+  box-shadow: 0 0 0 0.25rem hsl(180, 100%, 50%);
+}
+
+.text-shadow-cyan-5 {
+  text-shadow: 0 0 0.25rem hsl(180, 100%, 50%);
+}
+
+.border-top-color-cyan-5 {
+  border-top-color: hsl(180, 100%, 50%);
+}
+
+.border-right-color-cyan-5 {
+  border-right-color: hsl(180, 100%, 50%);
+}
+
+.border-bottom-color-cyan-5 {
+  border-bottom-color: hsl(180, 100%, 50%);
+}
+
+.border-left-color-cyan-5 {
+  border-left-color: hsl(180, 100%, 50%);
+}
+
+.column-rule-color-cyan-5 {
+  column-rule-color: hsl(180, 100%, 50%);
+}
+
+.caret-color-cyan-5 {
+  caret-color: hsl(180, 100%, 50%);
+}
+
+.fill-cyan-5 {
+  fill: hsl(180, 100%, 50%);
+}
+
+.stroke-cyan-5 {
+  stroke: hsl(180, 100%, 50%);
+}
+
+.stop-color-cyan-5 {
+  stop-color: hsl(180, 100%, 50%);
+}
+
+.color-cyan-6 {
+  color: hsl(183, 100%, 61%);
+}
+
+.background-color-cyan-6 {
+  background-color: hsl(183, 100%, 61%);
+}
+
+.border-color-cyan-6 {
+  border-color: hsl(183, 100%, 61%);
+}
+
+.outline-color-cyan-6 {
+  outline-color: hsl(183, 100%, 61%);
+}
+
+.text-decoration-color-cyan-6 {
+  text-decoration-color: hsl(183, 100%, 61%);
+}
+
+.box-shadow-cyan-6 {
+  box-shadow: 0 0 0 0.25rem hsl(183, 100%, 61%);
+}
+
+.text-shadow-cyan-6 {
+  text-shadow: 0 0 0.25rem hsl(183, 100%, 61%);
+}
+
+.border-top-color-cyan-6 {
+  border-top-color: hsl(183, 100%, 61%);
+}
+
+.border-right-color-cyan-6 {
+  border-right-color: hsl(183, 100%, 61%);
+}
+
+.border-bottom-color-cyan-6 {
+  border-bottom-color: hsl(183, 100%, 61%);
+}
+
+.border-left-color-cyan-6 {
+  border-left-color: hsl(183, 100%, 61%);
+}
+
+.column-rule-color-cyan-6 {
+  column-rule-color: hsl(183, 100%, 61%);
+}
+
+.caret-color-cyan-6 {
+  caret-color: hsl(183, 100%, 61%);
+}
+
+.fill-cyan-6 {
+  fill: hsl(183, 100%, 61%);
+}
+
+.stroke-cyan-6 {
+  stroke: hsl(183, 100%, 61%);
+}
+
+.stop-color-cyan-6 {
+  stop-color: hsl(183, 100%, 61%);
+}
+
+.color-cyan-7 {
+  color: hsl(185, 99%, 73%);
+}
+
+.background-color-cyan-7 {
+  background-color: hsl(185, 99%, 73%);
+}
+
+.border-color-cyan-7 {
+  border-color: hsl(185, 99%, 73%);
+}
+
+.outline-color-cyan-7 {
+  outline-color: hsl(185, 99%, 73%);
+}
+
+.text-decoration-color-cyan-7 {
+  text-decoration-color: hsl(185, 99%, 73%);
+}
+
+.box-shadow-cyan-7 {
+  box-shadow: 0 0 0 0.25rem hsl(185, 99%, 73%);
+}
+
+.text-shadow-cyan-7 {
+  text-shadow: 0 0 0.25rem hsl(185, 99%, 73%);
+}
+
+.border-top-color-cyan-7 {
+  border-top-color: hsl(185, 99%, 73%);
+}
+
+.border-right-color-cyan-7 {
+  border-right-color: hsl(185, 99%, 73%);
+}
+
+.border-bottom-color-cyan-7 {
+  border-bottom-color: hsl(185, 99%, 73%);
+}
+
+.border-left-color-cyan-7 {
+  border-left-color: hsl(185, 99%, 73%);
+}
+
+.column-rule-color-cyan-7 {
+  column-rule-color: hsl(185, 99%, 73%);
+}
+
+.caret-color-cyan-7 {
+  caret-color: hsl(185, 99%, 73%);
+}
+
+.fill-cyan-7 {
+  fill: hsl(185, 99%, 73%);
+}
+
+.stroke-cyan-7 {
+  stroke: hsl(185, 99%, 73%);
+}
+
+.stop-color-cyan-7 {
+  stop-color: hsl(185, 99%, 73%);
+}
+
+.color-cyan-8 {
+  color: hsl(188, 97%, 84%);
+}
+
+.background-color-cyan-8 {
+  background-color: hsl(188, 97%, 84%);
+}
+
+.border-color-cyan-8 {
+  border-color: hsl(188, 97%, 84%);
+}
+
+.outline-color-cyan-8 {
+  outline-color: hsl(188, 97%, 84%);
+}
+
+.text-decoration-color-cyan-8 {
+  text-decoration-color: hsl(188, 97%, 84%);
+}
+
+.box-shadow-cyan-8 {
+  box-shadow: 0 0 0 0.25rem hsl(188, 97%, 84%);
+}
+
+.text-shadow-cyan-8 {
+  text-shadow: 0 0 0.25rem hsl(188, 97%, 84%);
+}
+
+.border-top-color-cyan-8 {
+  border-top-color: hsl(188, 97%, 84%);
+}
+
+.border-right-color-cyan-8 {
+  border-right-color: hsl(188, 97%, 84%);
+}
+
+.border-bottom-color-cyan-8 {
+  border-bottom-color: hsl(188, 97%, 84%);
+}
+
+.border-left-color-cyan-8 {
+  border-left-color: hsl(188, 97%, 84%);
+}
+
+.column-rule-color-cyan-8 {
+  column-rule-color: hsl(188, 97%, 84%);
+}
+
+.caret-color-cyan-8 {
+  caret-color: hsl(188, 97%, 84%);
+}
+
+.fill-cyan-8 {
+  fill: hsl(188, 97%, 84%);
+}
+
+.stroke-cyan-8 {
+  stroke: hsl(188, 97%, 84%);
+}
+
+.stop-color-cyan-8 {
+  stop-color: hsl(188, 97%, 84%);
+}
+
+.color-cyan-9 {
+  color: hsl(190, 95%, 95%);
+}
+
+.background-color-cyan-9 {
+  background-color: hsl(190, 95%, 95%);
+}
+
+.border-color-cyan-9 {
+  border-color: hsl(190, 95%, 95%);
+}
+
+.outline-color-cyan-9 {
+  outline-color: hsl(190, 95%, 95%);
+}
+
+.text-decoration-color-cyan-9 {
+  text-decoration-color: hsl(190, 95%, 95%);
+}
+
+.box-shadow-cyan-9 {
+  box-shadow: 0 0 0 0.25rem hsl(190, 95%, 95%);
+}
+
+.text-shadow-cyan-9 {
+  text-shadow: 0 0 0.25rem hsl(190, 95%, 95%);
+}
+
+.border-top-color-cyan-9 {
+  border-top-color: hsl(190, 95%, 95%);
+}
+
+.border-right-color-cyan-9 {
+  border-right-color: hsl(190, 95%, 95%);
+}
+
+.border-bottom-color-cyan-9 {
+  border-bottom-color: hsl(190, 95%, 95%);
+}
+
+.border-left-color-cyan-9 {
+  border-left-color: hsl(190, 95%, 95%);
+}
+
+.column-rule-color-cyan-9 {
+  column-rule-color: hsl(190, 95%, 95%);
+}
+
+.caret-color-cyan-9 {
+  caret-color: hsl(190, 95%, 95%);
+}
+
+.fill-cyan-9 {
+  fill: hsl(190, 95%, 95%);
+}
+
+.stroke-cyan-9 {
+  stroke: hsl(190, 95%, 95%);
+}
+
+.stop-color-cyan-9 {
+  stop-color: hsl(190, 95%, 95%);
+}
+
+.color-blue-1 {
+  color: hsl(230, 95%, 5%);
+}
+
+.background-color-blue-1 {
+  background-color: hsl(230, 95%, 5%);
+}
+
+.border-color-blue-1 {
+  border-color: hsl(230, 95%, 5%);
+}
+
+.outline-color-blue-1 {
+  outline-color: hsl(230, 95%, 5%);
+}
+
+.text-decoration-color-blue-1 {
+  text-decoration-color: hsl(230, 95%, 5%);
+}
+
+.box-shadow-blue-1 {
+  box-shadow: 0 0 0 0.25rem hsl(230, 95%, 5%);
+}
+
+.text-shadow-blue-1 {
+  text-shadow: 0 0 0.25rem hsl(230, 95%, 5%);
+}
+
+.border-top-color-blue-1 {
+  border-top-color: hsl(230, 95%, 5%);
+}
+
+.border-right-color-blue-1 {
+  border-right-color: hsl(230, 95%, 5%);
+}
+
+.border-bottom-color-blue-1 {
+  border-bottom-color: hsl(230, 95%, 5%);
+}
+
+.border-left-color-blue-1 {
+  border-left-color: hsl(230, 95%, 5%);
+}
+
+.column-rule-color-blue-1 {
+  column-rule-color: hsl(230, 95%, 5%);
+}
+
+.caret-color-blue-1 {
+  caret-color: hsl(230, 95%, 5%);
+}
+
+.fill-blue-1 {
+  fill: hsl(230, 95%, 5%);
+}
+
+.stroke-blue-1 {
+  stroke: hsl(230, 95%, 5%);
+}
+
+.stop-color-blue-1 {
+  stop-color: hsl(230, 95%, 5%);
+}
+
+.color-blue-2 {
+  color: hsl(233, 97%, 16%);
+}
+
+.background-color-blue-2 {
+  background-color: hsl(233, 97%, 16%);
+}
+
+.border-color-blue-2 {
+  border-color: hsl(233, 97%, 16%);
+}
+
+.outline-color-blue-2 {
+  outline-color: hsl(233, 97%, 16%);
+}
+
+.text-decoration-color-blue-2 {
+  text-decoration-color: hsl(233, 97%, 16%);
+}
+
+.box-shadow-blue-2 {
+  box-shadow: 0 0 0 0.25rem hsl(233, 97%, 16%);
+}
+
+.text-shadow-blue-2 {
+  text-shadow: 0 0 0.25rem hsl(233, 97%, 16%);
+}
+
+.border-top-color-blue-2 {
+  border-top-color: hsl(233, 97%, 16%);
+}
+
+.border-right-color-blue-2 {
+  border-right-color: hsl(233, 97%, 16%);
+}
+
+.border-bottom-color-blue-2 {
+  border-bottom-color: hsl(233, 97%, 16%);
+}
+
+.border-left-color-blue-2 {
+  border-left-color: hsl(233, 97%, 16%);
+}
+
+.column-rule-color-blue-2 {
+  column-rule-color: hsl(233, 97%, 16%);
+}
+
+.caret-color-blue-2 {
+  caret-color: hsl(233, 97%, 16%);
+}
+
+.fill-blue-2 {
+  fill: hsl(233, 97%, 16%);
+}
+
+.stroke-blue-2 {
+  stroke: hsl(233, 97%, 16%);
+}
+
+.stop-color-blue-2 {
+  stop-color: hsl(233, 97%, 16%);
+}
+
+.color-blue-3 {
+  color: hsl(235, 99%, 28%);
+}
+
+.background-color-blue-3 {
+  background-color: hsl(235, 99%, 28%);
+}
+
+.border-color-blue-3 {
+  border-color: hsl(235, 99%, 28%);
+}
+
+.outline-color-blue-3 {
+  outline-color: hsl(235, 99%, 28%);
+}
+
+.text-decoration-color-blue-3 {
+  text-decoration-color: hsl(235, 99%, 28%);
+}
+
+.box-shadow-blue-3 {
+  box-shadow: 0 0 0 0.25rem hsl(235, 99%, 28%);
+}
+
+.text-shadow-blue-3 {
+  text-shadow: 0 0 0.25rem hsl(235, 99%, 28%);
+}
+
+.border-top-color-blue-3 {
+  border-top-color: hsl(235, 99%, 28%);
+}
+
+.border-right-color-blue-3 {
+  border-right-color: hsl(235, 99%, 28%);
+}
+
+.border-bottom-color-blue-3 {
+  border-bottom-color: hsl(235, 99%, 28%);
+}
+
+.border-left-color-blue-3 {
+  border-left-color: hsl(235, 99%, 28%);
+}
+
+.column-rule-color-blue-3 {
+  column-rule-color: hsl(235, 99%, 28%);
+}
+
+.caret-color-blue-3 {
+  caret-color: hsl(235, 99%, 28%);
+}
+
+.fill-blue-3 {
+  fill: hsl(235, 99%, 28%);
+}
+
+.stroke-blue-3 {
+  stroke: hsl(235, 99%, 28%);
+}
+
+.stop-color-blue-3 {
+  stop-color: hsl(235, 99%, 28%);
+}
+
+.color-blue-4 {
+  color: hsl(238, 100%, 39%);
+}
+
+.background-color-blue-4 {
+  background-color: hsl(238, 100%, 39%);
+}
+
+.border-color-blue-4 {
+  border-color: hsl(238, 100%, 39%);
+}
+
+.outline-color-blue-4 {
+  outline-color: hsl(238, 100%, 39%);
+}
+
+.text-decoration-color-blue-4 {
+  text-decoration-color: hsl(238, 100%, 39%);
+}
+
+.box-shadow-blue-4 {
+  box-shadow: 0 0 0 0.25rem hsl(238, 100%, 39%);
+}
+
+.text-shadow-blue-4 {
+  text-shadow: 0 0 0.25rem hsl(238, 100%, 39%);
+}
+
+.border-top-color-blue-4 {
+  border-top-color: hsl(238, 100%, 39%);
+}
+
+.border-right-color-blue-4 {
+  border-right-color: hsl(238, 100%, 39%);
+}
+
+.border-bottom-color-blue-4 {
+  border-bottom-color: hsl(238, 100%, 39%);
+}
+
+.border-left-color-blue-4 {
+  border-left-color: hsl(238, 100%, 39%);
+}
+
+.column-rule-color-blue-4 {
+  column-rule-color: hsl(238, 100%, 39%);
+}
+
+.caret-color-blue-4 {
+  caret-color: hsl(238, 100%, 39%);
+}
+
+.fill-blue-4 {
+  fill: hsl(238, 100%, 39%);
+}
+
+.stroke-blue-4 {
+  stroke: hsl(238, 100%, 39%);
+}
+
+.stop-color-blue-4 {
+  stop-color: hsl(238, 100%, 39%);
+}
+
+.color-blue-5 {
+  color: hsl(240, 100%, 50%);
+}
+
+.background-color-blue-5 {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.border-color-blue-5 {
+  border-color: hsl(240, 100%, 50%);
+}
+
+.outline-color-blue-5 {
+  outline-color: hsl(240, 100%, 50%);
+}
+
+.text-decoration-color-blue-5 {
+  text-decoration-color: hsl(240, 100%, 50%);
+}
+
+.box-shadow-blue-5 {
+  box-shadow: 0 0 0 0.25rem hsl(240, 100%, 50%);
+}
+
+.text-shadow-blue-5 {
+  text-shadow: 0 0 0.25rem hsl(240, 100%, 50%);
+}
+
+.border-top-color-blue-5 {
+  border-top-color: hsl(240, 100%, 50%);
+}
+
+.border-right-color-blue-5 {
+  border-right-color: hsl(240, 100%, 50%);
+}
+
+.border-bottom-color-blue-5 {
+  border-bottom-color: hsl(240, 100%, 50%);
+}
+
+.border-left-color-blue-5 {
+  border-left-color: hsl(240, 100%, 50%);
+}
+
+.column-rule-color-blue-5 {
+  column-rule-color: hsl(240, 100%, 50%);
+}
+
+.caret-color-blue-5 {
+  caret-color: hsl(240, 100%, 50%);
+}
+
+.fill-blue-5 {
+  fill: hsl(240, 100%, 50%);
+}
+
+.stroke-blue-5 {
+  stroke: hsl(240, 100%, 50%);
+}
+
+.stop-color-blue-5 {
+  stop-color: hsl(240, 100%, 50%);
+}
+
+.color-blue-6 {
+  color: hsl(243, 100%, 61%);
+}
+
+.background-color-blue-6 {
+  background-color: hsl(243, 100%, 61%);
+}
+
+.border-color-blue-6 {
+  border-color: hsl(243, 100%, 61%);
+}
+
+.outline-color-blue-6 {
+  outline-color: hsl(243, 100%, 61%);
+}
+
+.text-decoration-color-blue-6 {
+  text-decoration-color: hsl(243, 100%, 61%);
+}
+
+.box-shadow-blue-6 {
+  box-shadow: 0 0 0 0.25rem hsl(243, 100%, 61%);
+}
+
+.text-shadow-blue-6 {
+  text-shadow: 0 0 0.25rem hsl(243, 100%, 61%);
+}
+
+.border-top-color-blue-6 {
+  border-top-color: hsl(243, 100%, 61%);
+}
+
+.border-right-color-blue-6 {
+  border-right-color: hsl(243, 100%, 61%);
+}
+
+.border-bottom-color-blue-6 {
+  border-bottom-color: hsl(243, 100%, 61%);
+}
+
+.border-left-color-blue-6 {
+  border-left-color: hsl(243, 100%, 61%);
+}
+
+.column-rule-color-blue-6 {
+  column-rule-color: hsl(243, 100%, 61%);
+}
+
+.caret-color-blue-6 {
+  caret-color: hsl(243, 100%, 61%);
+}
+
+.fill-blue-6 {
+  fill: hsl(243, 100%, 61%);
+}
+
+.stroke-blue-6 {
+  stroke: hsl(243, 100%, 61%);
+}
+
+.stop-color-blue-6 {
+  stop-color: hsl(243, 100%, 61%);
+}
+
+.color-blue-7 {
+  color: hsl(245, 99%, 73%);
+}
+
+.background-color-blue-7 {
+  background-color: hsl(245, 99%, 73%);
+}
+
+.border-color-blue-7 {
+  border-color: hsl(245, 99%, 73%);
+}
+
+.outline-color-blue-7 {
+  outline-color: hsl(245, 99%, 73%);
+}
+
+.text-decoration-color-blue-7 {
+  text-decoration-color: hsl(245, 99%, 73%);
+}
+
+.box-shadow-blue-7 {
+  box-shadow: 0 0 0 0.25rem hsl(245, 99%, 73%);
+}
+
+.text-shadow-blue-7 {
+  text-shadow: 0 0 0.25rem hsl(245, 99%, 73%);
+}
+
+.border-top-color-blue-7 {
+  border-top-color: hsl(245, 99%, 73%);
+}
+
+.border-right-color-blue-7 {
+  border-right-color: hsl(245, 99%, 73%);
+}
+
+.border-bottom-color-blue-7 {
+  border-bottom-color: hsl(245, 99%, 73%);
+}
+
+.border-left-color-blue-7 {
+  border-left-color: hsl(245, 99%, 73%);
+}
+
+.column-rule-color-blue-7 {
+  column-rule-color: hsl(245, 99%, 73%);
+}
+
+.caret-color-blue-7 {
+  caret-color: hsl(245, 99%, 73%);
+}
+
+.fill-blue-7 {
+  fill: hsl(245, 99%, 73%);
+}
+
+.stroke-blue-7 {
+  stroke: hsl(245, 99%, 73%);
+}
+
+.stop-color-blue-7 {
+  stop-color: hsl(245, 99%, 73%);
+}
+
+.color-blue-8 {
+  color: hsl(248, 97%, 84%);
+}
+
+.background-color-blue-8 {
+  background-color: hsl(248, 97%, 84%);
+}
+
+.border-color-blue-8 {
+  border-color: hsl(248, 97%, 84%);
+}
+
+.outline-color-blue-8 {
+  outline-color: hsl(248, 97%, 84%);
+}
+
+.text-decoration-color-blue-8 {
+  text-decoration-color: hsl(248, 97%, 84%);
+}
+
+.box-shadow-blue-8 {
+  box-shadow: 0 0 0 0.25rem hsl(248, 97%, 84%);
+}
+
+.text-shadow-blue-8 {
+  text-shadow: 0 0 0.25rem hsl(248, 97%, 84%);
+}
+
+.border-top-color-blue-8 {
+  border-top-color: hsl(248, 97%, 84%);
+}
+
+.border-right-color-blue-8 {
+  border-right-color: hsl(248, 97%, 84%);
+}
+
+.border-bottom-color-blue-8 {
+  border-bottom-color: hsl(248, 97%, 84%);
+}
+
+.border-left-color-blue-8 {
+  border-left-color: hsl(248, 97%, 84%);
+}
+
+.column-rule-color-blue-8 {
+  column-rule-color: hsl(248, 97%, 84%);
+}
+
+.caret-color-blue-8 {
+  caret-color: hsl(248, 97%, 84%);
+}
+
+.fill-blue-8 {
+  fill: hsl(248, 97%, 84%);
+}
+
+.stroke-blue-8 {
+  stroke: hsl(248, 97%, 84%);
+}
+
+.stop-color-blue-8 {
+  stop-color: hsl(248, 97%, 84%);
+}
+
+.color-blue-9 {
+  color: hsl(250, 95%, 95%);
+}
+
+.background-color-blue-9 {
+  background-color: hsl(250, 95%, 95%);
+}
+
+.border-color-blue-9 {
+  border-color: hsl(250, 95%, 95%);
+}
+
+.outline-color-blue-9 {
+  outline-color: hsl(250, 95%, 95%);
+}
+
+.text-decoration-color-blue-9 {
+  text-decoration-color: hsl(250, 95%, 95%);
+}
+
+.box-shadow-blue-9 {
+  box-shadow: 0 0 0 0.25rem hsl(250, 95%, 95%);
+}
+
+.text-shadow-blue-9 {
+  text-shadow: 0 0 0.25rem hsl(250, 95%, 95%);
+}
+
+.border-top-color-blue-9 {
+  border-top-color: hsl(250, 95%, 95%);
+}
+
+.border-right-color-blue-9 {
+  border-right-color: hsl(250, 95%, 95%);
+}
+
+.border-bottom-color-blue-9 {
+  border-bottom-color: hsl(250, 95%, 95%);
+}
+
+.border-left-color-blue-9 {
+  border-left-color: hsl(250, 95%, 95%);
+}
+
+.column-rule-color-blue-9 {
+  column-rule-color: hsl(250, 95%, 95%);
+}
+
+.caret-color-blue-9 {
+  caret-color: hsl(250, 95%, 95%);
+}
+
+.fill-blue-9 {
+  fill: hsl(250, 95%, 95%);
+}
+
+.stroke-blue-9 {
+  stroke: hsl(250, 95%, 95%);
+}
+
+.stop-color-blue-9 {
+  stop-color: hsl(250, 95%, 95%);
+}
+
+.color-purple-1 {
+  color: hsl(290, 95%, 5%);
+}
+
+.background-color-purple-1 {
+  background-color: hsl(290, 95%, 5%);
+}
+
+.border-color-purple-1 {
+  border-color: hsl(290, 95%, 5%);
+}
+
+.outline-color-purple-1 {
+  outline-color: hsl(290, 95%, 5%);
+}
+
+.text-decoration-color-purple-1 {
+  text-decoration-color: hsl(290, 95%, 5%);
+}
+
+.box-shadow-purple-1 {
+  box-shadow: 0 0 0 0.25rem hsl(290, 95%, 5%);
+}
+
+.text-shadow-purple-1 {
+  text-shadow: 0 0 0.25rem hsl(290, 95%, 5%);
+}
+
+.border-top-color-purple-1 {
+  border-top-color: hsl(290, 95%, 5%);
+}
+
+.border-right-color-purple-1 {
+  border-right-color: hsl(290, 95%, 5%);
+}
+
+.border-bottom-color-purple-1 {
+  border-bottom-color: hsl(290, 95%, 5%);
+}
+
+.border-left-color-purple-1 {
+  border-left-color: hsl(290, 95%, 5%);
+}
+
+.column-rule-color-purple-1 {
+  column-rule-color: hsl(290, 95%, 5%);
+}
+
+.caret-color-purple-1 {
+  caret-color: hsl(290, 95%, 5%);
+}
+
+.fill-purple-1 {
+  fill: hsl(290, 95%, 5%);
+}
+
+.stroke-purple-1 {
+  stroke: hsl(290, 95%, 5%);
+}
+
+.stop-color-purple-1 {
+  stop-color: hsl(290, 95%, 5%);
+}
+
+.color-purple-2 {
+  color: hsl(293, 97%, 10%);
+}
+
+.background-color-purple-2 {
+  background-color: hsl(293, 97%, 10%);
+}
+
+.border-color-purple-2 {
+  border-color: hsl(293, 97%, 10%);
+}
+
+.outline-color-purple-2 {
+  outline-color: hsl(293, 97%, 10%);
+}
+
+.text-decoration-color-purple-2 {
+  text-decoration-color: hsl(293, 97%, 10%);
+}
+
+.box-shadow-purple-2 {
+  box-shadow: 0 0 0 0.25rem hsl(293, 97%, 10%);
+}
+
+.text-shadow-purple-2 {
+  text-shadow: 0 0 0.25rem hsl(293, 97%, 10%);
+}
+
+.border-top-color-purple-2 {
+  border-top-color: hsl(293, 97%, 10%);
+}
+
+.border-right-color-purple-2 {
+  border-right-color: hsl(293, 97%, 10%);
+}
+
+.border-bottom-color-purple-2 {
+  border-bottom-color: hsl(293, 97%, 10%);
+}
+
+.border-left-color-purple-2 {
+  border-left-color: hsl(293, 97%, 10%);
+}
+
+.column-rule-color-purple-2 {
+  column-rule-color: hsl(293, 97%, 10%);
+}
+
+.caret-color-purple-2 {
+  caret-color: hsl(293, 97%, 10%);
+}
+
+.fill-purple-2 {
+  fill: hsl(293, 97%, 10%);
+}
+
+.stroke-purple-2 {
+  stroke: hsl(293, 97%, 10%);
+}
+
+.stop-color-purple-2 {
+  stop-color: hsl(293, 97%, 10%);
+}
+
+.color-purple-3 {
+  color: hsl(295, 99%, 15%);
+}
+
+.background-color-purple-3 {
+  background-color: hsl(295, 99%, 15%);
+}
+
+.border-color-purple-3 {
+  border-color: hsl(295, 99%, 15%);
+}
+
+.outline-color-purple-3 {
+  outline-color: hsl(295, 99%, 15%);
+}
+
+.text-decoration-color-purple-3 {
+  text-decoration-color: hsl(295, 99%, 15%);
+}
+
+.box-shadow-purple-3 {
+  box-shadow: 0 0 0 0.25rem hsl(295, 99%, 15%);
+}
+
+.text-shadow-purple-3 {
+  text-shadow: 0 0 0.25rem hsl(295, 99%, 15%);
+}
+
+.border-top-color-purple-3 {
+  border-top-color: hsl(295, 99%, 15%);
+}
+
+.border-right-color-purple-3 {
+  border-right-color: hsl(295, 99%, 15%);
+}
+
+.border-bottom-color-purple-3 {
+  border-bottom-color: hsl(295, 99%, 15%);
+}
+
+.border-left-color-purple-3 {
+  border-left-color: hsl(295, 99%, 15%);
+}
+
+.column-rule-color-purple-3 {
+  column-rule-color: hsl(295, 99%, 15%);
+}
+
+.caret-color-purple-3 {
+  caret-color: hsl(295, 99%, 15%);
+}
+
+.fill-purple-3 {
+  fill: hsl(295, 99%, 15%);
+}
+
+.stroke-purple-3 {
+  stroke: hsl(295, 99%, 15%);
+}
+
+.stop-color-purple-3 {
+  stop-color: hsl(295, 99%, 15%);
+}
+
+.color-purple-4 {
+  color: hsl(298, 100%, 20%);
+}
+
+.background-color-purple-4 {
+  background-color: hsl(298, 100%, 20%);
+}
+
+.border-color-purple-4 {
+  border-color: hsl(298, 100%, 20%);
+}
+
+.outline-color-purple-4 {
+  outline-color: hsl(298, 100%, 20%);
+}
+
+.text-decoration-color-purple-4 {
+  text-decoration-color: hsl(298, 100%, 20%);
+}
+
+.box-shadow-purple-4 {
+  box-shadow: 0 0 0 0.25rem hsl(298, 100%, 20%);
+}
+
+.text-shadow-purple-4 {
+  text-shadow: 0 0 0.25rem hsl(298, 100%, 20%);
+}
+
+.border-top-color-purple-4 {
+  border-top-color: hsl(298, 100%, 20%);
+}
+
+.border-right-color-purple-4 {
+  border-right-color: hsl(298, 100%, 20%);
+}
+
+.border-bottom-color-purple-4 {
+  border-bottom-color: hsl(298, 100%, 20%);
+}
+
+.border-left-color-purple-4 {
+  border-left-color: hsl(298, 100%, 20%);
+}
+
+.column-rule-color-purple-4 {
+  column-rule-color: hsl(298, 100%, 20%);
+}
+
+.caret-color-purple-4 {
+  caret-color: hsl(298, 100%, 20%);
+}
+
+.fill-purple-4 {
+  fill: hsl(298, 100%, 20%);
+}
+
+.stroke-purple-4 {
+  stroke: hsl(298, 100%, 20%);
+}
+
+.stop-color-purple-4 {
+  stop-color: hsl(298, 100%, 20%);
+}
+
+.color-purple-5 {
+  color: hsl(300, 100%, 25%);
+}
+
+.background-color-purple-5 {
+  background-color: hsl(300, 100%, 25%);
+}
+
+.border-color-purple-5 {
+  border-color: hsl(300, 100%, 25%);
+}
+
+.outline-color-purple-5 {
+  outline-color: hsl(300, 100%, 25%);
+}
+
+.text-decoration-color-purple-5 {
+  text-decoration-color: hsl(300, 100%, 25%);
+}
+
+.box-shadow-purple-5 {
+  box-shadow: 0 0 0 0.25rem hsl(300, 100%, 25%);
+}
+
+.text-shadow-purple-5 {
+  text-shadow: 0 0 0.25rem hsl(300, 100%, 25%);
+}
+
+.border-top-color-purple-5 {
+  border-top-color: hsl(300, 100%, 25%);
+}
+
+.border-right-color-purple-5 {
+  border-right-color: hsl(300, 100%, 25%);
+}
+
+.border-bottom-color-purple-5 {
+  border-bottom-color: hsl(300, 100%, 25%);
+}
+
+.border-left-color-purple-5 {
+  border-left-color: hsl(300, 100%, 25%);
+}
+
+.column-rule-color-purple-5 {
+  column-rule-color: hsl(300, 100%, 25%);
+}
+
+.caret-color-purple-5 {
+  caret-color: hsl(300, 100%, 25%);
+}
+
+.fill-purple-5 {
+  fill: hsl(300, 100%, 25%);
+}
+
+.stroke-purple-5 {
+  stroke: hsl(300, 100%, 25%);
+}
+
+.stop-color-purple-5 {
+  stop-color: hsl(300, 100%, 25%);
+}
+
+.color-purple-6 {
+  color: hsl(303, 100%, 30%);
+}
+
+.background-color-purple-6 {
+  background-color: hsl(303, 100%, 30%);
+}
+
+.border-color-purple-6 {
+  border-color: hsl(303, 100%, 30%);
+}
+
+.outline-color-purple-6 {
+  outline-color: hsl(303, 100%, 30%);
+}
+
+.text-decoration-color-purple-6 {
+  text-decoration-color: hsl(303, 100%, 30%);
+}
+
+.box-shadow-purple-6 {
+  box-shadow: 0 0 0 0.25rem hsl(303, 100%, 30%);
+}
+
+.text-shadow-purple-6 {
+  text-shadow: 0 0 0.25rem hsl(303, 100%, 30%);
+}
+
+.border-top-color-purple-6 {
+  border-top-color: hsl(303, 100%, 30%);
+}
+
+.border-right-color-purple-6 {
+  border-right-color: hsl(303, 100%, 30%);
+}
+
+.border-bottom-color-purple-6 {
+  border-bottom-color: hsl(303, 100%, 30%);
+}
+
+.border-left-color-purple-6 {
+  border-left-color: hsl(303, 100%, 30%);
+}
+
+.column-rule-color-purple-6 {
+  column-rule-color: hsl(303, 100%, 30%);
+}
+
+.caret-color-purple-6 {
+  caret-color: hsl(303, 100%, 30%);
+}
+
+.fill-purple-6 {
+  fill: hsl(303, 100%, 30%);
+}
+
+.stroke-purple-6 {
+  stroke: hsl(303, 100%, 30%);
+}
+
+.stop-color-purple-6 {
+  stop-color: hsl(303, 100%, 30%);
+}
+
+.color-purple-7 {
+  color: hsl(305, 99%, 35%);
+}
+
+.background-color-purple-7 {
+  background-color: hsl(305, 99%, 35%);
+}
+
+.border-color-purple-7 {
+  border-color: hsl(305, 99%, 35%);
+}
+
+.outline-color-purple-7 {
+  outline-color: hsl(305, 99%, 35%);
+}
+
+.text-decoration-color-purple-7 {
+  text-decoration-color: hsl(305, 99%, 35%);
+}
+
+.box-shadow-purple-7 {
+  box-shadow: 0 0 0 0.25rem hsl(305, 99%, 35%);
+}
+
+.text-shadow-purple-7 {
+  text-shadow: 0 0 0.25rem hsl(305, 99%, 35%);
+}
+
+.border-top-color-purple-7 {
+  border-top-color: hsl(305, 99%, 35%);
+}
+
+.border-right-color-purple-7 {
+  border-right-color: hsl(305, 99%, 35%);
+}
+
+.border-bottom-color-purple-7 {
+  border-bottom-color: hsl(305, 99%, 35%);
+}
+
+.border-left-color-purple-7 {
+  border-left-color: hsl(305, 99%, 35%);
+}
+
+.column-rule-color-purple-7 {
+  column-rule-color: hsl(305, 99%, 35%);
+}
+
+.caret-color-purple-7 {
+  caret-color: hsl(305, 99%, 35%);
+}
+
+.fill-purple-7 {
+  fill: hsl(305, 99%, 35%);
+}
+
+.stroke-purple-7 {
+  stroke: hsl(305, 99%, 35%);
+}
+
+.stop-color-purple-7 {
+  stop-color: hsl(305, 99%, 35%);
+}
+
+.color-purple-8 {
+  color: hsl(308, 97%, 40%);
+}
+
+.background-color-purple-8 {
+  background-color: hsl(308, 97%, 40%);
+}
+
+.border-color-purple-8 {
+  border-color: hsl(308, 97%, 40%);
+}
+
+.outline-color-purple-8 {
+  outline-color: hsl(308, 97%, 40%);
+}
+
+.text-decoration-color-purple-8 {
+  text-decoration-color: hsl(308, 97%, 40%);
+}
+
+.box-shadow-purple-8 {
+  box-shadow: 0 0 0 0.25rem hsl(308, 97%, 40%);
+}
+
+.text-shadow-purple-8 {
+  text-shadow: 0 0 0.25rem hsl(308, 97%, 40%);
+}
+
+.border-top-color-purple-8 {
+  border-top-color: hsl(308, 97%, 40%);
+}
+
+.border-right-color-purple-8 {
+  border-right-color: hsl(308, 97%, 40%);
+}
+
+.border-bottom-color-purple-8 {
+  border-bottom-color: hsl(308, 97%, 40%);
+}
+
+.border-left-color-purple-8 {
+  border-left-color: hsl(308, 97%, 40%);
+}
+
+.column-rule-color-purple-8 {
+  column-rule-color: hsl(308, 97%, 40%);
+}
+
+.caret-color-purple-8 {
+  caret-color: hsl(308, 97%, 40%);
+}
+
+.fill-purple-8 {
+  fill: hsl(308, 97%, 40%);
+}
+
+.stroke-purple-8 {
+  stroke: hsl(308, 97%, 40%);
+}
+
+.stop-color-purple-8 {
+  stop-color: hsl(308, 97%, 40%);
+}
+
+.color-purple-9 {
+  color: hsl(310, 95%, 45%);
+}
+
+.background-color-purple-9 {
+  background-color: hsl(310, 95%, 45%);
+}
+
+.border-color-purple-9 {
+  border-color: hsl(310, 95%, 45%);
+}
+
+.outline-color-purple-9 {
+  outline-color: hsl(310, 95%, 45%);
+}
+
+.text-decoration-color-purple-9 {
+  text-decoration-color: hsl(310, 95%, 45%);
+}
+
+.box-shadow-purple-9 {
+  box-shadow: 0 0 0 0.25rem hsl(310, 95%, 45%);
+}
+
+.text-shadow-purple-9 {
+  text-shadow: 0 0 0.25rem hsl(310, 95%, 45%);
+}
+
+.border-top-color-purple-9 {
+  border-top-color: hsl(310, 95%, 45%);
+}
+
+.border-right-color-purple-9 {
+  border-right-color: hsl(310, 95%, 45%);
+}
+
+.border-bottom-color-purple-9 {
+  border-bottom-color: hsl(310, 95%, 45%);
+}
+
+.border-left-color-purple-9 {
+  border-left-color: hsl(310, 95%, 45%);
+}
+
+.column-rule-color-purple-9 {
+  column-rule-color: hsl(310, 95%, 45%);
+}
+
+.caret-color-purple-9 {
+  caret-color: hsl(310, 95%, 45%);
+}
+
+.fill-purple-9 {
+  fill: hsl(310, 95%, 45%);
+}
+
+.stroke-purple-9 {
+  stroke: hsl(310, 95%, 45%);
+}
+
+.stop-color-purple-9 {
+  stop-color: hsl(310, 95%, 45%);
+}
+
+.color-pink-1 {
+  color: hsl(340, 95%, 76%);
+}
+
+.background-color-pink-1 {
+  background-color: hsl(340, 95%, 76%);
+}
+
+.border-color-pink-1 {
+  border-color: hsl(340, 95%, 76%);
+}
+
+.outline-color-pink-1 {
+  outline-color: hsl(340, 95%, 76%);
+}
+
+.text-decoration-color-pink-1 {
+  text-decoration-color: hsl(340, 95%, 76%);
+}
+
+.box-shadow-pink-1 {
+  box-shadow: 0 0 0 0.25rem hsl(340, 95%, 76%);
+}
+
+.text-shadow-pink-1 {
+  text-shadow: 0 0 0.25rem hsl(340, 95%, 76%);
+}
+
+.border-top-color-pink-1 {
+  border-top-color: hsl(340, 95%, 76%);
+}
+
+.border-right-color-pink-1 {
+  border-right-color: hsl(340, 95%, 76%);
+}
+
+.border-bottom-color-pink-1 {
+  border-bottom-color: hsl(340, 95%, 76%);
+}
+
+.border-left-color-pink-1 {
+  border-left-color: hsl(340, 95%, 76%);
+}
+
+.column-rule-color-pink-1 {
+  column-rule-color: hsl(340, 95%, 76%);
+}
+
+.caret-color-pink-1 {
+  caret-color: hsl(340, 95%, 76%);
+}
+
+.fill-pink-1 {
+  fill: hsl(340, 95%, 76%);
+}
+
+.stroke-pink-1 {
+  stroke: hsl(340, 95%, 76%);
+}
+
+.stop-color-pink-1 {
+  stop-color: hsl(340, 95%, 76%);
+}
+
+.color-pink-2 {
+  color: hsl(343, 97%, 79%);
+}
+
+.background-color-pink-2 {
+  background-color: hsl(343, 97%, 79%);
+}
+
+.border-color-pink-2 {
+  border-color: hsl(343, 97%, 79%);
+}
+
+.outline-color-pink-2 {
+  outline-color: hsl(343, 97%, 79%);
+}
+
+.text-decoration-color-pink-2 {
+  text-decoration-color: hsl(343, 97%, 79%);
+}
+
+.box-shadow-pink-2 {
+  box-shadow: 0 0 0 0.25rem hsl(343, 97%, 79%);
+}
+
+.text-shadow-pink-2 {
+  text-shadow: 0 0 0.25rem hsl(343, 97%, 79%);
+}
+
+.border-top-color-pink-2 {
+  border-top-color: hsl(343, 97%, 79%);
+}
+
+.border-right-color-pink-2 {
+  border-right-color: hsl(343, 97%, 79%);
+}
+
+.border-bottom-color-pink-2 {
+  border-bottom-color: hsl(343, 97%, 79%);
+}
+
+.border-left-color-pink-2 {
+  border-left-color: hsl(343, 97%, 79%);
+}
+
+.column-rule-color-pink-2 {
+  column-rule-color: hsl(343, 97%, 79%);
+}
+
+.caret-color-pink-2 {
+  caret-color: hsl(343, 97%, 79%);
+}
+
+.fill-pink-2 {
+  fill: hsl(343, 97%, 79%);
+}
+
+.stroke-pink-2 {
+  stroke: hsl(343, 97%, 79%);
+}
+
+.stop-color-pink-2 {
+  stop-color: hsl(343, 97%, 79%);
+}
+
+.color-pink-3 {
+  color: hsl(345, 99%, 82%);
+}
+
+.background-color-pink-3 {
+  background-color: hsl(345, 99%, 82%);
+}
+
+.border-color-pink-3 {
+  border-color: hsl(345, 99%, 82%);
+}
+
+.outline-color-pink-3 {
+  outline-color: hsl(345, 99%, 82%);
+}
+
+.text-decoration-color-pink-3 {
+  text-decoration-color: hsl(345, 99%, 82%);
+}
+
+.box-shadow-pink-3 {
+  box-shadow: 0 0 0 0.25rem hsl(345, 99%, 82%);
+}
+
+.text-shadow-pink-3 {
+  text-shadow: 0 0 0.25rem hsl(345, 99%, 82%);
+}
+
+.border-top-color-pink-3 {
+  border-top-color: hsl(345, 99%, 82%);
+}
+
+.border-right-color-pink-3 {
+  border-right-color: hsl(345, 99%, 82%);
+}
+
+.border-bottom-color-pink-3 {
+  border-bottom-color: hsl(345, 99%, 82%);
+}
+
+.border-left-color-pink-3 {
+  border-left-color: hsl(345, 99%, 82%);
+}
+
+.column-rule-color-pink-3 {
+  column-rule-color: hsl(345, 99%, 82%);
+}
+
+.caret-color-pink-3 {
+  caret-color: hsl(345, 99%, 82%);
+}
+
+.fill-pink-3 {
+  fill: hsl(345, 99%, 82%);
+}
+
+.stroke-pink-3 {
+  stroke: hsl(345, 99%, 82%);
+}
+
+.stop-color-pink-3 {
+  stop-color: hsl(345, 99%, 82%);
+}
+
+.color-pink-4 {
+  color: hsl(348, 100%, 85%);
+}
+
+.background-color-pink-4 {
+  background-color: hsl(348, 100%, 85%);
+}
+
+.border-color-pink-4 {
+  border-color: hsl(348, 100%, 85%);
+}
+
+.outline-color-pink-4 {
+  outline-color: hsl(348, 100%, 85%);
+}
+
+.text-decoration-color-pink-4 {
+  text-decoration-color: hsl(348, 100%, 85%);
+}
+
+.box-shadow-pink-4 {
+  box-shadow: 0 0 0 0.25rem hsl(348, 100%, 85%);
+}
+
+.text-shadow-pink-4 {
+  text-shadow: 0 0 0.25rem hsl(348, 100%, 85%);
+}
+
+.border-top-color-pink-4 {
+  border-top-color: hsl(348, 100%, 85%);
+}
+
+.border-right-color-pink-4 {
+  border-right-color: hsl(348, 100%, 85%);
+}
+
+.border-bottom-color-pink-4 {
+  border-bottom-color: hsl(348, 100%, 85%);
+}
+
+.border-left-color-pink-4 {
+  border-left-color: hsl(348, 100%, 85%);
+}
+
+.column-rule-color-pink-4 {
+  column-rule-color: hsl(348, 100%, 85%);
+}
+
+.caret-color-pink-4 {
+  caret-color: hsl(348, 100%, 85%);
+}
+
+.fill-pink-4 {
+  fill: hsl(348, 100%, 85%);
+}
+
+.stroke-pink-4 {
+  stroke: hsl(348, 100%, 85%);
+}
+
+.stop-color-pink-4 {
+  stop-color: hsl(348, 100%, 85%);
+}
+
+.color-pink-5 {
+  color: hsl(350, 100%, 88%);
+}
+
+.background-color-pink-5 {
+  background-color: hsl(350, 100%, 88%);
+}
+
+.border-color-pink-5 {
+  border-color: hsl(350, 100%, 88%);
+}
+
+.outline-color-pink-5 {
+  outline-color: hsl(350, 100%, 88%);
+}
+
+.text-decoration-color-pink-5 {
+  text-decoration-color: hsl(350, 100%, 88%);
+}
+
+.box-shadow-pink-5 {
+  box-shadow: 0 0 0 0.25rem hsl(350, 100%, 88%);
+}
+
+.text-shadow-pink-5 {
+  text-shadow: 0 0 0.25rem hsl(350, 100%, 88%);
+}
+
+.border-top-color-pink-5 {
+  border-top-color: hsl(350, 100%, 88%);
+}
+
+.border-right-color-pink-5 {
+  border-right-color: hsl(350, 100%, 88%);
+}
+
+.border-bottom-color-pink-5 {
+  border-bottom-color: hsl(350, 100%, 88%);
+}
+
+.border-left-color-pink-5 {
+  border-left-color: hsl(350, 100%, 88%);
+}
+
+.column-rule-color-pink-5 {
+  column-rule-color: hsl(350, 100%, 88%);
+}
+
+.caret-color-pink-5 {
+  caret-color: hsl(350, 100%, 88%);
+}
+
+.fill-pink-5 {
+  fill: hsl(350, 100%, 88%);
+}
+
+.stroke-pink-5 {
+  stroke: hsl(350, 100%, 88%);
+}
+
+.stop-color-pink-5 {
+  stop-color: hsl(350, 100%, 88%);
+}
+
+.color-pink-6 {
+  color: hsl(353, 100%, 91%);
+}
+
+.background-color-pink-6 {
+  background-color: hsl(353, 100%, 91%);
+}
+
+.border-color-pink-6 {
+  border-color: hsl(353, 100%, 91%);
+}
+
+.outline-color-pink-6 {
+  outline-color: hsl(353, 100%, 91%);
+}
+
+.text-decoration-color-pink-6 {
+  text-decoration-color: hsl(353, 100%, 91%);
+}
+
+.box-shadow-pink-6 {
+  box-shadow: 0 0 0 0.25rem hsl(353, 100%, 91%);
+}
+
+.text-shadow-pink-6 {
+  text-shadow: 0 0 0.25rem hsl(353, 100%, 91%);
+}
+
+.border-top-color-pink-6 {
+  border-top-color: hsl(353, 100%, 91%);
+}
+
+.border-right-color-pink-6 {
+  border-right-color: hsl(353, 100%, 91%);
+}
+
+.border-bottom-color-pink-6 {
+  border-bottom-color: hsl(353, 100%, 91%);
+}
+
+.border-left-color-pink-6 {
+  border-left-color: hsl(353, 100%, 91%);
+}
+
+.column-rule-color-pink-6 {
+  column-rule-color: hsl(353, 100%, 91%);
+}
+
+.caret-color-pink-6 {
+  caret-color: hsl(353, 100%, 91%);
+}
+
+.fill-pink-6 {
+  fill: hsl(353, 100%, 91%);
+}
+
+.stroke-pink-6 {
+  stroke: hsl(353, 100%, 91%);
+}
+
+.stop-color-pink-6 {
+  stop-color: hsl(353, 100%, 91%);
+}
+
+.color-pink-7 {
+  color: hsl(355, 99%, 94%);
+}
+
+.background-color-pink-7 {
+  background-color: hsl(355, 99%, 94%);
+}
+
+.border-color-pink-7 {
+  border-color: hsl(355, 99%, 94%);
+}
+
+.outline-color-pink-7 {
+  outline-color: hsl(355, 99%, 94%);
+}
+
+.text-decoration-color-pink-7 {
+  text-decoration-color: hsl(355, 99%, 94%);
+}
+
+.box-shadow-pink-7 {
+  box-shadow: 0 0 0 0.25rem hsl(355, 99%, 94%);
+}
+
+.text-shadow-pink-7 {
+  text-shadow: 0 0 0.25rem hsl(355, 99%, 94%);
+}
+
+.border-top-color-pink-7 {
+  border-top-color: hsl(355, 99%, 94%);
+}
+
+.border-right-color-pink-7 {
+  border-right-color: hsl(355, 99%, 94%);
+}
+
+.border-bottom-color-pink-7 {
+  border-bottom-color: hsl(355, 99%, 94%);
+}
+
+.border-left-color-pink-7 {
+  border-left-color: hsl(355, 99%, 94%);
+}
+
+.column-rule-color-pink-7 {
+  column-rule-color: hsl(355, 99%, 94%);
+}
+
+.caret-color-pink-7 {
+  caret-color: hsl(355, 99%, 94%);
+}
+
+.fill-pink-7 {
+  fill: hsl(355, 99%, 94%);
+}
+
+.stroke-pink-7 {
+  stroke: hsl(355, 99%, 94%);
+}
+
+.stop-color-pink-7 {
+  stop-color: hsl(355, 99%, 94%);
+}
+
+.color-pink-8 {
+  color: hsl(358, 97%, 97%);
+}
+
+.background-color-pink-8 {
+  background-color: hsl(358, 97%, 97%);
+}
+
+.border-color-pink-8 {
+  border-color: hsl(358, 97%, 97%);
+}
+
+.outline-color-pink-8 {
+  outline-color: hsl(358, 97%, 97%);
+}
+
+.text-decoration-color-pink-8 {
+  text-decoration-color: hsl(358, 97%, 97%);
+}
+
+.box-shadow-pink-8 {
+  box-shadow: 0 0 0 0.25rem hsl(358, 97%, 97%);
+}
+
+.text-shadow-pink-8 {
+  text-shadow: 0 0 0.25rem hsl(358, 97%, 97%);
+}
+
+.border-top-color-pink-8 {
+  border-top-color: hsl(358, 97%, 97%);
+}
+
+.border-right-color-pink-8 {
+  border-right-color: hsl(358, 97%, 97%);
+}
+
+.border-bottom-color-pink-8 {
+  border-bottom-color: hsl(358, 97%, 97%);
+}
+
+.border-left-color-pink-8 {
+  border-left-color: hsl(358, 97%, 97%);
+}
+
+.column-rule-color-pink-8 {
+  column-rule-color: hsl(358, 97%, 97%);
+}
+
+.caret-color-pink-8 {
+  caret-color: hsl(358, 97%, 97%);
+}
+
+.fill-pink-8 {
+  fill: hsl(358, 97%, 97%);
+}
+
+.stroke-pink-8 {
+  stroke: hsl(358, 97%, 97%);
+}
+
+.stop-color-pink-8 {
+  stop-color: hsl(358, 97%, 97%);
+}
+
+.color-pink-9 {
+  color: hsl(0, 95%, 100%);
+}
+
+.background-color-pink-9 {
+  background-color: hsl(0, 95%, 100%);
+}
+
+.border-color-pink-9 {
+  border-color: hsl(0, 95%, 100%);
+}
+
+.outline-color-pink-9 {
+  outline-color: hsl(0, 95%, 100%);
+}
+
+.text-decoration-color-pink-9 {
+  text-decoration-color: hsl(0, 95%, 100%);
+}
+
+.box-shadow-pink-9 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 95%, 100%);
+}
+
+.text-shadow-pink-9 {
+  text-shadow: 0 0 0.25rem hsl(0, 95%, 100%);
+}
+
+.border-top-color-pink-9 {
+  border-top-color: hsl(0, 95%, 100%);
+}
+
+.border-right-color-pink-9 {
+  border-right-color: hsl(0, 95%, 100%);
+}
+
+.border-bottom-color-pink-9 {
+  border-bottom-color: hsl(0, 95%, 100%);
+}
+
+.border-left-color-pink-9 {
+  border-left-color: hsl(0, 95%, 100%);
+}
+
+.column-rule-color-pink-9 {
+  column-rule-color: hsl(0, 95%, 100%);
+}
+
+.caret-color-pink-9 {
+  caret-color: hsl(0, 95%, 100%);
+}
+
+.fill-pink-9 {
+  fill: hsl(0, 95%, 100%);
+}
+
+.stroke-pink-9 {
+  stroke: hsl(0, 95%, 100%);
+}
+
+.stop-color-pink-9 {
+  stop-color: hsl(0, 95%, 100%);
+}
+
+.color-white-1 {
+  color: hsl(20, 95%, 16%);
+}
+
+.background-color-white-1 {
+  background-color: hsl(20, 95%, 16%);
+}
+
+.border-color-white-1 {
+  border-color: hsl(20, 95%, 16%);
+}
+
+.outline-color-white-1 {
+  outline-color: hsl(20, 95%, 16%);
+}
+
+.text-decoration-color-white-1 {
+  text-decoration-color: hsl(20, 95%, 16%);
+}
+
+.box-shadow-white-1 {
+  box-shadow: 0 0 0 0.25rem hsl(20, 95%, 16%);
+}
+
+.text-shadow-white-1 {
+  text-shadow: 0 0 0.25rem hsl(20, 95%, 16%);
+}
+
+.border-top-color-white-1 {
+  border-top-color: hsl(20, 95%, 16%);
+}
+
+.border-right-color-white-1 {
+  border-right-color: hsl(20, 95%, 16%);
+}
+
+.border-bottom-color-white-1 {
+  border-bottom-color: hsl(20, 95%, 16%);
+}
+
+.border-left-color-white-1 {
+  border-left-color: hsl(20, 95%, 16%);
+}
+
+.column-rule-color-white-1 {
+  column-rule-color: hsl(20, 95%, 16%);
+}
+
+.caret-color-white-1 {
+  caret-color: hsl(20, 95%, 16%);
+}
+
+.fill-white-1 {
+  fill: hsl(20, 95%, 16%);
+}
+
+.stroke-white-1 {
+  stroke: hsl(20, 95%, 16%);
+}
+
+.stop-color-white-1 {
+  stop-color: hsl(20, 95%, 16%);
+}
+
+.color-white-2 {
+  color: hsl(23, 53%, 27%);
+}
+
+.background-color-white-2 {
+  background-color: hsl(23, 53%, 27%);
+}
+
+.border-color-white-2 {
+  border-color: hsl(23, 53%, 27%);
+}
+
+.outline-color-white-2 {
+  outline-color: hsl(23, 53%, 27%);
+}
+
+.text-decoration-color-white-2 {
+  text-decoration-color: hsl(23, 53%, 27%);
+}
+
+.box-shadow-white-2 {
+  box-shadow: 0 0 0 0.25rem hsl(23, 53%, 27%);
+}
+
+.text-shadow-white-2 {
+  text-shadow: 0 0 0.25rem hsl(23, 53%, 27%);
+}
+
+.border-top-color-white-2 {
+  border-top-color: hsl(23, 53%, 27%);
+}
+
+.border-right-color-white-2 {
+  border-right-color: hsl(23, 53%, 27%);
+}
+
+.border-bottom-color-white-2 {
+  border-bottom-color: hsl(23, 53%, 27%);
+}
+
+.border-left-color-white-2 {
+  border-left-color: hsl(23, 53%, 27%);
+}
+
+.column-rule-color-white-2 {
+  column-rule-color: hsl(23, 53%, 27%);
+}
+
+.caret-color-white-2 {
+  caret-color: hsl(23, 53%, 27%);
+}
+
+.fill-white-2 {
+  fill: hsl(23, 53%, 27%);
+}
+
+.stroke-white-2 {
+  stroke: hsl(23, 53%, 27%);
+}
+
+.stop-color-white-2 {
+  stop-color: hsl(23, 53%, 27%);
+}
+
+.color-white-3 {
+  color: hsl(25, 24%, 37%);
+}
+
+.background-color-white-3 {
+  background-color: hsl(25, 24%, 37%);
+}
+
+.border-color-white-3 {
+  border-color: hsl(25, 24%, 37%);
+}
+
+.outline-color-white-3 {
+  outline-color: hsl(25, 24%, 37%);
+}
+
+.text-decoration-color-white-3 {
+  text-decoration-color: hsl(25, 24%, 37%);
+}
+
+.box-shadow-white-3 {
+  box-shadow: 0 0 0 0.25rem hsl(25, 24%, 37%);
+}
+
+.text-shadow-white-3 {
+  text-shadow: 0 0 0.25rem hsl(25, 24%, 37%);
+}
+
+.border-top-color-white-3 {
+  border-top-color: hsl(25, 24%, 37%);
+}
+
+.border-right-color-white-3 {
+  border-right-color: hsl(25, 24%, 37%);
+}
+
+.border-bottom-color-white-3 {
+  border-bottom-color: hsl(25, 24%, 37%);
+}
+
+.border-left-color-white-3 {
+  border-left-color: hsl(25, 24%, 37%);
+}
+
+.column-rule-color-white-3 {
+  column-rule-color: hsl(25, 24%, 37%);
+}
+
+.caret-color-white-3 {
+  caret-color: hsl(25, 24%, 37%);
+}
+
+.fill-white-3 {
+  fill: hsl(25, 24%, 37%);
+}
+
+.stroke-white-3 {
+  stroke: hsl(25, 24%, 37%);
+}
+
+.stop-color-white-3 {
+  stop-color: hsl(25, 24%, 37%);
+}
+
+.color-white-4 {
+  color: hsl(28, 6%, 48%);
+}
+
+.background-color-white-4 {
+  background-color: hsl(28, 6%, 48%);
+}
+
+.border-color-white-4 {
+  border-color: hsl(28, 6%, 48%);
+}
+
+.outline-color-white-4 {
+  outline-color: hsl(28, 6%, 48%);
+}
+
+.text-decoration-color-white-4 {
+  text-decoration-color: hsl(28, 6%, 48%);
+}
+
+.box-shadow-white-4 {
+  box-shadow: 0 0 0 0.25rem hsl(28, 6%, 48%);
+}
+
+.text-shadow-white-4 {
+  text-shadow: 0 0 0.25rem hsl(28, 6%, 48%);
+}
+
+.border-top-color-white-4 {
+  border-top-color: hsl(28, 6%, 48%);
+}
+
+.border-right-color-white-4 {
+  border-right-color: hsl(28, 6%, 48%);
+}
+
+.border-bottom-color-white-4 {
+  border-bottom-color: hsl(28, 6%, 48%);
+}
+
+.border-left-color-white-4 {
+  border-left-color: hsl(28, 6%, 48%);
+}
+
+.column-rule-color-white-4 {
+  column-rule-color: hsl(28, 6%, 48%);
+}
+
+.caret-color-white-4 {
+  caret-color: hsl(28, 6%, 48%);
+}
+
+.fill-white-4 {
+  fill: hsl(28, 6%, 48%);
+}
+
+.stroke-white-4 {
+  stroke: hsl(28, 6%, 48%);
+}
+
+.stop-color-white-4 {
+  stop-color: hsl(28, 6%, 48%);
+}
+
+.color-white-5 {
+  color: hsl(30, 0%, 58%);
+}
+
+.background-color-white-5 {
+  background-color: hsl(30, 0%, 58%);
+}
+
+.border-color-white-5 {
+  border-color: hsl(30, 0%, 58%);
+}
+
+.outline-color-white-5 {
+  outline-color: hsl(30, 0%, 58%);
+}
+
+.text-decoration-color-white-5 {
+  text-decoration-color: hsl(30, 0%, 58%);
+}
+
+.box-shadow-white-5 {
+  box-shadow: 0 0 0 0.25rem hsl(30, 0%, 58%);
+}
+
+.text-shadow-white-5 {
+  text-shadow: 0 0 0.25rem hsl(30, 0%, 58%);
+}
+
+.border-top-color-white-5 {
+  border-top-color: hsl(30, 0%, 58%);
+}
+
+.border-right-color-white-5 {
+  border-right-color: hsl(30, 0%, 58%);
+}
+
+.border-bottom-color-white-5 {
+  border-bottom-color: hsl(30, 0%, 58%);
+}
+
+.border-left-color-white-5 {
+  border-left-color: hsl(30, 0%, 58%);
+}
+
+.column-rule-color-white-5 {
+  column-rule-color: hsl(30, 0%, 58%);
+}
+
+.caret-color-white-5 {
+  caret-color: hsl(30, 0%, 58%);
+}
+
+.fill-white-5 {
+  fill: hsl(30, 0%, 58%);
+}
+
+.stroke-white-5 {
+  stroke: hsl(30, 0%, 58%);
+}
+
+.stop-color-white-5 {
+  stop-color: hsl(30, 0%, 58%);
+}
+
+.color-white-6 {
+  color: hsl(33, 6%, 69%);
+}
+
+.background-color-white-6 {
+  background-color: hsl(33, 6%, 69%);
+}
+
+.border-color-white-6 {
+  border-color: hsl(33, 6%, 69%);
+}
+
+.outline-color-white-6 {
+  outline-color: hsl(33, 6%, 69%);
+}
+
+.text-decoration-color-white-6 {
+  text-decoration-color: hsl(33, 6%, 69%);
+}
+
+.box-shadow-white-6 {
+  box-shadow: 0 0 0 0.25rem hsl(33, 6%, 69%);
+}
+
+.text-shadow-white-6 {
+  text-shadow: 0 0 0.25rem hsl(33, 6%, 69%);
+}
+
+.border-top-color-white-6 {
+  border-top-color: hsl(33, 6%, 69%);
+}
+
+.border-right-color-white-6 {
+  border-right-color: hsl(33, 6%, 69%);
+}
+
+.border-bottom-color-white-6 {
+  border-bottom-color: hsl(33, 6%, 69%);
+}
+
+.border-left-color-white-6 {
+  border-left-color: hsl(33, 6%, 69%);
+}
+
+.column-rule-color-white-6 {
+  column-rule-color: hsl(33, 6%, 69%);
+}
+
+.caret-color-white-6 {
+  caret-color: hsl(33, 6%, 69%);
+}
+
+.fill-white-6 {
+  fill: hsl(33, 6%, 69%);
+}
+
+.stroke-white-6 {
+  stroke: hsl(33, 6%, 69%);
+}
+
+.stop-color-white-6 {
+  stop-color: hsl(33, 6%, 69%);
+}
+
+.color-white-7 {
+  color: hsl(35, 24%, 79%);
+}
+
+.background-color-white-7 {
+  background-color: hsl(35, 24%, 79%);
+}
+
+.border-color-white-7 {
+  border-color: hsl(35, 24%, 79%);
+}
+
+.outline-color-white-7 {
+  outline-color: hsl(35, 24%, 79%);
+}
+
+.text-decoration-color-white-7 {
+  text-decoration-color: hsl(35, 24%, 79%);
+}
+
+.box-shadow-white-7 {
+  box-shadow: 0 0 0 0.25rem hsl(35, 24%, 79%);
+}
+
+.text-shadow-white-7 {
+  text-shadow: 0 0 0.25rem hsl(35, 24%, 79%);
+}
+
+.border-top-color-white-7 {
+  border-top-color: hsl(35, 24%, 79%);
+}
+
+.border-right-color-white-7 {
+  border-right-color: hsl(35, 24%, 79%);
+}
+
+.border-bottom-color-white-7 {
+  border-bottom-color: hsl(35, 24%, 79%);
+}
+
+.border-left-color-white-7 {
+  border-left-color: hsl(35, 24%, 79%);
+}
+
+.column-rule-color-white-7 {
+  column-rule-color: hsl(35, 24%, 79%);
+}
+
+.caret-color-white-7 {
+  caret-color: hsl(35, 24%, 79%);
+}
+
+.fill-white-7 {
+  fill: hsl(35, 24%, 79%);
+}
+
+.stroke-white-7 {
+  stroke: hsl(35, 24%, 79%);
+}
+
+.stop-color-white-7 {
+  stop-color: hsl(35, 24%, 79%);
+}
+
+.color-white-8 {
+  color: hsl(38, 53%, 90%);
+}
+
+.background-color-white-8 {
+  background-color: hsl(38, 53%, 90%);
+}
+
+.border-color-white-8 {
+  border-color: hsl(38, 53%, 90%);
+}
+
+.outline-color-white-8 {
+  outline-color: hsl(38, 53%, 90%);
+}
+
+.text-decoration-color-white-8 {
+  text-decoration-color: hsl(38, 53%, 90%);
+}
+
+.box-shadow-white-8 {
+  box-shadow: 0 0 0 0.25rem hsl(38, 53%, 90%);
+}
+
+.text-shadow-white-8 {
+  text-shadow: 0 0 0.25rem hsl(38, 53%, 90%);
+}
+
+.border-top-color-white-8 {
+  border-top-color: hsl(38, 53%, 90%);
+}
+
+.border-right-color-white-8 {
+  border-right-color: hsl(38, 53%, 90%);
+}
+
+.border-bottom-color-white-8 {
+  border-bottom-color: hsl(38, 53%, 90%);
+}
+
+.border-left-color-white-8 {
+  border-left-color: hsl(38, 53%, 90%);
+}
+
+.column-rule-color-white-8 {
+  column-rule-color: hsl(38, 53%, 90%);
+}
+
+.caret-color-white-8 {
+  caret-color: hsl(38, 53%, 90%);
+}
+
+.fill-white-8 {
+  fill: hsl(38, 53%, 90%);
+}
+
+.stroke-white-8 {
+  stroke: hsl(38, 53%, 90%);
+}
+
+.stop-color-white-8 {
+  stop-color: hsl(38, 53%, 90%);
+}
+
+.color-white-9 {
+  color: hsl(40, 95%, 100%);
+}
+
+.background-color-white-9 {
+  background-color: hsl(40, 95%, 100%);
+}
+
+.border-color-white-9 {
+  border-color: hsl(40, 95%, 100%);
+}
+
+.outline-color-white-9 {
+  outline-color: hsl(40, 95%, 100%);
+}
+
+.text-decoration-color-white-9 {
+  text-decoration-color: hsl(40, 95%, 100%);
+}
+
+.box-shadow-white-9 {
+  box-shadow: 0 0 0 0.25rem hsl(40, 95%, 100%);
+}
+
+.text-shadow-white-9 {
+  text-shadow: 0 0 0.25rem hsl(40, 95%, 100%);
+}
+
+.border-top-color-white-9 {
+  border-top-color: hsl(40, 95%, 100%);
+}
+
+.border-right-color-white-9 {
+  border-right-color: hsl(40, 95%, 100%);
+}
+
+.border-bottom-color-white-9 {
+  border-bottom-color: hsl(40, 95%, 100%);
+}
+
+.border-left-color-white-9 {
+  border-left-color: hsl(40, 95%, 100%);
+}
+
+.column-rule-color-white-9 {
+  column-rule-color: hsl(40, 95%, 100%);
+}
+
+.caret-color-white-9 {
+  caret-color: hsl(40, 95%, 100%);
+}
+
+.fill-white-9 {
+  fill: hsl(40, 95%, 100%);
+}
+
+.stroke-white-9 {
+  stroke: hsl(40, 95%, 100%);
+}
+
+.stop-color-white-9 {
+  stop-color: hsl(40, 95%, 100%);
+}
+
+.color-black-1 {
+  color: hsl(0, 95%, 0%);
+}
+
+.background-color-black-1 {
+  background-color: hsl(0, 95%, 0%);
+}
+
+.border-color-black-1 {
+  border-color: hsl(0, 95%, 0%);
+}
+
+.outline-color-black-1 {
+  outline-color: hsl(0, 95%, 0%);
+}
+
+.text-decoration-color-black-1 {
+  text-decoration-color: hsl(0, 95%, 0%);
+}
+
+.box-shadow-black-1 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 95%, 0%);
+}
+
+.text-shadow-black-1 {
+  text-shadow: 0 0 0.25rem hsl(0, 95%, 0%);
+}
+
+.border-top-color-black-1 {
+  border-top-color: hsl(0, 95%, 0%);
+}
+
+.border-right-color-black-1 {
+  border-right-color: hsl(0, 95%, 0%);
+}
+
+.border-bottom-color-black-1 {
+  border-bottom-color: hsl(0, 95%, 0%);
+}
+
+.border-left-color-black-1 {
+  border-left-color: hsl(0, 95%, 0%);
+}
+
+.column-rule-color-black-1 {
+  column-rule-color: hsl(0, 95%, 0%);
+}
+
+.caret-color-black-1 {
+  caret-color: hsl(0, 95%, 0%);
+}
+
+.fill-black-1 {
+  fill: hsl(0, 95%, 0%);
+}
+
+.stroke-black-1 {
+  stroke: hsl(0, 95%, 0%);
+}
+
+.stop-color-black-1 {
+  stop-color: hsl(0, 95%, 0%);
+}
+
+.color-black-2 {
+  color: hsl(0, 53%, 0%);
+}
+
+.background-color-black-2 {
+  background-color: hsl(0, 53%, 0%);
+}
+
+.border-color-black-2 {
+  border-color: hsl(0, 53%, 0%);
+}
+
+.outline-color-black-2 {
+  outline-color: hsl(0, 53%, 0%);
+}
+
+.text-decoration-color-black-2 {
+  text-decoration-color: hsl(0, 53%, 0%);
+}
+
+.box-shadow-black-2 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 53%, 0%);
+}
+
+.text-shadow-black-2 {
+  text-shadow: 0 0 0.25rem hsl(0, 53%, 0%);
+}
+
+.border-top-color-black-2 {
+  border-top-color: hsl(0, 53%, 0%);
+}
+
+.border-right-color-black-2 {
+  border-right-color: hsl(0, 53%, 0%);
+}
+
+.border-bottom-color-black-2 {
+  border-bottom-color: hsl(0, 53%, 0%);
+}
+
+.border-left-color-black-2 {
+  border-left-color: hsl(0, 53%, 0%);
+}
+
+.column-rule-color-black-2 {
+  column-rule-color: hsl(0, 53%, 0%);
+}
+
+.caret-color-black-2 {
+  caret-color: hsl(0, 53%, 0%);
+}
+
+.fill-black-2 {
+  fill: hsl(0, 53%, 0%);
+}
+
+.stroke-black-2 {
+  stroke: hsl(0, 53%, 0%);
+}
+
+.stop-color-black-2 {
+  stop-color: hsl(0, 53%, 0%);
+}
+
+.color-black-3 {
+  color: hsl(0, 24%, 0%);
+}
+
+.background-color-black-3 {
+  background-color: hsl(0, 24%, 0%);
+}
+
+.border-color-black-3 {
+  border-color: hsl(0, 24%, 0%);
+}
+
+.outline-color-black-3 {
+  outline-color: hsl(0, 24%, 0%);
+}
+
+.text-decoration-color-black-3 {
+  text-decoration-color: hsl(0, 24%, 0%);
+}
+
+.box-shadow-black-3 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 24%, 0%);
+}
+
+.text-shadow-black-3 {
+  text-shadow: 0 0 0.25rem hsl(0, 24%, 0%);
+}
+
+.border-top-color-black-3 {
+  border-top-color: hsl(0, 24%, 0%);
+}
+
+.border-right-color-black-3 {
+  border-right-color: hsl(0, 24%, 0%);
+}
+
+.border-bottom-color-black-3 {
+  border-bottom-color: hsl(0, 24%, 0%);
+}
+
+.border-left-color-black-3 {
+  border-left-color: hsl(0, 24%, 0%);
+}
+
+.column-rule-color-black-3 {
+  column-rule-color: hsl(0, 24%, 0%);
+}
+
+.caret-color-black-3 {
+  caret-color: hsl(0, 24%, 0%);
+}
+
+.fill-black-3 {
+  fill: hsl(0, 24%, 0%);
+}
+
+.stroke-black-3 {
+  stroke: hsl(0, 24%, 0%);
+}
+
+.stop-color-black-3 {
+  stop-color: hsl(0, 24%, 0%);
+}
+
+.color-black-4 {
+  color: hsl(0, 6%, 0%);
+}
+
+.background-color-black-4 {
+  background-color: hsl(0, 6%, 0%);
+}
+
+.border-color-black-4 {
+  border-color: hsl(0, 6%, 0%);
+}
+
+.outline-color-black-4 {
+  outline-color: hsl(0, 6%, 0%);
+}
+
+.text-decoration-color-black-4 {
+  text-decoration-color: hsl(0, 6%, 0%);
+}
+
+.box-shadow-black-4 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 6%, 0%);
+}
+
+.text-shadow-black-4 {
+  text-shadow: 0 0 0.25rem hsl(0, 6%, 0%);
+}
+
+.border-top-color-black-4 {
+  border-top-color: hsl(0, 6%, 0%);
+}
+
+.border-right-color-black-4 {
+  border-right-color: hsl(0, 6%, 0%);
+}
+
+.border-bottom-color-black-4 {
+  border-bottom-color: hsl(0, 6%, 0%);
+}
+
+.border-left-color-black-4 {
+  border-left-color: hsl(0, 6%, 0%);
+}
+
+.column-rule-color-black-4 {
+  column-rule-color: hsl(0, 6%, 0%);
+}
+
+.caret-color-black-4 {
+  caret-color: hsl(0, 6%, 0%);
+}
+
+.fill-black-4 {
+  fill: hsl(0, 6%, 0%);
+}
+
+.stroke-black-4 {
+  stroke: hsl(0, 6%, 0%);
+}
+
+.stop-color-black-4 {
+  stop-color: hsl(0, 6%, 0%);
+}
+
+.color-black-5 {
+  color: hsl(0, 0%, 0%);
+}
+
+.background-color-black-5 {
+  background-color: hsl(0, 0%, 0%);
+}
+
+.border-color-black-5 {
+  border-color: hsl(0, 0%, 0%);
+}
+
+.outline-color-black-5 {
+  outline-color: hsl(0, 0%, 0%);
+}
+
+.text-decoration-color-black-5 {
+  text-decoration-color: hsl(0, 0%, 0%);
+}
+
+.box-shadow-black-5 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 0%, 0%);
+}
+
+.text-shadow-black-5 {
+  text-shadow: 0 0 0.25rem hsl(0, 0%, 0%);
+}
+
+.border-top-color-black-5 {
+  border-top-color: hsl(0, 0%, 0%);
+}
+
+.border-right-color-black-5 {
+  border-right-color: hsl(0, 0%, 0%);
+}
+
+.border-bottom-color-black-5 {
+  border-bottom-color: hsl(0, 0%, 0%);
+}
+
+.border-left-color-black-5 {
+  border-left-color: hsl(0, 0%, 0%);
+}
+
+.column-rule-color-black-5 {
+  column-rule-color: hsl(0, 0%, 0%);
+}
+
+.caret-color-black-5 {
+  caret-color: hsl(0, 0%, 0%);
+}
+
+.fill-black-5 {
+  fill: hsl(0, 0%, 0%);
+}
+
+.stroke-black-5 {
+  stroke: hsl(0, 0%, 0%);
+}
+
+.stop-color-black-5 {
+  stop-color: hsl(0, 0%, 0%);
+}
+
+.color-black-6 {
+  color: hsl(3, 6%, 1%);
+}
+
+.background-color-black-6 {
+  background-color: hsl(3, 6%, 1%);
+}
+
+.border-color-black-6 {
+  border-color: hsl(3, 6%, 1%);
+}
+
+.outline-color-black-6 {
+  outline-color: hsl(3, 6%, 1%);
+}
+
+.text-decoration-color-black-6 {
+  text-decoration-color: hsl(3, 6%, 1%);
+}
+
+.box-shadow-black-6 {
+  box-shadow: 0 0 0 0.25rem hsl(3, 6%, 1%);
+}
+
+.text-shadow-black-6 {
+  text-shadow: 0 0 0.25rem hsl(3, 6%, 1%);
+}
+
+.border-top-color-black-6 {
+  border-top-color: hsl(3, 6%, 1%);
+}
+
+.border-right-color-black-6 {
+  border-right-color: hsl(3, 6%, 1%);
+}
+
+.border-bottom-color-black-6 {
+  border-bottom-color: hsl(3, 6%, 1%);
+}
+
+.border-left-color-black-6 {
+  border-left-color: hsl(3, 6%, 1%);
+}
+
+.column-rule-color-black-6 {
+  column-rule-color: hsl(3, 6%, 1%);
+}
+
+.caret-color-black-6 {
+  caret-color: hsl(3, 6%, 1%);
+}
+
+.fill-black-6 {
+  fill: hsl(3, 6%, 1%);
+}
+
+.stroke-black-6 {
+  stroke: hsl(3, 6%, 1%);
+}
+
+.stop-color-black-6 {
+  stop-color: hsl(3, 6%, 1%);
+}
+
+.color-black-7 {
+  color: hsl(5, 24%, 3%);
+}
+
+.background-color-black-7 {
+  background-color: hsl(5, 24%, 3%);
+}
+
+.border-color-black-7 {
+  border-color: hsl(5, 24%, 3%);
+}
+
+.outline-color-black-7 {
+  outline-color: hsl(5, 24%, 3%);
+}
+
+.text-decoration-color-black-7 {
+  text-decoration-color: hsl(5, 24%, 3%);
+}
+
+.box-shadow-black-7 {
+  box-shadow: 0 0 0 0.25rem hsl(5, 24%, 3%);
+}
+
+.text-shadow-black-7 {
+  text-shadow: 0 0 0.25rem hsl(5, 24%, 3%);
+}
+
+.border-top-color-black-7 {
+  border-top-color: hsl(5, 24%, 3%);
+}
+
+.border-right-color-black-7 {
+  border-right-color: hsl(5, 24%, 3%);
+}
+
+.border-bottom-color-black-7 {
+  border-bottom-color: hsl(5, 24%, 3%);
+}
+
+.border-left-color-black-7 {
+  border-left-color: hsl(5, 24%, 3%);
+}
+
+.column-rule-color-black-7 {
+  column-rule-color: hsl(5, 24%, 3%);
+}
+
+.caret-color-black-7 {
+  caret-color: hsl(5, 24%, 3%);
+}
+
+.fill-black-7 {
+  fill: hsl(5, 24%, 3%);
+}
+
+.stroke-black-7 {
+  stroke: hsl(5, 24%, 3%);
+}
+
+.stop-color-black-7 {
+  stop-color: hsl(5, 24%, 3%);
+}
+
+.color-black-8 {
+  color: hsl(8, 53%, 4%);
+}
+
+.background-color-black-8 {
+  background-color: hsl(8, 53%, 4%);
+}
+
+.border-color-black-8 {
+  border-color: hsl(8, 53%, 4%);
+}
+
+.outline-color-black-8 {
+  outline-color: hsl(8, 53%, 4%);
+}
+
+.text-decoration-color-black-8 {
+  text-decoration-color: hsl(8, 53%, 4%);
+}
+
+.box-shadow-black-8 {
+  box-shadow: 0 0 0 0.25rem hsl(8, 53%, 4%);
+}
+
+.text-shadow-black-8 {
+  text-shadow: 0 0 0.25rem hsl(8, 53%, 4%);
+}
+
+.border-top-color-black-8 {
+  border-top-color: hsl(8, 53%, 4%);
+}
+
+.border-right-color-black-8 {
+  border-right-color: hsl(8, 53%, 4%);
+}
+
+.border-bottom-color-black-8 {
+  border-bottom-color: hsl(8, 53%, 4%);
+}
+
+.border-left-color-black-8 {
+  border-left-color: hsl(8, 53%, 4%);
+}
+
+.column-rule-color-black-8 {
+  column-rule-color: hsl(8, 53%, 4%);
+}
+
+.caret-color-black-8 {
+  caret-color: hsl(8, 53%, 4%);
+}
+
+.fill-black-8 {
+  fill: hsl(8, 53%, 4%);
+}
+
+.stroke-black-8 {
+  stroke: hsl(8, 53%, 4%);
+}
+
+.stop-color-black-8 {
+  stop-color: hsl(8, 53%, 4%);
+}
+
+.color-black-9 {
+  color: hsl(10, 95%, 5%);
+}
+
+.background-color-black-9 {
+  background-color: hsl(10, 95%, 5%);
+}
+
+.border-color-black-9 {
+  border-color: hsl(10, 95%, 5%);
+}
+
+.outline-color-black-9 {
+  outline-color: hsl(10, 95%, 5%);
+}
+
+.text-decoration-color-black-9 {
+  text-decoration-color: hsl(10, 95%, 5%);
+}
+
+.box-shadow-black-9 {
+  box-shadow: 0 0 0 0.25rem hsl(10, 95%, 5%);
+}
+
+.text-shadow-black-9 {
+  text-shadow: 0 0 0.25rem hsl(10, 95%, 5%);
+}
+
+.border-top-color-black-9 {
+  border-top-color: hsl(10, 95%, 5%);
+}
+
+.border-right-color-black-9 {
+  border-right-color: hsl(10, 95%, 5%);
+}
+
+.border-bottom-color-black-9 {
+  border-bottom-color: hsl(10, 95%, 5%);
+}
+
+.border-left-color-black-9 {
+  border-left-color: hsl(10, 95%, 5%);
+}
+
+.column-rule-color-black-9 {
+  column-rule-color: hsl(10, 95%, 5%);
+}
+
+.caret-color-black-9 {
+  caret-color: hsl(10, 95%, 5%);
+}
+
+.fill-black-9 {
+  fill: hsl(10, 95%, 5%);
+}
+
+.stroke-black-9 {
+  stroke: hsl(10, 95%, 5%);
+}
+
+.stop-color-black-9 {
+  stop-color: hsl(10, 95%, 5%);
+}
+
+.color-gray-1 {
+  color: hsl(0, 95%, 5%);
+}
+
+.background-color-gray-1 {
+  background-color: hsl(0, 95%, 5%);
+}
+
+.border-color-gray-1 {
+  border-color: hsl(0, 95%, 5%);
+}
+
+.outline-color-gray-1 {
+  outline-color: hsl(0, 95%, 5%);
+}
+
+.text-decoration-color-gray-1 {
+  text-decoration-color: hsl(0, 95%, 5%);
+}
+
+.box-shadow-gray-1 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 95%, 5%);
+}
+
+.text-shadow-gray-1 {
+  text-shadow: 0 0 0.25rem hsl(0, 95%, 5%);
+}
+
+.border-top-color-gray-1 {
+  border-top-color: hsl(0, 95%, 5%);
+}
+
+.border-right-color-gray-1 {
+  border-right-color: hsl(0, 95%, 5%);
+}
+
+.border-bottom-color-gray-1 {
+  border-bottom-color: hsl(0, 95%, 5%);
+}
+
+.border-left-color-gray-1 {
+  border-left-color: hsl(0, 95%, 5%);
+}
+
+.column-rule-color-gray-1 {
+  column-rule-color: hsl(0, 95%, 5%);
+}
+
+.caret-color-gray-1 {
+  caret-color: hsl(0, 95%, 5%);
+}
+
+.fill-gray-1 {
+  fill: hsl(0, 95%, 5%);
+}
+
+.stroke-gray-1 {
+  stroke: hsl(0, 95%, 5%);
+}
+
+.stop-color-gray-1 {
+  stop-color: hsl(0, 95%, 5%);
+}
+
+.color-gray-2 {
+  color: hsl(0, 53%, 16%);
+}
+
+.background-color-gray-2 {
+  background-color: hsl(0, 53%, 16%);
+}
+
+.border-color-gray-2 {
+  border-color: hsl(0, 53%, 16%);
+}
+
+.outline-color-gray-2 {
+  outline-color: hsl(0, 53%, 16%);
+}
+
+.text-decoration-color-gray-2 {
+  text-decoration-color: hsl(0, 53%, 16%);
+}
+
+.box-shadow-gray-2 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 53%, 16%);
+}
+
+.text-shadow-gray-2 {
+  text-shadow: 0 0 0.25rem hsl(0, 53%, 16%);
+}
+
+.border-top-color-gray-2 {
+  border-top-color: hsl(0, 53%, 16%);
+}
+
+.border-right-color-gray-2 {
+  border-right-color: hsl(0, 53%, 16%);
+}
+
+.border-bottom-color-gray-2 {
+  border-bottom-color: hsl(0, 53%, 16%);
+}
+
+.border-left-color-gray-2 {
+  border-left-color: hsl(0, 53%, 16%);
+}
+
+.column-rule-color-gray-2 {
+  column-rule-color: hsl(0, 53%, 16%);
+}
+
+.caret-color-gray-2 {
+  caret-color: hsl(0, 53%, 16%);
+}
+
+.fill-gray-2 {
+  fill: hsl(0, 53%, 16%);
+}
+
+.stroke-gray-2 {
+  stroke: hsl(0, 53%, 16%);
+}
+
+.stop-color-gray-2 {
+  stop-color: hsl(0, 53%, 16%);
+}
+
+.color-gray-3 {
+  color: hsl(0, 24%, 28%);
+}
+
+.background-color-gray-3 {
+  background-color: hsl(0, 24%, 28%);
+}
+
+.border-color-gray-3 {
+  border-color: hsl(0, 24%, 28%);
+}
+
+.outline-color-gray-3 {
+  outline-color: hsl(0, 24%, 28%);
+}
+
+.text-decoration-color-gray-3 {
+  text-decoration-color: hsl(0, 24%, 28%);
+}
+
+.box-shadow-gray-3 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 24%, 28%);
+}
+
+.text-shadow-gray-3 {
+  text-shadow: 0 0 0.25rem hsl(0, 24%, 28%);
+}
+
+.border-top-color-gray-3 {
+  border-top-color: hsl(0, 24%, 28%);
+}
+
+.border-right-color-gray-3 {
+  border-right-color: hsl(0, 24%, 28%);
+}
+
+.border-bottom-color-gray-3 {
+  border-bottom-color: hsl(0, 24%, 28%);
+}
+
+.border-left-color-gray-3 {
+  border-left-color: hsl(0, 24%, 28%);
+}
+
+.column-rule-color-gray-3 {
+  column-rule-color: hsl(0, 24%, 28%);
+}
+
+.caret-color-gray-3 {
+  caret-color: hsl(0, 24%, 28%);
+}
+
+.fill-gray-3 {
+  fill: hsl(0, 24%, 28%);
+}
+
+.stroke-gray-3 {
+  stroke: hsl(0, 24%, 28%);
+}
+
+.stop-color-gray-3 {
+  stop-color: hsl(0, 24%, 28%);
+}
+
+.color-gray-4 {
+  color: hsl(0, 6%, 39%);
+}
+
+.background-color-gray-4 {
+  background-color: hsl(0, 6%, 39%);
+}
+
+.border-color-gray-4 {
+  border-color: hsl(0, 6%, 39%);
+}
+
+.outline-color-gray-4 {
+  outline-color: hsl(0, 6%, 39%);
+}
+
+.text-decoration-color-gray-4 {
+  text-decoration-color: hsl(0, 6%, 39%);
+}
+
+.box-shadow-gray-4 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 6%, 39%);
+}
+
+.text-shadow-gray-4 {
+  text-shadow: 0 0 0.25rem hsl(0, 6%, 39%);
+}
+
+.border-top-color-gray-4 {
+  border-top-color: hsl(0, 6%, 39%);
+}
+
+.border-right-color-gray-4 {
+  border-right-color: hsl(0, 6%, 39%);
+}
+
+.border-bottom-color-gray-4 {
+  border-bottom-color: hsl(0, 6%, 39%);
+}
+
+.border-left-color-gray-4 {
+  border-left-color: hsl(0, 6%, 39%);
+}
+
+.column-rule-color-gray-4 {
+  column-rule-color: hsl(0, 6%, 39%);
+}
+
+.caret-color-gray-4 {
+  caret-color: hsl(0, 6%, 39%);
+}
+
+.fill-gray-4 {
+  fill: hsl(0, 6%, 39%);
+}
+
+.stroke-gray-4 {
+  stroke: hsl(0, 6%, 39%);
+}
+
+.stop-color-gray-4 {
+  stop-color: hsl(0, 6%, 39%);
+}
+
+.color-gray-5 {
+  color: hsl(0, 0%, 50%);
+}
+
+.background-color-gray-5 {
+  background-color: hsl(0, 0%, 50%);
+}
+
+.border-color-gray-5 {
+  border-color: hsl(0, 0%, 50%);
+}
+
+.outline-color-gray-5 {
+  outline-color: hsl(0, 0%, 50%);
+}
+
+.text-decoration-color-gray-5 {
+  text-decoration-color: hsl(0, 0%, 50%);
+}
+
+.box-shadow-gray-5 {
+  box-shadow: 0 0 0 0.25rem hsl(0, 0%, 50%);
+}
+
+.text-shadow-gray-5 {
+  text-shadow: 0 0 0.25rem hsl(0, 0%, 50%);
+}
+
+.border-top-color-gray-5 {
+  border-top-color: hsl(0, 0%, 50%);
+}
+
+.border-right-color-gray-5 {
+  border-right-color: hsl(0, 0%, 50%);
+}
+
+.border-bottom-color-gray-5 {
+  border-bottom-color: hsl(0, 0%, 50%);
+}
+
+.border-left-color-gray-5 {
+  border-left-color: hsl(0, 0%, 50%);
+}
+
+.column-rule-color-gray-5 {
+  column-rule-color: hsl(0, 0%, 50%);
+}
+
+.caret-color-gray-5 {
+  caret-color: hsl(0, 0%, 50%);
+}
+
+.fill-gray-5 {
+  fill: hsl(0, 0%, 50%);
+}
+
+.stroke-gray-5 {
+  stroke: hsl(0, 0%, 50%);
+}
+
+.stop-color-gray-5 {
+  stop-color: hsl(0, 0%, 50%);
+}
+
+.color-gray-6 {
+  color: hsl(3, 6%, 61%);
+}
+
+.background-color-gray-6 {
+  background-color: hsl(3, 6%, 61%);
+}
+
+.border-color-gray-6 {
+  border-color: hsl(3, 6%, 61%);
+}
+
+.outline-color-gray-6 {
+  outline-color: hsl(3, 6%, 61%);
+}
+
+.text-decoration-color-gray-6 {
+  text-decoration-color: hsl(3, 6%, 61%);
+}
+
+.box-shadow-gray-6 {
+  box-shadow: 0 0 0 0.25rem hsl(3, 6%, 61%);
+}
+
+.text-shadow-gray-6 {
+  text-shadow: 0 0 0.25rem hsl(3, 6%, 61%);
+}
+
+.border-top-color-gray-6 {
+  border-top-color: hsl(3, 6%, 61%);
+}
+
+.border-right-color-gray-6 {
+  border-right-color: hsl(3, 6%, 61%);
+}
+
+.border-bottom-color-gray-6 {
+  border-bottom-color: hsl(3, 6%, 61%);
+}
+
+.border-left-color-gray-6 {
+  border-left-color: hsl(3, 6%, 61%);
+}
+
+.column-rule-color-gray-6 {
+  column-rule-color: hsl(3, 6%, 61%);
+}
+
+.caret-color-gray-6 {
+  caret-color: hsl(3, 6%, 61%);
+}
+
+.fill-gray-6 {
+  fill: hsl(3, 6%, 61%);
+}
+
+.stroke-gray-6 {
+  stroke: hsl(3, 6%, 61%);
+}
+
+.stop-color-gray-6 {
+  stop-color: hsl(3, 6%, 61%);
+}
+
+.color-gray-7 {
+  color: hsl(5, 24%, 73%);
+}
+
+.background-color-gray-7 {
+  background-color: hsl(5, 24%, 73%);
+}
+
+.border-color-gray-7 {
+  border-color: hsl(5, 24%, 73%);
+}
+
+.outline-color-gray-7 {
+  outline-color: hsl(5, 24%, 73%);
+}
+
+.text-decoration-color-gray-7 {
+  text-decoration-color: hsl(5, 24%, 73%);
+}
+
+.box-shadow-gray-7 {
+  box-shadow: 0 0 0 0.25rem hsl(5, 24%, 73%);
+}
+
+.text-shadow-gray-7 {
+  text-shadow: 0 0 0.25rem hsl(5, 24%, 73%);
+}
+
+.border-top-color-gray-7 {
+  border-top-color: hsl(5, 24%, 73%);
+}
+
+.border-right-color-gray-7 {
+  border-right-color: hsl(5, 24%, 73%);
+}
+
+.border-bottom-color-gray-7 {
+  border-bottom-color: hsl(5, 24%, 73%);
+}
+
+.border-left-color-gray-7 {
+  border-left-color: hsl(5, 24%, 73%);
+}
+
+.column-rule-color-gray-7 {
+  column-rule-color: hsl(5, 24%, 73%);
+}
+
+.caret-color-gray-7 {
+  caret-color: hsl(5, 24%, 73%);
+}
+
+.fill-gray-7 {
+  fill: hsl(5, 24%, 73%);
+}
+
+.stroke-gray-7 {
+  stroke: hsl(5, 24%, 73%);
+}
+
+.stop-color-gray-7 {
+  stop-color: hsl(5, 24%, 73%);
+}
+
+.color-gray-8 {
+  color: hsl(8, 53%, 84%);
+}
+
+.background-color-gray-8 {
+  background-color: hsl(8, 53%, 84%);
+}
+
+.border-color-gray-8 {
+  border-color: hsl(8, 53%, 84%);
+}
+
+.outline-color-gray-8 {
+  outline-color: hsl(8, 53%, 84%);
+}
+
+.text-decoration-color-gray-8 {
+  text-decoration-color: hsl(8, 53%, 84%);
+}
+
+.box-shadow-gray-8 {
+  box-shadow: 0 0 0 0.25rem hsl(8, 53%, 84%);
+}
+
+.text-shadow-gray-8 {
+  text-shadow: 0 0 0.25rem hsl(8, 53%, 84%);
+}
+
+.border-top-color-gray-8 {
+  border-top-color: hsl(8, 53%, 84%);
+}
+
+.border-right-color-gray-8 {
+  border-right-color: hsl(8, 53%, 84%);
+}
+
+.border-bottom-color-gray-8 {
+  border-bottom-color: hsl(8, 53%, 84%);
+}
+
+.border-left-color-gray-8 {
+  border-left-color: hsl(8, 53%, 84%);
+}
+
+.column-rule-color-gray-8 {
+  column-rule-color: hsl(8, 53%, 84%);
+}
+
+.caret-color-gray-8 {
+  caret-color: hsl(8, 53%, 84%);
+}
+
+.fill-gray-8 {
+  fill: hsl(8, 53%, 84%);
+}
+
+.stroke-gray-8 {
+  stroke: hsl(8, 53%, 84%);
+}
+
+.stop-color-gray-8 {
+  stop-color: hsl(8, 53%, 84%);
+}
+
+.color-gray-9 {
+  color: hsl(10, 95%, 95%);
+}
+
+.background-color-gray-9 {
+  background-color: hsl(10, 95%, 95%);
+}
+
+.border-color-gray-9 {
+  border-color: hsl(10, 95%, 95%);
+}
+
+.outline-color-gray-9 {
+  outline-color: hsl(10, 95%, 95%);
+}
+
+.text-decoration-color-gray-9 {
+  text-decoration-color: hsl(10, 95%, 95%);
+}
+
+.box-shadow-gray-9 {
+  box-shadow: 0 0 0 0.25rem hsl(10, 95%, 95%);
+}
+
+.text-shadow-gray-9 {
+  text-shadow: 0 0 0.25rem hsl(10, 95%, 95%);
+}
+
+.border-top-color-gray-9 {
+  border-top-color: hsl(10, 95%, 95%);
+}
+
+.border-right-color-gray-9 {
+  border-right-color: hsl(10, 95%, 95%);
+}
+
+.border-bottom-color-gray-9 {
+  border-bottom-color: hsl(10, 95%, 95%);
+}
+
+.border-left-color-gray-9 {
+  border-left-color: hsl(10, 95%, 95%);
+}
+
+.column-rule-color-gray-9 {
+  column-rule-color: hsl(10, 95%, 95%);
+}
+
+.caret-color-gray-9 {
+  caret-color: hsl(10, 95%, 95%);
+}
+
+.fill-gray-9 {
+  fill: hsl(10, 95%, 95%);
+}
+
+.stroke-gray-9 {
+  stroke: hsl(10, 95%, 95%);
+}
+
+.stop-color-gray-9 {
+  stop-color: hsl(10, 95%, 95%);
+}
+
+.color-brown-1 {
+  color: hsl(20, 95%, 5%);
+}
+
+.background-color-brown-1 {
+  background-color: hsl(20, 95%, 5%);
+}
+
+.border-color-brown-1 {
+  border-color: hsl(20, 95%, 5%);
+}
+
+.outline-color-brown-1 {
+  outline-color: hsl(20, 95%, 5%);
+}
+
+.text-decoration-color-brown-1 {
+  text-decoration-color: hsl(20, 95%, 5%);
+}
+
+.box-shadow-brown-1 {
+  box-shadow: 0 0 0 0.25rem hsl(20, 95%, 5%);
+}
+
+.text-shadow-brown-1 {
+  text-shadow: 0 0 0.25rem hsl(20, 95%, 5%);
+}
+
+.border-top-color-brown-1 {
+  border-top-color: hsl(20, 95%, 5%);
+}
+
+.border-right-color-brown-1 {
+  border-right-color: hsl(20, 95%, 5%);
+}
+
+.border-bottom-color-brown-1 {
+  border-bottom-color: hsl(20, 95%, 5%);
+}
+
+.border-left-color-brown-1 {
+  border-left-color: hsl(20, 95%, 5%);
+}
+
+.column-rule-color-brown-1 {
+  column-rule-color: hsl(20, 95%, 5%);
+}
+
+.caret-color-brown-1 {
+  caret-color: hsl(20, 95%, 5%);
+}
+
+.fill-brown-1 {
+  fill: hsl(20, 95%, 5%);
+}
+
+.stroke-brown-1 {
+  stroke: hsl(20, 95%, 5%);
+}
+
+.stop-color-brown-1 {
+  stop-color: hsl(20, 95%, 5%);
+}
+
+.color-brown-2 {
+  color: hsl(23, 97%, 10%);
+}
+
+.background-color-brown-2 {
+  background-color: hsl(23, 97%, 10%);
+}
+
+.border-color-brown-2 {
+  border-color: hsl(23, 97%, 10%);
+}
+
+.outline-color-brown-2 {
+  outline-color: hsl(23, 97%, 10%);
+}
+
+.text-decoration-color-brown-2 {
+  text-decoration-color: hsl(23, 97%, 10%);
+}
+
+.box-shadow-brown-2 {
+  box-shadow: 0 0 0 0.25rem hsl(23, 97%, 10%);
+}
+
+.text-shadow-brown-2 {
+  text-shadow: 0 0 0.25rem hsl(23, 97%, 10%);
+}
+
+.border-top-color-brown-2 {
+  border-top-color: hsl(23, 97%, 10%);
+}
+
+.border-right-color-brown-2 {
+  border-right-color: hsl(23, 97%, 10%);
+}
+
+.border-bottom-color-brown-2 {
+  border-bottom-color: hsl(23, 97%, 10%);
+}
+
+.border-left-color-brown-2 {
+  border-left-color: hsl(23, 97%, 10%);
+}
+
+.column-rule-color-brown-2 {
+  column-rule-color: hsl(23, 97%, 10%);
+}
+
+.caret-color-brown-2 {
+  caret-color: hsl(23, 97%, 10%);
+}
+
+.fill-brown-2 {
+  fill: hsl(23, 97%, 10%);
+}
+
+.stroke-brown-2 {
+  stroke: hsl(23, 97%, 10%);
+}
+
+.stop-color-brown-2 {
+  stop-color: hsl(23, 97%, 10%);
+}
+
+.color-brown-3 {
+  color: hsl(25, 99%, 15%);
+}
+
+.background-color-brown-3 {
+  background-color: hsl(25, 99%, 15%);
+}
+
+.border-color-brown-3 {
+  border-color: hsl(25, 99%, 15%);
+}
+
+.outline-color-brown-3 {
+  outline-color: hsl(25, 99%, 15%);
+}
+
+.text-decoration-color-brown-3 {
+  text-decoration-color: hsl(25, 99%, 15%);
+}
+
+.box-shadow-brown-3 {
+  box-shadow: 0 0 0 0.25rem hsl(25, 99%, 15%);
+}
+
+.text-shadow-brown-3 {
+  text-shadow: 0 0 0.25rem hsl(25, 99%, 15%);
+}
+
+.border-top-color-brown-3 {
+  border-top-color: hsl(25, 99%, 15%);
+}
+
+.border-right-color-brown-3 {
+  border-right-color: hsl(25, 99%, 15%);
+}
+
+.border-bottom-color-brown-3 {
+  border-bottom-color: hsl(25, 99%, 15%);
+}
+
+.border-left-color-brown-3 {
+  border-left-color: hsl(25, 99%, 15%);
+}
+
+.column-rule-color-brown-3 {
+  column-rule-color: hsl(25, 99%, 15%);
+}
+
+.caret-color-brown-3 {
+  caret-color: hsl(25, 99%, 15%);
+}
+
+.fill-brown-3 {
+  fill: hsl(25, 99%, 15%);
+}
+
+.stroke-brown-3 {
+  stroke: hsl(25, 99%, 15%);
+}
+
+.stop-color-brown-3 {
+  stop-color: hsl(25, 99%, 15%);
+}
+
+.color-brown-4 {
+  color: hsl(28, 100%, 20%);
+}
+
+.background-color-brown-4 {
+  background-color: hsl(28, 100%, 20%);
+}
+
+.border-color-brown-4 {
+  border-color: hsl(28, 100%, 20%);
+}
+
+.outline-color-brown-4 {
+  outline-color: hsl(28, 100%, 20%);
+}
+
+.text-decoration-color-brown-4 {
+  text-decoration-color: hsl(28, 100%, 20%);
+}
+
+.box-shadow-brown-4 {
+  box-shadow: 0 0 0 0.25rem hsl(28, 100%, 20%);
+}
+
+.text-shadow-brown-4 {
+  text-shadow: 0 0 0.25rem hsl(28, 100%, 20%);
+}
+
+.border-top-color-brown-4 {
+  border-top-color: hsl(28, 100%, 20%);
+}
+
+.border-right-color-brown-4 {
+  border-right-color: hsl(28, 100%, 20%);
+}
+
+.border-bottom-color-brown-4 {
+  border-bottom-color: hsl(28, 100%, 20%);
+}
+
+.border-left-color-brown-4 {
+  border-left-color: hsl(28, 100%, 20%);
+}
+
+.column-rule-color-brown-4 {
+  column-rule-color: hsl(28, 100%, 20%);
+}
+
+.caret-color-brown-4 {
+  caret-color: hsl(28, 100%, 20%);
+}
+
+.fill-brown-4 {
+  fill: hsl(28, 100%, 20%);
+}
+
+.stroke-brown-4 {
+  stroke: hsl(28, 100%, 20%);
+}
+
+.stop-color-brown-4 {
+  stop-color: hsl(28, 100%, 20%);
+}
+
+.color-brown-5 {
+  color: hsl(30, 100%, 25%);
+}
+
+.background-color-brown-5 {
+  background-color: hsl(30, 100%, 25%);
+}
+
+.border-color-brown-5 {
+  border-color: hsl(30, 100%, 25%);
+}
+
+.outline-color-brown-5 {
+  outline-color: hsl(30, 100%, 25%);
+}
+
+.text-decoration-color-brown-5 {
+  text-decoration-color: hsl(30, 100%, 25%);
+}
+
+.box-shadow-brown-5 {
+  box-shadow: 0 0 0 0.25rem hsl(30, 100%, 25%);
+}
+
+.text-shadow-brown-5 {
+  text-shadow: 0 0 0.25rem hsl(30, 100%, 25%);
+}
+
+.border-top-color-brown-5 {
+  border-top-color: hsl(30, 100%, 25%);
+}
+
+.border-right-color-brown-5 {
+  border-right-color: hsl(30, 100%, 25%);
+}
+
+.border-bottom-color-brown-5 {
+  border-bottom-color: hsl(30, 100%, 25%);
+}
+
+.border-left-color-brown-5 {
+  border-left-color: hsl(30, 100%, 25%);
+}
+
+.column-rule-color-brown-5 {
+  column-rule-color: hsl(30, 100%, 25%);
+}
+
+.caret-color-brown-5 {
+  caret-color: hsl(30, 100%, 25%);
+}
+
+.fill-brown-5 {
+  fill: hsl(30, 100%, 25%);
+}
+
+.stroke-brown-5 {
+  stroke: hsl(30, 100%, 25%);
+}
+
+.stop-color-brown-5 {
+  stop-color: hsl(30, 100%, 25%);
+}
+
+.color-brown-6 {
+  color: hsl(33, 100%, 30%);
+}
+
+.background-color-brown-6 {
+  background-color: hsl(33, 100%, 30%);
+}
+
+.border-color-brown-6 {
+  border-color: hsl(33, 100%, 30%);
+}
+
+.outline-color-brown-6 {
+  outline-color: hsl(33, 100%, 30%);
+}
+
+.text-decoration-color-brown-6 {
+  text-decoration-color: hsl(33, 100%, 30%);
+}
+
+.box-shadow-brown-6 {
+  box-shadow: 0 0 0 0.25rem hsl(33, 100%, 30%);
+}
+
+.text-shadow-brown-6 {
+  text-shadow: 0 0 0.25rem hsl(33, 100%, 30%);
+}
+
+.border-top-color-brown-6 {
+  border-top-color: hsl(33, 100%, 30%);
+}
+
+.border-right-color-brown-6 {
+  border-right-color: hsl(33, 100%, 30%);
+}
+
+.border-bottom-color-brown-6 {
+  border-bottom-color: hsl(33, 100%, 30%);
+}
+
+.border-left-color-brown-6 {
+  border-left-color: hsl(33, 100%, 30%);
+}
+
+.column-rule-color-brown-6 {
+  column-rule-color: hsl(33, 100%, 30%);
+}
+
+.caret-color-brown-6 {
+  caret-color: hsl(33, 100%, 30%);
+}
+
+.fill-brown-6 {
+  fill: hsl(33, 100%, 30%);
+}
+
+.stroke-brown-6 {
+  stroke: hsl(33, 100%, 30%);
+}
+
+.stop-color-brown-6 {
+  stop-color: hsl(33, 100%, 30%);
+}
+
+.color-brown-7 {
+  color: hsl(35, 99%, 35%);
+}
+
+.background-color-brown-7 {
+  background-color: hsl(35, 99%, 35%);
+}
+
+.border-color-brown-7 {
+  border-color: hsl(35, 99%, 35%);
+}
+
+.outline-color-brown-7 {
+  outline-color: hsl(35, 99%, 35%);
+}
+
+.text-decoration-color-brown-7 {
+  text-decoration-color: hsl(35, 99%, 35%);
+}
+
+.box-shadow-brown-7 {
+  box-shadow: 0 0 0 0.25rem hsl(35, 99%, 35%);
+}
+
+.text-shadow-brown-7 {
+  text-shadow: 0 0 0.25rem hsl(35, 99%, 35%);
+}
+
+.border-top-color-brown-7 {
+  border-top-color: hsl(35, 99%, 35%);
+}
+
+.border-right-color-brown-7 {
+  border-right-color: hsl(35, 99%, 35%);
+}
+
+.border-bottom-color-brown-7 {
+  border-bottom-color: hsl(35, 99%, 35%);
+}
+
+.border-left-color-brown-7 {
+  border-left-color: hsl(35, 99%, 35%);
+}
+
+.column-rule-color-brown-7 {
+  column-rule-color: hsl(35, 99%, 35%);
+}
+
+.caret-color-brown-7 {
+  caret-color: hsl(35, 99%, 35%);
+}
+
+.fill-brown-7 {
+  fill: hsl(35, 99%, 35%);
+}
+
+.stroke-brown-7 {
+  stroke: hsl(35, 99%, 35%);
+}
+
+.stop-color-brown-7 {
+  stop-color: hsl(35, 99%, 35%);
+}
+
+.color-brown-8 {
+  color: hsl(38, 97%, 40%);
+}
+
+.background-color-brown-8 {
+  background-color: hsl(38, 97%, 40%);
+}
+
+.border-color-brown-8 {
+  border-color: hsl(38, 97%, 40%);
+}
+
+.outline-color-brown-8 {
+  outline-color: hsl(38, 97%, 40%);
+}
+
+.text-decoration-color-brown-8 {
+  text-decoration-color: hsl(38, 97%, 40%);
+}
+
+.box-shadow-brown-8 {
+  box-shadow: 0 0 0 0.25rem hsl(38, 97%, 40%);
+}
+
+.text-shadow-brown-8 {
+  text-shadow: 0 0 0.25rem hsl(38, 97%, 40%);
+}
+
+.border-top-color-brown-8 {
+  border-top-color: hsl(38, 97%, 40%);
+}
+
+.border-right-color-brown-8 {
+  border-right-color: hsl(38, 97%, 40%);
+}
+
+.border-bottom-color-brown-8 {
+  border-bottom-color: hsl(38, 97%, 40%);
+}
+
+.border-left-color-brown-8 {
+  border-left-color: hsl(38, 97%, 40%);
+}
+
+.column-rule-color-brown-8 {
+  column-rule-color: hsl(38, 97%, 40%);
+}
+
+.caret-color-brown-8 {
+  caret-color: hsl(38, 97%, 40%);
+}
+
+.fill-brown-8 {
+  fill: hsl(38, 97%, 40%);
+}
+
+.stroke-brown-8 {
+  stroke: hsl(38, 97%, 40%);
+}
+
+.stop-color-brown-8 {
+  stop-color: hsl(38, 97%, 40%);
+}
+
+.color-brown-9 {
+  color: hsl(40, 95%, 45%);
+}
+
+.background-color-brown-9 {
+  background-color: hsl(40, 95%, 45%);
+}
+
+.border-color-brown-9 {
+  border-color: hsl(40, 95%, 45%);
+}
+
+.outline-color-brown-9 {
+  outline-color: hsl(40, 95%, 45%);
+}
+
+.text-decoration-color-brown-9 {
+  text-decoration-color: hsl(40, 95%, 45%);
+}
+
+.box-shadow-brown-9 {
+  box-shadow: 0 0 0 0.25rem hsl(40, 95%, 45%);
+}
+
+.text-shadow-brown-9 {
+  text-shadow: 0 0 0.25rem hsl(40, 95%, 45%);
+}
+
+.border-top-color-brown-9 {
+  border-top-color: hsl(40, 95%, 45%);
+}
+
+.border-right-color-brown-9 {
+  border-right-color: hsl(40, 95%, 45%);
+}
+
+.border-bottom-color-brown-9 {
+  border-bottom-color: hsl(40, 95%, 45%);
+}
+
+.border-left-color-brown-9 {
+  border-left-color: hsl(40, 95%, 45%);
+}
+
+.column-rule-color-brown-9 {
+  column-rule-color: hsl(40, 95%, 45%);
+}
+
+.caret-color-brown-9 {
+  caret-color: hsl(40, 95%, 45%);
+}
+
+.fill-brown-9 {
+  fill: hsl(40, 95%, 45%);
+}
+
+.stroke-brown-9 {
+  stroke: hsl(40, 95%, 45%);
+}
+
+.stop-color-brown-9 {
+  stop-color: hsl(40, 95%, 45%);
+}
+
+/*# sourceMappingURL=colors.css.map */
