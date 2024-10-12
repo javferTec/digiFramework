@@ -1,0 +1,41 @@
+$lista: (
+    5, 10, 15, 20, 30   
+);
+
+$margin: (
+    "top","bottom","right","left"
+);
+
+@each $value in $lista {
+        .g--margin-#{$value} {
+            margin: #{$value}px;
+        }
+    
+}
+
+@each $margin_type in $border {
+    @each $value in $lista {
+            .g--margin-#{$border_type}-#{$value} {
+                margin: #{$value}px;
+            }
+        }
+}
+
+
+@each $value in $lista {
+    
+        .g--margin-vertical-#{$value} {
+            margin: #{$value}px;
+            margin: #{$value}px;
+        }
+    
+}
+
+@each $value in $lista {
+    
+        .g--margin-horizontal-#{$value} {
+            margin: #{$value}px;
+            margin: #{$value}px;
+        }
+    
+}

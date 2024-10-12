@@ -1,0 +1,41 @@
+$lista: (
+    5, 10, 15, 20, 30   
+);
+
+$padding: (
+    "top","bottom","right","left"
+);
+
+@each $value in $lista {
+        .g--padding-#{$value} {
+            padding: #{$value}px;
+        }
+    
+}
+
+@each $padding_type in $border {
+    @each $value in $lista {
+            .g--padding-#{$border_type}-#{$value} {
+                padding: #{$value}px;
+            }
+        }
+}
+
+
+@each $value in $lista {
+    
+        .g--padding-vertical-#{$value} {
+            padding: #{$value}px;
+            padding: #{$value}px;
+        }
+    
+}
+
+@each $value in $lista {
+    
+        .g--padding-horizontal-#{$value} {
+            padding: #{$value}px;
+            padding: #{$value}px;
+        }
+    
+}
