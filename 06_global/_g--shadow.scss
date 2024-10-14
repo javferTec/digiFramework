@@ -1,7 +1,7 @@
 $shadows: ("none", "s", "m", "l", "xl");
 
 @each $value in $shadows {
-    .g--shadow-#{$name} {
+    .g--shadow-#{$value} {
         box-shadow: $value;
     }
 }
