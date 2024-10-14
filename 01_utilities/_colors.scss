@@ -180,71 +180,10 @@ $colorMap: (
     )
 );
 
-@each $colorName, $colorList in $colorMap {
-    @for $i from 1 through length($colorList) {
-        .color-#{$colorName}-#{$i} {
-            // Sets the text color
-            color: nth($colorList, $i);
-        }
-        .background-color-#{$colorName}-#{$i} {
-            // Sets the background color
-            background-color: nth($colorList, $i);
-        }
-        .border-color-#{$colorName}-#{$i} {
-            // Sets the border color
-            border-color: nth($colorList, $i);
-        }
-        .outline-color-#{$colorName}-#{$i} {
-            // Sets the outline color
-            outline-color: nth($colorList, $i);
-        }
-        .text-decoration-color-#{$colorName}-#{$i} {
-            // Sets the text decoration color (e.g., underline)
-            text-decoration-color: nth($colorList, $i);
-        }
-        .box-shadow-#{$colorName}-#{$i} {
-            // Sets the box shadow color
-            box-shadow: 0 0 0 0.25rem nth($colorList, $i);
-        }
-        .text-shadow-#{$colorName}-#{$i} {
-            // Sets the text shadow color
-            text-shadow: 0 0 0.25rem nth($colorList, $i);
-        }
-        .border-top-color-#{$colorName}-#{$i} {
-            // Sets the top border color
-            border-top-color: nth($colorList, $i);
-        }
-        .border-right-color-#{$colorName}-#{$i} {
-            // Sets the right border color
-            border-right-color: nth($colorList, $i);
-        }
-        .border-bottom-color-#{$colorName}-#{$i} {
-            // Sets the bottom border color
-            border-bottom-color: nth($colorList, $i);
-        }
-        .border-left-color-#{$colorName}-#{$i} {
-            // Sets the left border color
-            border-left-color: nth($colorList, $i);
-        }
-        .column-rule-color-#{$colorName}-#{$i} {
-            // Sets the column rule color (for multi-column layouts)
-            column-rule-color: nth($colorList, $i);
-        }
-        .caret-color-#{$colorName}-#{$i} {
-            // Sets the caret color (text cursor)
-            caret-color: nth($colorList, $i);
-        }
-        .fill-#{$colorName}-#{$i} {
-            // Sets the fill color (for SVG elements)
-            fill: nth($colorList, $i);
-        }
-        .stroke-#{$colorName}-#{$i} {
-            // Sets the stroke color (for SVG elements)
-            stroke: nth($colorList, $i);
-        }
-        .stop-color-#{$colorName}-#{$i} {
-            // Sets the stop color (for SVG gradients)
-            stop-color: nth($colorList, $i);
+:root {
+    @each $colorName, $colorList in $colorMap {
+        @for $i from 1 through length($colorList) {
+            --color-#{$colorName}-#{$i}: #{nth($colorList, $i)};
         }
     }
 }
