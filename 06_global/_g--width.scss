@@ -1,11 +1,7 @@
-@for $i from 1 through 20 {
-    .g-width-#{$i*5} {
-        width: $i * 5px;
-    }
-}
+$size: ("xs", "s", "m", "l", "xl");
 
-@for $i from 2 through 10 {
-    .g-width-#{$i}00 {
-        width: $i * 100px;
+@each $value in $size {
+    .g--width-#{$value} {
+        width: var(--width-#{$value});
     }
 }

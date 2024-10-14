@@ -1,11 +1,7 @@
-@for $i from 1 through 20 {
-    .g-height-#{$i*5} {
-        height: $i * 5px;
-    }
-}
+$size: ("xs", "s", "m", "l", "xl");
 
-@for $i from 2 through 10 {
-    .g-height-#{$i}00 {
-        height: $i * 100px;
+@each $value in $size {
+    .g--height-#{$value} {
+        height: var(--heihgt-#{$value});
     }
 }

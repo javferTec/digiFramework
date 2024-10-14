@@ -1,18 +1,19 @@
-$lista: (1, 2, 3, 4, 5);
+$lista: ("xxxs", "xxs", "xs", "s", "m", "l", "xl", "xxl", "xxxl");
 
 $border: ("top","bottom","right","left");
 
-$radius: (0,2,4,8,12,16);
+$radius: ("xs", "s", "m", "l", "xl");
 
 $border_style: ("dotted","dashed","solid","double","groove","ridge","inset","outset","hidden","none");
 
-$lista: ("main", "alternative", "red", "orange", "yellow", "lime", "green", "cyan", "blue", "purple", "pink", "white", "black", "gray");
+$listaColores: ("main", "alternative", "red", "orange", "yellow", "lime", "green", "cyan", "blue", "purple", "pink", "white", "black", "gray");
+
 
 // Border width
 
 @each $value in $lista {
         .g--border-#{$value} {
-            border: #{$value}px;
+            border: var(--border-#{$value});
         }
     
 }
@@ -20,7 +21,7 @@ $lista: ("main", "alternative", "red", "orange", "yellow", "lime", "green", "cya
 @each $border_type in $border {
     @each $value in $lista {
             .g--border-#{$border_type}-#{$value} {
-                border-#{$border_type}: #{$value}px;
+                border-#{$border_type}: var(--border-#{$value});
             }
         }
 }
@@ -28,15 +29,15 @@ $lista: ("main", "alternative", "red", "orange", "yellow", "lime", "green", "cya
 
 @each $value in $lista {        
         .g--border-vertical-#{$value} {
-            border-top: #{$value}px;
-            border-bottom: #{$value}px;
+            border-top: var(--border-#{$value});
+            border-bottom: var(--border-#{$value});
         }
 }
 
 @each $value in $lista {
         .g--border-horizontal-#{$value} {
-            border-right: #{$value}px;
-            border-left: #{$value}px;
+            border-right: var(--border-#{$value});
+            border-left: var(--border-#{$value});
         }
 }
 
@@ -44,7 +45,7 @@ $lista: ("main", "alternative", "red", "orange", "yellow", "lime", "green", "cya
 
 @each $value in $radius {
     .g--border-radius-#{$value} {
-        border-radius: #{$value}px;
+        border-radius: var(--border-radius-#{$value});
     }
 }
 
@@ -68,7 +69,7 @@ $lista: ("main", "alternative", "red", "orange", "yellow", "lime", "green", "cya
 
 // Border color
 
-@each $value in $lista {
+@each $value in $listaColores {
     @for $i from 1 through 9 {
         .g--border-color-#{$value}-#{$i} {
             border-color: var(--color-#{$value}-#{$i});
