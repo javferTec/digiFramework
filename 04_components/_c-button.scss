@@ -1,0 +1,77 @@
+
+    .c-button {
+        width: 120px;
+        height: 30px;
+        border-radius: 4px;
+        font-family: sans-serif;
+        font-size: small;
+        color: hsl(0, 0%, 100%);
+
+        &__terciary{
+            background-color: hsl(0, 0%, 100%);
+            color: hsl(205, 90%, 50%);
+            border: 0px;
+
+            &--success{
+                color: hsl(140, 70%, 40%);
+                border: 0px;
+            }
+    
+            &--danger{
+               color: hsl(0, 80%, 50%);
+               border: 0px;
+            }
+    
+            &--warning{
+                color: hsl(40, 90%, 50%);
+                border: 0px;
+            }
+        }
+
+        &__secondary{
+            background-color: hsl(0, 0%, 100%);
+            border: 1px solid hsl(205, 90%, 50%);
+            color: hsl(205, 90%, 50%);
+
+            &--success{
+                border: 1px solid hsl(140, 40%, 30%);
+                color: hsl(140, 70%, 40%);
+            }
+    
+            &--danger{
+               border:1px solid hsl(0, 80%, 50%);
+               color: hsl(0, 80%, 50%);
+            }
+    
+            &--warning{
+                border:1px solid hsl(40, 90%, 50%);
+                color: hsl(40, 90%, 50%);
+            }
+        }
+
+        &--main{
+            background-color: hsl(205, 90%, 50%) ;
+        }
+
+        &--success{
+            background-color: hsl(140, 70%, 40%);
+        }
+
+        &--danger{
+            background-color: hsl(0, 80%, 50%);
+        }
+
+        &--warning{
+            background-color: hsl(40, 90%, 50%);
+        }
+        &--dark{
+            background-color: hsl(230, 20%, 20%);
+        }
+
+
+
+
+
+    
+
+}

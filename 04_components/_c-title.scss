@@ -1,0 +1,63 @@
+// c-title.scss
+
+.c-title {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+
+  &--xxl {
+    font-size: 2.5rem;
+  }
+
+  &--xl {
+    font-size: 2rem;
+  }
+
+  &--m {
+    font-size: 1.75rem;
+  }
+
+  &--s {
+    font-size: 1.5rem;
+  }
+
+  &--xs {
+    font-size: 1.25rem;
+  }
+
+  &--xxs {
+    font-size: 1rem;
+  }
+
+  &--primary {
+    color: #007bff;
+  }
+
+  &--secondary {
+    color: #6c757d;
+  }
+
+  &--success {
+    color: #28a745;
+  }
+
+  &--danger {
+    color: #dc3545;
+  }
+
+  &--warning {
+    color: #ffc107;
+  }
+
+  &--info {
+    color: #17a2b8;
+  }
+
+  &--light {
+    color: #f8f9fa;
+  }
+
+  &--dark {
+    color: #343a40;
+  }
+}

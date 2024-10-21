@@ -1,0 +1,56 @@
+// c-block-quote.scss
+
+.c-block-quote {
+  display: block;
+  padding: 1rem;
+  border-left: 4px solid #ccc;
+  background-color: #f9f9f9;
+  font-style: italic;
+
+  &--large {
+    font-size: 1.5rem;
+  }
+
+  &--small {
+    font-size: 0.8rem;
+  }
+
+  &--primary {
+    border-left-color: #007bff;
+  }
+
+  &--secondary {
+    border-left-color: #6c757d;
+  }
+
+  &--success {
+    border-left-color: #28a745;
+  }
+
+  &--danger {
+    border-left-color: #dc3545;
+  }
+
+  &--warning {
+    border-left-color: #ffc107;
+  }
+
+  &--info {
+    border-left-color: #17a2b8;
+  }
+
+  &--light {
+    border-left-color: #f8f9fa;
+  }
+
+  &--dark {
+    border-left-color: #343a40;
+  }
+
+  &__cite {
+    display: block;
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+}

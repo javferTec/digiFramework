@@ -1,0 +1,51 @@
+.c-badge {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+&__primary {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+&__secondary {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+&__success {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+&__danger {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+&__warning {
+  background-color: #ffc107;
+  color: #ffffff;
+}
+
+&__info {
+  background-color: #17a2b8;
+  color: #ffffff;
+}
+
+&__light {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+&__dark {
+  background-color: #343a40;
+  color: #ffffff;
+}

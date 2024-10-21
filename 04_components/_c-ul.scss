@@ -1,0 +1,23 @@
+// _c-list.scss
+
+.c-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+    &__item {
+      display: block;
+      padding: 10px;
+      border-bottom: 1px solid hsl(0, 0%, 80%);
+
+    }
+  
+    &__link {
+      text-decoration: none;
+      color: hsl(208, 56%, 46%);
+  
+      &:hover {
+        color: hsl(208, 56%, 31%);
+      }
+    }
+  }

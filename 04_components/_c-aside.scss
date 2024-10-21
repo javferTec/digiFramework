@@ -1,0 +1,29 @@
+
+
+.c-aside {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border: 1px solid hsl(0, 0%, 90%);
+  box-shadow: 3px 3px 3px hsl(0,10%, 60%);
+
+  &__header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+  }
+
+  &__footer {
+    font-size: 14px;
+    color: hsl(0, 0%, 40%);
+    padding: 10px;
+    border-top: 1px solid hsl(0, 0%, 90%);
+  }
+}
