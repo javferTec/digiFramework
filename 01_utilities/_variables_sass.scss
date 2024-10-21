@@ -1,0 +1,303 @@
+// FONT SIZE
+$font-size: (
+        "xxxs": 8px,
+        "xxs": 10px,
+        "xs": 12px,
+        "s": 14px,
+        "m": 16px,
+        "l": 18px,
+        "xl": 20px,
+        "xxl": 24px,
+        "xxxl": 32px
+);
+
+@each $key, $value in $font-size {
+  .g--font-size-#{$key} {
+    font-size: $value;
+  }
+}
+
+
+// FONT WEIGHT
+$font-weight: (
+        "light": 300,
+        "normal": 400,
+        "bold": 700
+);
+
+@each $key, $value in $font-weight {
+  .g--font-weight-#{$key} {
+    font-weight: $value;
+  }
+}
+
+// MARGIN
+$margin: (
+        "xxxs": 4px,
+        "xxs": 8px,
+        "xs": 12px,
+        "s": 16px,
+        "m": 24px,
+        "l": 32px,
+        "xl": 48px,
+        "xxl": 64px,
+        "xxxl": 96px
+);
+
+@each $key, $value in $margin {
+  .g--margin-#{$key} {
+    margin: $value;
+  }
+}
+
+// MARGIN TOP
+$margin-top: (
+        "xxxs": 4px,
+        "xxs": 8px,
+        "xs": 12px,
+        "s": 16px,
+        "m": 24px,
+        "l": 32px,
+        "xl": 48px,
+        "xxl": 64px,
+        "xxxl": 96px
+);
+
+@each $key, $value in $margin-top {
+  .g--margin-top-#{$key} {
+    margin-top: $value;
+  }
+}
+
+// MARGIN RIGHT
+$margin-right: (
+        "xxxs": 4px,
+        "xxs": 8px,
+        "xs": 12px,
+        "s": 16px,
+        "m": 24px,
+        "l": 32px,
+        "xl": 48px,
+        "xxl": 64px,
+        "xxxl": 96px
+);
+
+@each $key, $value in $margin-right {
+  .g--margin-right-#{$key} {
+    margin-right: $value;
+  }
+}
+
+// MARGIN BOTTOM
+$margin-bottom: (
+        "xxxs": 4px,
+        "xxs": 8px,
+        "xs": 12px,
+        "s": 16px,
+        "m": 24px,
+        "l": 32px,
+        "xl": 48px,
+        "xxl": 64px,
+        "xxxl": 96px
+);
+
+@each $key, $value in $margin-bottom {
+  .g--margin-bottom-#{$key} {
+    margin-bottom: $value;
+  }
+}
+
+// MARGIN LEFT
+$margin-left: (
+        "xxxs": 4px,
+        "xxs": 8px,
+        "xs": 12px,
+        "s": 16px,
+        "m": 24px,
+        "l": 32px,
+        "xl": 48px,
+        "xxl": 64px,
+        "xxxl": 96px
+);
+
+@each $key, $value in $margin-left {
+  .g--margin-left-#{$key} {
+    margin-left: $value;
+  }
+}
+
+// PADDING
+$padding: (
+        "xxxs": 4px,
+        "xxs": 8px,
+        "xs": 12px,
+        "s": 16px,
+        "m": 24px,
+        "l": 32px,
+        "xl": 48px,
+        "xxl": 64px,
+        "xxxl": 96px
+);
+
+@each $key, $value in $padding {
+  .g--padding-#{$key} {
+    padding: $value;
+  }
+}
+
+// PADDING TOP
+$padding-top: (
+        "xxxs": 4px,
+        "xxs": 8px,
+        "xs": 12px,
+        "s": 16px,
+        "m": 24px,
+        "l": 32px,
+        "xl": 48px,
+        "xxl": 64px,
+        "xxxl": 96px
+);
+
+@each $key, $value in $padding-top {
+  .g--padding-top-#{$key} {
+    padding-top: $value;
+  }
+}
+
+// PADDING RIGHT
+$padding-right: (
+        "xxxs": 4px,
+        "xxs": 8px,
+        "xs": 12px,
+        "s": 16px,
+        "m": 24px,
+        "l": 32px,
+        "xl": 48px,
+        "xxl": 64px,
+        "xxxl": 96px
+);
+
+@each $key, $value in $padding-right {
+  .g--padding-right-#{$key} {
+    padding-right: $value;
+  }
+}
+
+// PADDING BOTTOM
+$padding-bottom: (
+        "xxxs": 4px,
+        "xxs": 8px,
+        "xs": 12px,
+        "s": 16px,
+        "m": 24px,
+        "l": 32px,
+        "xl": 48px,
+        "xxl": 64px,
+        "xxxl": 96px
+);
+
+@each $key, $value in $padding-bottom {
+  .g--padding-bottom-#{$key} {
+    padding-bottom: $value;
+  }
+}
+
+// PADDING LEFT
+$padding-left: (
+        "xxxs": 4px,
+        "xxs": 8px,
+        "xs": 12px,
+        "s": 16px,
+        "m": 24px,
+        "l": 32px,
+        "xl": 48px,
+        "xxl": 64px,
+        "xxxl": 96px
+);
+
+@each $key, $value in $padding-left {
+  .g--padding-left-#{$key} {
+    padding-left: $value;
+  }
+}
+
+// BORDER RADIUS
+$border-radius: (
+        "xs": 2px,
+        "s": 4px,
+        "m": 8px,
+        "l": 16px,
+        "xl": 32px
+);
+
+@each $key, $value in $border-radius {
+  .g--border-radius-#{$key} {
+    border-radius: $value;
+  }
+}
+
+// WIDTH
+$width: (
+        "xs": 1px,
+        "s": 2px,
+        "m": 4px,
+        "l": 8px,
+        "xl": 16px
+);
+
+@each $key, $value in $width {
+  .g--width-#{$key} {
+    width: $value;
+  }
+}
+
+// HEIGHT
+$height: (
+        "xs": 1px,
+        "s": 2px,
+        "m": 4px,
+        "l": 8px,
+        "xl": 16px
+);
+
+@each $key, $value in $height {
+  .g--height-#{$key} {
+    height: $value;
+  }
+}
+
+// BOX SHADOW
+$box-shadow: (
+        "1": 0 1px 3px hsla(0, 0%, 0%, .2),
+        "2": 0 4px 6px hsla(0, 0%, 0%, .2),
+        "3": 0 5px 15px hsla(0, 0%, 0%, .2),
+        "4": 0 10px 24px hsla(0, 0%, 0%, .2),
+        "5": 0 15px 35px hsla(0, 0%, 0%, .2)
+);
+
+@each $key, $value in $box-shadow {
+  .g--box-shadow-#{$key} {
+    box-shadow: $value;
+  }
+}
+
+// SHADOWS
+$shadows: (
+        "none": none,
+        "s": 0 1px 2px rgba(0, 0, 0, 0.05),
+        "mm": 0 4px 6px rgba(0, 0, 0, 0.1),
+        "l": 0 10px 15px rgba(0, 0, 0, 0.15),
+        "xl": 0 20px 25px rgba(0, 0, 0, 0.2)
+);
+
+@each $key, $value in $shadows {
+  .g--shadow-#{$key} {
+    box-shadow: $value;
+  }
+}
+
+// CURSORS
+$cursors: ("auto", "grab", "grabbing", "help", "move", "none", "not-allowed", "pointer", "progress", "text", "wait", "zoom-in", "zoom-out");
+
+// TEXT ALIGN
+$align: ("left", "right", "center", "justify");

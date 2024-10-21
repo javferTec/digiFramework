@@ -1,0 +1,18 @@
+/* Error: Top-level selectors may not contain the parent selector "&".
+ *    ,
+ * 13 | &__primary {
+ *    | ^^^^^^^^^^
+ *    '
+ *   04_components\_c-badge.scss 13:1  @import
+ *   main.scss 22:9                    root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Top-level selectors may not contain the parent selector "&".\a    \2577 \a 13 \2502  &__primary {\d\a    \2502  ^^^^^^^^^^\a    \2575 \a   04_components\\_c-badge.scss 13:1  @import\a   main.scss 22:9                    root stylesheet';
+}
